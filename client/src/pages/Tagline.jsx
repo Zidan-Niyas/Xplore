@@ -1,12 +1,11 @@
-import TextReveal from "@/components/ui/text-reveal";
+import TextReveal from "../../components/magicui/text-reveal";
 
 const TextRevealDemo = () => {
   return (
-    <div className="z-10 flex min-h-64 items-center justify-center rounded-lg border bg-white dark:bg-black">
+    <div className="h-screen z-10 flex items-center justify-center bg-gradient-to-b from-blue-950 via-black to-black dark:bg-black">
       <TextReveal text="Where tech meets innovation." />
     </div>
   );
-}
-
+};
 
 export default TextRevealDemo;

@@ -13,20 +13,17 @@ const Home = () => {
  
 
   return (
-    <div
-      className="h-screen"
-      id="home"
-    >
+    <div className="h-screen" id="home">
       <ParallaxLayer />
       <section className="z-50 mt-5">
+        <div>
+          <Tagline />
+        </div>
         <div id="about">
           <AboutPage />
         </div>
         <div id="events">
           <Events />
-        </div>
-        <div>
-          <Tagline />
         </div>
         <div id="workshops">
           <Workshops />
