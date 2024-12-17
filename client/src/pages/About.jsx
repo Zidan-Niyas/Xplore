@@ -1,6 +1,5 @@
-import React from "react";
+// import React from "react";
 import { useNavigate } from "react-router-dom";
-import PageHeader from "../components/PageHeader";
 import eventImg from "../assets/images/events-img.png";
 import workshopImg from "../assets/images/workshop-img.png";
 import aboutbanner from "../assets/images/about_banner.png";
@@ -40,7 +39,7 @@ const AboutPage = () => {
       {/* Header */}
       <div className="bg-gradient-to-b from-[#2c0c0c] to-black text-white">
         <div className="relative">
-          <img src={aboutbanner} alt=""  className="md:h-56 w-full"/>
+          <img src={aboutbanner} alt=""  className="md:h-60 w-full"/>
           <animated.img
             ref={refHeader}
             src={headerLeft}
@@ -75,7 +74,7 @@ const AboutPage = () => {
         <animated.section ref={offerAnimation.ref} style={offerAnimation.styles} className="mb-12 lg:mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">What We Offer</h2>
           <p className="text-lg lg:text-xl leading-relaxed text-gray-300 mb-6 tracking-wide drop-shadow-sm">
-            Xplore 25 promises to raise the bar, continuing the tradition of excellence while introducing cutting-edge themes and activities. Whether you're a tech enthusiast, a management geek, or an artist at heart, Xplore 25 has something for everyone.
+            Xplore 25 promises to raise the bar, continuing the tradition of excellence while introducing cutting-edge themes and activities. Whether you&apos;re a tech enthusiast, a management geek, or an artist at heart, Xplore 25 has something for everyone.
           </p>
           <ul className="list-disc pl-6 mt-4 text-lg lg:text-xl text-gray-300 mb-6 leading-relaxed tracking-wide drop-shadow-sm">
             <li>Technical Events: Hackathons, coding challenges, and workshops on emerging technologies</li>
