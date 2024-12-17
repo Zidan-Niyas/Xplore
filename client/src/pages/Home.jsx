@@ -1,10 +1,11 @@
-import React from "react";
+// import React from "react";
 import { useNavigate } from "react-router-dom";
 import AboutPage from "./About";
 import ParallaxLayer from "../components/ParallaxLayer";
 import Events from "./Events";
 import Workshops from "./Workshops";
 import ContactPage from "./Contact";
+import Tagline from "./Tagline"
 
 const Home = () => {
   const navigate = useNavigate();
@@ -23,6 +24,9 @@ const Home = () => {
         </div>
         <div id="events">
           <Events />
+        </div>
+        <div>
+          <Tagline />
         </div>
         <div id="workshops">
           <Workshops />

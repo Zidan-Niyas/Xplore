@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import heroBg from "../assets/images/hero-bg3.jpg";
 import date from "../assets/images/date-img.png";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -15,7 +15,7 @@ const ParallaxLayer = () => {
   });
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  // const textY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const logoScale = useTransform(scrollYProgress, [0, 1.5], [1, 2]); 
 
   const text = "NATIONAL LEVEL MULTI-FEST";
@@ -42,7 +42,7 @@ const ParallaxLayer = () => {
     >
 
       <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle backdrop-blur-sm">
-        <div className="modal-box bg-gradient-to-br from-[#dd3d05]  via-[#1f1426] via-[#120d18] via-[#010101] to-[#010101]
+        <div className="modal-box bg-gradient-to-br from-[#dd3d05]  via-[#1f1426] to-[#010101]
 ">
           <div className="text-center">
             <h3 className="font-bold text-3xl">Become a campus ambassador</h3>
@@ -57,7 +57,7 @@ const ParallaxLayer = () => {
                   <ol>
                     <li>1. Share all posters and links on your social media and groups</li>
                     <li>2. Put up posters we send you on your notice boards</li>
-                    <li>3. Encourage students of your college to participate in Xplore'24</li>
+                    <li>3. Encourage students of your college to participate in Xplore&apos;24</li>
                   </ol>
                 </div>
               </div>

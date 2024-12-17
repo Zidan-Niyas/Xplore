@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import workshopBanner from "../assets/images/workshop-banner.png";
 import Event from "../components/Event";
 import { workshopData } from "../utils/eventData.js";
