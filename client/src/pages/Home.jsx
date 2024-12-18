@@ -1,6 +1,5 @@
 // import React from "react";
 import { useState,useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import AboutPage from "./About";
 import ParallaxLayer from "../components/ParallaxLayer";
 import Events from "./Events";
@@ -26,7 +25,6 @@ const Home = () => {
     }, []);
     
   if (loading) {
-    // Show the PreLoader while loading is true
     return <PreLoader />;
   }
 
