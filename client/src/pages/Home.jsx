@@ -1,4 +1,5 @@
 // import React from "react";
+import { useState,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import AboutPage from "./About";
 import ParallaxLayer from "../components/ParallaxLayer";
@@ -6,11 +7,28 @@ import Events from "./Events";
 import Workshops from "./Workshops";
 import ContactPage from "./Contact";
 import Tagline from "./Tagline"
+import PreLoader from "../utils/Preloader/Preloader";
 
 const Home = () => {
-  const navigate = useNavigate();
+    const [loading, setLoading] = useState(true);
+    useEffect(() => {
+      const LazyLoading = () => {
+        setTimeout(() => {
+          setLoading(false);
+        }, 4000);
+      };
 
- 
+      LazyLoading();
+
+      return () => {
+        clearTimeout(LazyLoading);
+      };
+    }, []);
+    
+  if (loading) {
+    // Show the PreLoader while loading is true
+    return <PreLoader />;
+  }
 
   return (
     <div className="h-screen" id="home">

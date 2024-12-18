@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { NAV_LINKS } from "../utils/constants";
 import { Outlet } from "react-router-dom";
 
