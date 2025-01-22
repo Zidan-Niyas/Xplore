@@ -169,10 +169,10 @@ const ParallaxLayer = () => {
 
         {/* Bottom Section */}
         <div
-          className=" h-72 relative flex overflow-hidden w-full backdrop-blur-3xl pb-96 md:pb-96"
+          className="relative flex overflow-hidden w-full backdrop-blur-3xl pb-96 md:pb-96"
           style={{ scrollBehavior: 'smooth' }}
         >
-          <ul ref={containerRef} className="flex animate-infinite-scroll space-x-36 p-10 ">
+          <ul ref={containerRef} className="flex animate-infinite-scroll space-x-36 p-8 ">
             {proshowEvents.map((event, index) => (
               <li key={index} className="flex-shrink-0">
                 <div className="h-72 flex items-center justify-center backdrop-blur-2xl">
