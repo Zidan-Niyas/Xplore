@@ -80,8 +80,8 @@ const WorkshopDetails = () => {
                     style={contentAnimation}
                     className="flex flex-col items-center mb-12 space-y-6 mr-8 w-full md:w-1/2"
                 >
-                    <h1 className="font-roadRage text-3xl md:text-5xl lg:text-5xl text-center text-white mb-4">{item.name}</h1>
-                    <p className="text-lg md:text-2xl text-center text-gray-300 mb-4 font-semibold">{item.description}</p>
+                    <h1 className="road-rage-regular font-roadRage text-3xl md:text-5xl lg:text-5xl text-center text-white mb-4">{item.name}</h1>
+                    <p className="text-lg md:text-2xl text-left text-gray-300 mb-4 font-semibold">{item.description}</p>
                     
                     <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
                         <button className="px-8 py-3 border-2 border-purple-600 text-white rounded-full hover:bg-purple-600 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-purple-600/50" onClick={handleRegister}>

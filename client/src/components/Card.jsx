@@ -4,7 +4,7 @@ const Card = ({ event }) => {
   const { id, name, first, last, image } = event;
 
   return (
-    <div className=" h-72 w-72 max-w-sm lg:max-w-full flex flex-col p-2">
+    <div className=" h-[21rem] w-72 max-w-sm lg:max-w-full flex flex-col p-2">
       <div
         className="h-full w-full bg-cover bg-center rounded-t overflow-hidden"
         style={{ backgroundImage: `url(${image})` }}

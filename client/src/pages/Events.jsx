@@ -7,6 +7,7 @@ import { eventData, culturalEventData, preEventData } from "../utils/eventData.j
 import CulturalCard from "../components/CulturalCard.jsx"
 import Loading from "../components/Loading.jsx"
 import { useParams } from "react-router-dom"
+import EventGrid from "../components/EventGrid.jsx"
 
 const Events = () => {
   const [filteredEvents, setFilteredEvents] = useState(eventData)
@@ -113,21 +114,21 @@ const Events = () => {
       </div>
 
       {/* Event List */}
-      <div className="w-full h-fit min-h-screen flex flex-wrap sm:flex-col md:flex-row sm:items-center md:items-start justify-center gap-8 p-8 md:gap-16 md:px-16 lg:px-32">
+      <div className="w-full h-fit min-h-screen flex flex-wrap sm:flex-col md:flex-row sm:items-center md:items-start justify-center gap-8 p-8 md:gap-16 md:px-16 lg:px-32 bg-cy">
         {filteredEvents.map((event, index) => (
           <div
             key={event.id}
-            className="w-full md:w-1/3 lg:w-1/4 flex-shrink-0 flex justify-center items-center"
+            className={`w-full ${event.category != 'event' ? "lg:w-1/4" : "" } flex-shrink-0 flex justify-center items-center `}
             custom={index}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
             variants={cardVariants}
           >
-            {(eventType === "cultural" || eventType == "pre-event")? (
+            {(event.category === "cultural" || event.category == 'pre-event')? (
               <CulturalCard eventDetails={event} />
             ) : (
-              <Event eventDetails={event} type={eventType} />
+              <EventGrid event={event} />
             )}
           </div>
         ))}
