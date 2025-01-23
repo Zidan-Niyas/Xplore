@@ -59,7 +59,7 @@ export const proshowEvents = [
     {
         id: 4004,
         name: "Drone show",
-        description: "Showcase your dance skills in various styles.",
+        description: "Get ready for a spectacular Drone Show that will light up the sky! Witness cutting-edge technology in action as drones create mesmerizing visuals, patterns, and animations in an unforgettable display. Don’t miss out on this high-tech spectacle that’s sure to leave you amazed!",
         date: "2025-02-07",
         time: "18:00",
         location: "Main Auditorium",
