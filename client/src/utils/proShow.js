@@ -50,7 +50,7 @@ export const proshowEvents = [
         date: "2025-02-07",
         time: "18:00",
         location: "Main Auditorium",
-        image: robo_war,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots2.webp?alt=media&token=3c9b19c2-9c4c-4028-8e89-514c3ff627f4",
         category: "proshow",
         first: "Get ready to groove and create unforgettable memories! Gather your squad and prepare for the ultimate musical experience as 𝗦𝗨𝗡𝗕𝗨𝗥𝗡 takes the stage at 𝗫𝗽𝗹𝗼𝗿𝗲'𝟮𝟰 on 𝟳𝘁𝗵 𝗙𝗲𝗯 𝟮𝟬𝟮𝟱!",
         middle: "Feel the energy, lose yourself in the rhythm, and dance like nobody’s watching! Trust us, this is where the magic happens, and YOU are the star of the night. ",

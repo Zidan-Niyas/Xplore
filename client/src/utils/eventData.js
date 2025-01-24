@@ -110,7 +110,7 @@ export const eventData = [
         ],
         rules: null,
         category: "event",
-        registerLink: null
+        registerLink: "https://tiqr.events/e/LINE-FOLLOWER-760/"
     }
     
     
