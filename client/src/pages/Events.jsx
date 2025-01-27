@@ -8,6 +8,7 @@ import CulturalCard from "../components/CulturalCard.jsx"
 import Loading from "../components/Loading.jsx"
 import { useParams } from "react-router-dom"
 import EventGrid from "../components/EventGrid.jsx"
+import SingleEventGrid from "../components/SingleGrid.jsx"
 
 const Events = () => {
   const [filteredEvents, setFilteredEvents] = useState(eventData)
@@ -125,11 +126,13 @@ const Events = () => {
             viewport={{ once: true, amount: 0.2 }}
             variants={cardVariants}
           >
-            {(event.category === "cultural" || event.category == 'pre-event')? (
-              <CulturalCard eventDetails={event} />
-            ) : (
-              <EventGrid event={event} />
-            )}
+            {event.category === "cultural" || event.category === "pre-event" ? (
+            <CulturalCard eventDetails={event} />
+          ) : eventType === "technical" && event.id >= 1002 ? (
+            <SingleEventGrid event={event} />
+          ) : (
+            <EventGrid event={event} />
+          )}
           </div>
         ))}
       </div>
