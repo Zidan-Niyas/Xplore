@@ -100,7 +100,7 @@ const AboutPage = () => {
                 foster leadership skills.
               </p>
               <button 
-                onClick={() => navigate("/events")}
+                onClick={() => navigate("/event-registration/event")}
                 className="min-w-[150px] w-[30%] sm:w-[50%] md:w-[30%] text-white font-bold border-2 border-blue-400 bg-transparent py-3 px-6 rounded-full hover:bg-blue-400 hover:text-black transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 text-lg">
                 XPLORE MORE
               </button>
