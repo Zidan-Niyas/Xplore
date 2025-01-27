@@ -69,49 +69,8 @@ import spot_dance from '../assets/images/cultural/dance/spot_dance.webp'
 import vistora from '../assets/images/cultural/dance/vistora.webp'
 import breaknbeat from '../assets/images/cultural/dance/breaknbeat.webp'
 
-export const eventData = [
-    {
-        id: 1000,
-        name: "BattleBots Arena",
-        description: "The BattleBots Arena invites you to unleash your fiercest creation in a high-stakes robotic showdown. Flip, immobilize, and dominate your way to victory in the ultimate arena battle. Will your bot reign supreme?",
-        date: "2025-02-08",
-        time: "09:00",
-        location: "Tech Grounds",
-        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots1.webp?alt=media&token=626453f1-49cd-493c-b838-80e45f79c462",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots2.webp?alt=media&token=3c9b19c2-9c4c-4028-8e89-514c3ff627f4",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots3.webp?alt=media&token=23d84208-a660-405b-8b39-1a20b323ec69"
-        ],
-        category: "event",
-        fee: "699",
-        rules: "3-6 members\n",
-        contacts: [
-            { name: "Harikesh", phone: "6238622195" },
-            { name: "Swathika", phone: "8113911219" }
-        ],
-        registerLink: "https://tiqr.events/e/ROBOWAR-759"
-    },
-    {
-        id: 1001,
-        name: "ROBOTRACK CHALLENGE",
-        description: "Rev up your bot and race through sharp turns, intersections, and curves in this thrilling Line Follower competition.",
-        date: "7 feb 2025",
-        time: "9 AM - 5 PM",
-        location: "Update soon..",
-        prizePool: "Trophy + Recognition",
-        fee: 499,
-        images:[
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-07.webp?alt=media&token=3ddba1f2-b14a-41d0-b2e7-b53fd462b30a",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-08.webp?alt=media&token=04a1422c-eabf-455b-b67d-706634218d11",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-09.webp?alt=media&token=74491fb6-2543-4bb7-acd0-29f4fad97674"
-        ],
-        contacts: [
-            { name: "Ajay", phone: "8592936392" },
-            { name: "Harikesh", phone: "6238622195" }
-        ],
-        rules: null,
-        category: "event",
-        registerLink: "https://tiqr.events/e/LINE-FOLLOWER-760/"
-    },
+
+export const competitionData = [
     {
         id: 1002,
         name: "WORDATHON",
@@ -140,7 +99,7 @@ export const eventData = [
         time: "15:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-21.jpg?alt=media&token=aedf5a5c-cb3b-4d54-808a-b2c818bed6c5"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4a549838-474d-412b-a9e3-ffd8bb51231d.jpeg?alt=media&token=e8692df2-ded3-4992-b4cb-602baad008d0"
         ],
         category: "event",
         fee: "159",
@@ -550,6 +509,51 @@ export const eventData = [
         registerLink: "https://example.com/register/cprogramming",
         prizePool: "5,000/-"
     }
+]
+
+export const eventData = [
+    {
+        id: 1000,
+        name: "BattleBots Arena",
+        description: "The BattleBots Arena invites you to unleash your fiercest creation in a high-stakes robotic showdown. Flip, immobilize, and dominate your way to victory in the ultimate arena battle. Will your bot reign supreme?",
+        date: "2025-02-08",
+        time: "09:00",
+        location: "Tech Grounds",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots1.webp?alt=media&token=626453f1-49cd-493c-b838-80e45f79c462",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots2.webp?alt=media&token=3c9b19c2-9c4c-4028-8e89-514c3ff627f4",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots3.webp?alt=media&token=23d84208-a660-405b-8b39-1a20b323ec69"
+        ],
+        category: "event",
+        fee: "699",
+        rules: "3-6 members\n",
+        contacts: [
+            { name: "Harikesh", phone: "6238622195" },
+            { name: "Swathika", phone: "8113911219" }
+        ],
+        registerLink: "https://tiqr.events/e/ROBOWAR-759"
+    },
+    {
+        id: 1001,
+        name: "ROBOTRACK CHALLENGE",
+        description: "Rev up your bot and race through sharp turns, intersections, and curves in this thrilling Line Follower competition.",
+        date: "7 feb 2025",
+        time: "9 AM - 5 PM",
+        location: "Update soon..",
+        prizePool: "Trophy + Recognition",
+        fee: 499,
+        images:[
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-07.webp?alt=media&token=3ddba1f2-b14a-41d0-b2e7-b53fd462b30a",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-08.webp?alt=media&token=04a1422c-eabf-455b-b67d-706634218d11",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-09.webp?alt=media&token=74491fb6-2543-4bb7-acd0-29f4fad97674"
+        ],
+        contacts: [
+            { name: "Ajay", phone: "8592936392" },
+            { name: "Harikesh", phone: "6238622195" }
+        ],
+        rules: null,
+        category: "event",
+        registerLink: "https://tiqr.events/e/LINE-FOLLOWER-760/"
+    },
 ];
 
 export const workshopData = [

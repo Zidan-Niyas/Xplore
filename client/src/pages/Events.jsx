@@ -3,7 +3,7 @@ import { useSpring, animated } from "@react-spring/web"
 import { motion } from "framer-motion"
 import eventBanner from "../assets/images/event-banner.png"
 import Event from "../components/Event"
-import { eventData, culturalEventData, preEventData } from "../utils/eventData.js"
+import { eventData, culturalEventData, preEventData, competitionData } from "../utils/eventData.js"
 import CulturalCard from "../components/CulturalCard.jsx"
 import Loading from "../components/Loading.jsx"
 import { useParams } from "react-router-dom"
@@ -13,8 +13,9 @@ import SingleEventGrid from "../components/SingleGrid.jsx"
 const Events = () => {
   const [filteredEvents, setFilteredEvents] = useState(eventData)
   const [loading, setLoading] = useState(false)
-  const {category} = useParams();
+  const { category } = useParams()
   const [eventType, setEventType] = useState(category)
+
   useEffect(() => {
     switch (eventType) {
       case "cultural":
@@ -23,17 +24,22 @@ const Events = () => {
       case "pre-event":
         setFilteredEvents(preEventData)
         break
+      case "competition":
+        setFilteredEvents(competitionData)
+        break
+      case "technical":
+        setFilteredEvents(eventData.filter((event) => event.category === "event"))
+        break
       default:
         setFilteredEvents(eventData)
     }
   }, [eventType])
 
   useEffect(() => {
-    if(window.location.pathname === '/events') {
-      window.history.pushState(null, '', `/events/${category}`);
+    if (window.location.pathname === "/events") {
+      window.history.pushState(null, "", `/events/${eventType}`)
     }
-    }, [category, eventType])
-    
+  }, [eventType])
 
   const bannerAnimation = useSpring({
     from: { opacity: 0, transform: "scale(0.9)" },
@@ -67,9 +73,21 @@ const Events = () => {
     }
   }
 
+  const EventButton = ({ type, label }) => (
+    <button
+      className={`px-6 py-3 rounded-full text-white font-bold transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white ${
+        eventType === type
+          ? "bg-gradient-to-r from-red-600 to-red-800 shadow-lg"
+          : "bg-gradient-to-r from-gray-700 to-gray-900 opacity-75 hover:opacity-100"
+      }`}
+      onClick={() => handleButtonClick(type)}
+    >
+      {label}
+    </button>
+  )
+
   return (
     <>
-      {/* Animated Banner Section */}
       <animated.section
         className="w-full min-h-[150px] md:min-h-[200px] bg-cover bg-center bg-no-repeat"
         style={{
@@ -80,46 +98,18 @@ const Events = () => {
         }}
       ></animated.section>
 
-      {/* Event Type Buttons */}
-      <div className=" flex flex-wrap justify-center space-x-4 sm:space-x-8 my-8 gap-4 ">
-        <button
-          className={`px-6 py-3 rounded-full text-white font-bold transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white ${
-            eventType === "pre-events"
-              ? "bg-gradient-to-r from-red-600 to-red-800 shadow-lg"
-              : "bg-gradient-to-r from-gray-700 to-gray-900 opacity-75 hover:opacity-100"
-          }`}
-          onClick={() => handleButtonClick("pre-event")}
-        >
-          Pre-Events
-        </button>
-        <button
-          className={`px-6 py-3 rounded-full text-white font-bold transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white ${
-            eventType === "technical"
-              ? "bg-gradient-to-r from-red-600 to-red-800 shadow-lg"
-              : "bg-gradient-to-r from-gray-700 to-gray-900 opacity-75 hover:opacity-100"
-          }`}
-          onClick={() => handleButtonClick("technical")}
-        >
-          Technical Events
-        </button>
-        <button
-          className={`px-6 py-3 rounded-full text-white font-bold transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white ${
-            eventType === "cultural"
-              ? "bg-gradient-to-r from-red-600 to-red-800 shadow-lg"
-              : "bg-gradient-to-r from-gray-700 to-gray-900 opacity-75 hover:opacity-100"
-          }`}
-          onClick={() => handleButtonClick("cultural")}
-        >
-          Cultural Events
-        </button>
+      <div className="flex flex-wrap justify-center space-x-2 sm:space-x-4 my-8 gap-4">
+        <EventButton type="pre-event" label="Pre-Events" />
+        <EventButton type="technical" label="Technical Events" />
+        <EventButton type="cultural" label="Cultural Events" />
+        <EventButton type="competition" label="Competitions" />
       </div>
 
-      {/* Event List */}
       <div className="w-full h-fit min-h-screen flex flex-wrap sm:flex-col md:flex-row sm:items-center md:items-start justify-center gap-8 p-8 md:gap-16 md:px-16 lg:px-32 bg-cy">
         {filteredEvents.map((event, index) => (
-          <div
+          <motion.div
             key={event.id}
-            className={`w-full ${event.category != 'event' ? "lg:w-1/4" : "" } flex-shrink-0 flex justify-center items-center `}
+            className={`w-full ${event.category !== "event" ? "lg:w-1/4" : ""} flex-shrink-0 flex justify-center items-center `}
             custom={index}
             initial="hidden"
             whileInView="visible"
@@ -127,13 +117,13 @@ const Events = () => {
             variants={cardVariants}
           >
             {event.category === "cultural" || event.category === "pre-event" ? (
-            <CulturalCard eventDetails={event} />
-          ) : eventType === "technical" && event.id >= 1002 ? (
-            <SingleEventGrid event={event} />
-          ) : (
-            <EventGrid event={event} />
-          )}
-          </div>
+              <CulturalCard eventDetails={event} />
+            ) : eventType === "competition" ? (
+              <SingleEventGrid event={event} />
+            ) : (
+              <EventGrid event={event} />
+            )}
+          </motion.div>
         ))}
       </div>
       {loading && <Loading />}
