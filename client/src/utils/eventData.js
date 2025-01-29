@@ -168,7 +168,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: null,
+        registerLink: "https://tiqr.events/e/TERRALENS-833",
         prizePool: null
     },
     {
@@ -228,7 +228,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: null,
+        registerLink: "https://tiqr.events/e/BIT-BANG-(RELAY-CODING-FOR-GIRLS-ONLY)-828",
         prizePool: "3,500/-"
     },
     {
@@ -248,7 +248,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: null,
+        registerLink: "https://tiqr.events/e/PITCH-THE-PRODUCT-829",
         prizePool: "1,500/-"
     },
     {
@@ -268,7 +268,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: null,
+        registerLink: "https://tiqr.events/e/IDEA-PITCHING-830",
         prizePool: "5,000/-"
     },
     {
@@ -288,7 +288,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: null,
+        registerLink: "https://tiqr.events/e/LOGIC-EXPLOSION-831",
         prizePool: "4,000/-"
     },
     {
@@ -308,7 +308,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: null,
+        registerLink: "https://tiqr.events/e/SOLDERING-COMPETITION-832",
         prizePool: "2,000/-"
     },
     // {
