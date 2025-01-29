@@ -88,7 +88,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/wordathon",
+        registerLink: "https://tiqr.events/e/WORDATHON-812",
         prizePool: "1,500/-"
     },
     {
@@ -108,7 +108,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/bidandfly",
+        registerLink: "https://tiqr.events/e/BID-and-FLY-814",
         prizePool: "5,000/-"
     },
     {
@@ -128,7 +128,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/geoquest",
+        registerLink: "https://tiqr.events/e/GEO-QUEST-QUIZ-816",
         prizePool: null
     },
     {
@@ -148,7 +148,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/buildnburst",
+        registerLink: "https://tiqr.events/e/BUILD-N-BURST-817",
         prizePool: "5,000/-"
     },
     {
@@ -168,7 +168,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/terralens",
+        registerLink: null,
         prizePool: null
     },
     {
@@ -188,7 +188,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/sparkduino",
+        registerLink: "https://tiqr.events/e/SPARKDUINO-820",
         prizePool: "4,000/-"
     },
     {
@@ -208,7 +208,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/bridgeblitz",
+        registerLink: "https://tiqr.events/e/BRIDGE-BLITZ-821",
         prizePool: "3,000/-"
     },
     {
@@ -228,7 +228,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/bitbang",
+        registerLink: null,
         prizePool: "3,500/-"
     },
     {
@@ -248,7 +248,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/pitchtheproduct",
+        registerLink: null,
         prizePool: "1,500/-"
     },
     {
@@ -268,7 +268,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/ideapitching",
+        registerLink: null,
         prizePool: "5,000/-"
     },
     {
@@ -288,7 +288,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/logicexplosion",
+        registerLink: null,
         prizePool: "4,000/-"
     },
     {
@@ -308,7 +308,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/soldering",
+        registerLink: null,
         prizePool: "2,000/-"
     },
     {
@@ -330,7 +330,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/precisionpathway",
+        registerLink: "https://tiqr.events/e/PRECISION-PATHWAY-SURVEYING-(-THEODOLITE-)-824",
         prizePool: "2,000/-"
     },
     {
@@ -352,7 +352,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/waterrocket",
+        registerLink: null,
         prizePool: "5,000/-"
     },
     {
@@ -374,7 +374,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/groupdiscussion",
+        registerLink: null,
         prizePool: "3,500/-"
     },
     {
@@ -396,7 +396,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/autoquiz",
+        registerLink: null,
         prizePool: "3,000/-"
     },
     {
@@ -418,7 +418,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/geotechnicalquiz",
+        registerLink: null,
         prizePool: null
     },
     {
@@ -440,7 +440,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/urbanovate",
+        registerLink: null,
         prizePool: "4,000/-"
     },
     {
@@ -462,7 +462,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/cluecraze",
+        registerLink: null,
         prizePool: "5,000/-"
     },
     {
@@ -484,7 +484,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/dracarys",
+        registerLink: null,
         prizePool: "5,000/-"
     },
     {
@@ -506,7 +506,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://example.com/register/cprogramming",
+        registerLink: "https://tiqr.events/e/C-PROGRAMMING-CODING-COMPETITON-825",
         prizePool: "5,000/-"
     }
 ]
@@ -561,8 +561,8 @@ export const workshopData = [
         id: 2001,
         name: "FLUTTER WORKSHOP",
         description: "Join us for an exciting Flutter workshop where you will learn to build stunning mobile apps from scratch. Let's see how developers build apps for multiple platforms using a single codebase.",
-        date: "February 6, 2025",
-        time: "09:00 AM - 01:00 PM",
+        date: "February 7, 2025",
+        time: "01:30 PM - 05:00 PM",
         location: "CCF",
         fee: 300,
         image: flutter,
@@ -600,8 +600,8 @@ export const workshopData = [
         id: 2004,
         name: "3D Printing and Designing Workshop",
         description: "Introduces the essentials of 3D printing and design, focusing on crafting detailed prototypes and advanced models using state-of-the-art 3D printing technology.",
-        date: "February 6, 2025",
-        time: "1:00 PM - 5:30 PM",
+        date: "February 7, 2025",
+        time: "1:30 PM - 5:00 PM",
         location: "CCF",
         fee: 350,
         image: D_PRINTING,
@@ -613,7 +613,7 @@ export const workshopData = [
         id: 2005,
         name: "IOT and Embedded Systems Workshop",
         description: "Whether you're a curious beginner or an aspiring innovator, this workshop is your gateway to understanding the basics, mastering the intricacies, and discovering the boundless possibilities of these cutting-edge technologies.",
-        date: "February 7, 2025",
+        date: "February 8, 2025",
         time: "9:00 AM - 1:00 PM",
         location: "CCF",
         fee: 350,
@@ -627,7 +627,7 @@ export const workshopData = [
         name: "PCB Designing Workshop",
         description: "Join our exciting workshop on Printed Circuit Board (PCB) Design and take your electronics engineering skills to the next level! Learn the secrets of designing efficient, high-quality PCBs—an essential skill in today’s tech-driven world where PCB designers are in high demand.",
         date: "February 7, 2025",
-        time: "1:00 PM - 5:30 PM",
+        time: "09:00 PM - 01:00 PM",
         location: "CCF",
         fee: 450,
         image: PCB,
