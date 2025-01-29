@@ -465,28 +465,28 @@ export const competitionData = [
         registerLink: "https://tiqr.events/e/CLUE-CRAZE-834",
         prizePool: "5,000/-"
     },
-    // {
-    //     id: 1021,
-    //     name: "DRACARYS 2.0 QUIZ",
-    //     description: "Get ready to unleash your inner Game of Thrones expert! This challenge will put your knowledge to the test, revisiting the most epic, intense, and dramatic moments from the hit series.",
-    //     date: "2025-02-08",
-    //     time: "13:00",
-    //     location: "Update soon..",
-    //     images: [
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys1.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys2.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys3.webp?alt=media&token=example-token"
-    //     ],
-    //     category: "event",
-    //     fee: "30",
-    //     rules: "Individual participation\n",
-    //     contacts: [
-    //         { name: "Contact1", phone: "1234567890" },
-    //         { name: "Contact2", phone: "0987654321" }
-    //     ],
-    //     registerLink: null,
-    //     prizePool: "5,000/-"
-    // },
+    {
+        id: 1021,
+        name: "DRACARYS 2.0 QUIZ",
+        description: "Get ready to unleash your inner Game of Thrones expert! This challenge will put your knowledge to the test, revisiting the most epic, intense, and dramatic moments from the hit series.",
+        date: "2025-02-08",
+        time: "13:00",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys1.webp?alt=media&token=example-token",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys2.webp?alt=media&token=example-token",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys3.webp?alt=media&token=example-token"
+        ],
+        category: "event",
+        fee: "30",
+        rules: "Individual participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/DRACARYS--2.0-835",
+        prizePool: "5,000/-"
+    },
     {
         id: 1022,
         name: "C PROGRAMMING CODING CHALLENGE",

@@ -54,7 +54,7 @@ const Events = () => {
       y: 0,
       transition: {
         delay: index * 0.1,
-        duration: 0.6,
+        duration: 0.3,
         ease: "easeInOut",
       },
     }),
