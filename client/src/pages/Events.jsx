@@ -99,7 +99,7 @@ const Events = () => {
       ></animated.section>
 
       <div className="flex flex-wrap justify-center space-x-2 sm:space-x-4 my-8 gap-4">
-        <EventButton type="pre-event" label="Pre-Events" />
+        {/*<EventButton type="pre-event" label="Pre-Events" />*/}
         <EventButton type="technical" label="Technical Events" />
         <EventButton type="cultural" label="Cultural Events" />
         <EventButton type="competition" label="Competitions" />
