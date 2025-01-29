@@ -311,182 +311,182 @@ export const competitionData = [
         registerLink: null,
         prizePool: "2,000/-"
     },
-    {
-        id: 1014,
-        name: "PRECISION PATHWAY",
-        description: "SURVEYING (THEODOLITE) - Objective – to test participants skills in using a theodolite for surveying and measurement.",
-        date: "2025-02-07",
-        time: "10:00",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "200",
-        rules: "Individual or team participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: "https://tiqr.events/e/PRECISION-PATHWAY-SURVEYING-(-THEODOLITE-)-824",
-        prizePool: "2,000/-"
-    },
-    {
-        id: 1015,
-        name: "WATER ROCKET COMPETITION",
-        description: "Launch into excitement with the Water Rocket Challenge! Feel the rush as you build and launch your own water-powered rocket, defying gravity and soaring high into the sky. It's a thrilling test of creativity, physics, and fun – are you ready to blast off?",
-        date: "2025-02-08",
-        time: "15:00",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "199",
-        rules: "Individual or team participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: null,
-        prizePool: "5,000/-"
-    },
-    {
-        id: 1016,
-        name: "GROUP DISCUSSION",
-        description: "Get ready to ignite your ideas in the Group Discussion! Share your perspectives, challenge opinions, and collaborate in a dynamic exchange of thoughts. It's the perfect platform to showcase your communication skills, think critically, and engage with diverse viewpoints. Let the conversation flow!",
-        date: "2025-02-08",
-        time: "10:00",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "99",
-        rules: "Group participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: null,
-        prizePool: "3,500/-"
-    },
-    {
-        id: 1017,
-        name: "AUTO-QUIZ",
-        description: "Rev up your knowledge and get ready for the Auto Quiz Challenge! Test your automotive expertise, race through exciting questions, and see if you have what it takes to be crowned the ultimate car enthusiast. Start your engines—it's time to quiz your way to victory!",
-        date: "2025-02-08",
-        time: "13:30",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "49",
-        rules: "Individual participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: null,
-        prizePool: "3,000/-"
-    },
-    {
-        id: 1018,
-        name: "GEO-TECHNICAL QUIZ COMPETITION",
-        description: "Enter the arena of intellect and persuasion with Geo-Debate! Teams will clash over relevant geotechnical topics, defending their stance with logic, expertise, and passion. It's a battle of ideas where the strongest arguments and sharpest minds will triumph. Will your team take the crown in this riveting clash of geotechnical brilliance?",
-        date: "2025-02-08",
-        time: "13:00",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geotechnicalquiz1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geotechnicalquiz2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geotechnicalquiz3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "30",
-        rules: "Individual participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: null,
-        prizePool: null
-    },
-    {
-        id: 1019,
-        name: "URBANOVATE",
-        description: "Create a transformative arena where civil engineering meets innovation! Unleash your ingenuity to craft groundbreaking solutions that shape the cities of tomorrow. It's not just a hackathon, it's your stage to revolutionize the way we build the world!",
-        date: "2025-02-08",
-        time: "09:00",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "200",
-        rules: "Team participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: null,
-        prizePool: "4,000/-"
-    },
-    {
-        id: 1020,
-        name: "CLUE CRAZE",
-        description: "It is a visual brain teaser that uses pictures, symbols, or letters to represent words or phrases, often involving wordplay or phonetics. Solvers interpret the visual clues to deduce the intended meaning.",
-        date: "2025-02-08",
-        time: "10:00",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "30",
-        rules: "Individual participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: null,
-        prizePool: "5,000/-"
-    },
-    {
-        id: 1021,
-        name: "DRACARYS 2.0 QUIZ",
-        description: "Get ready to unleash your inner Game of Thrones expert! This challenge will put your knowledge to the test, revisiting the most epic, intense, and dramatic moments from the hit series.",
-        date: "2025-02-08",
-        time: "13:00",
-        location: "Update soon..",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys3.webp?alt=media&token=example-token"
-        ],
-        category: "event",
-        fee: "30",
-        rules: "Individual participation\n",
-        contacts: [
-            { name: "Contact1", phone: "1234567890" },
-            { name: "Contact2", phone: "0987654321" }
-        ],
-        registerLink: null,
-        prizePool: "5,000/-"
-    },
+    // {
+    //     id: 1014,
+    //     name: "PRECISION PATHWAY",
+    //     description: "SURVEYING (THEODOLITE) - Objective – to test participants skills in using a theodolite for surveying and measurement.",
+    //     date: "2025-02-07",
+    //     time: "10:00",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "200",
+    //     rules: "Individual or team participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: "",
+    //     prizePool: "2,000/-"
+    // },
+    // {
+    //     id: 1015,
+    //     name: "WATER ROCKET COMPETITION",
+    //     description: "Launch into excitement with the Water Rocket Challenge! Feel the rush as you build and launch your own water-powered rocket, defying gravity and soaring high into the sky. It's a thrilling test of creativity, physics, and fun – are you ready to blast off?",
+    //     date: "2025-02-08",
+    //     time: "15:00",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "199",
+    //     rules: "Individual or team participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: null,
+    //     prizePool: "5,000/-"
+    // },
+    // {
+    //     id: 1016,
+    //     name: "GROUP DISCUSSION",
+    //     description: "Get ready to ignite your ideas in the Group Discussion! Share your perspectives, challenge opinions, and collaborate in a dynamic exchange of thoughts. It's the perfect platform to showcase your communication skills, think critically, and engage with diverse viewpoints. Let the conversation flow!",
+    //     date: "2025-02-08",
+    //     time: "10:00",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "99",
+    //     rules: "Group participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: null,
+    //     prizePool: "3,500/-"
+    // },
+    // {
+    //     id: 1017,
+    //     name: "AUTO-QUIZ",
+    //     description: "Rev up your knowledge and get ready for the Auto Quiz Challenge! Test your automotive expertise, race through exciting questions, and see if you have what it takes to be crowned the ultimate car enthusiast. Start your engines—it's time to quiz your way to victory!",
+    //     date: "2025-02-08",
+    //     time: "13:30",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "49",
+    //     rules: "Individual participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: null,
+    //     prizePool: "3,000/-"
+    // },
+    // {
+    //     id: 1018,
+    //     name: "GEO-TECHNICAL QUIZ COMPETITION",
+    //     description: "Enter the arena of intellect and persuasion with Geo-Debate! Teams will clash over relevant geotechnical topics, defending their stance with logic, expertise, and passion. It's a battle of ideas where the strongest arguments and sharpest minds will triumph. Will your team take the crown in this riveting clash of geotechnical brilliance?",
+    //     date: "2025-02-08",
+    //     time: "13:00",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geotechnicalquiz1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geotechnicalquiz2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geotechnicalquiz3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "30",
+    //     rules: "Individual participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: null,
+    //     prizePool: null
+    // },
+    // {
+    //     id: 1019,
+    //     name: "URBANOVATE",
+    //     description: "Create a transformative arena where civil engineering meets innovation! Unleash your ingenuity to craft groundbreaking solutions that shape the cities of tomorrow. It's not just a hackathon, it's your stage to revolutionize the way we build the world!",
+    //     date: "2025-02-08",
+    //     time: "09:00",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "200",
+    //     rules: "Team participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: null,
+    //     prizePool: "4,000/-"
+    // },
+    // {
+    //     id: 1020,
+    //     name: "CLUE CRAZE",
+    //     description: "It is a visual brain teaser that uses pictures, symbols, or letters to represent words or phrases, often involving wordplay or phonetics. Solvers interpret the visual clues to deduce the intended meaning.",
+    //     date: "2025-02-08",
+    //     time: "10:00",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "30",
+    //     rules: "Individual participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: null,
+    //     prizePool: "5,000/-"
+    // },
+    // {
+    //     id: 1021,
+    //     name: "DRACARYS 2.0 QUIZ",
+    //     description: "Get ready to unleash your inner Game of Thrones expert! This challenge will put your knowledge to the test, revisiting the most epic, intense, and dramatic moments from the hit series.",
+    //     date: "2025-02-08",
+    //     time: "13:00",
+    //     location: "Update soon..",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys1.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys2.webp?alt=media&token=example-token",
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys3.webp?alt=media&token=example-token"
+    //     ],
+    //     category: "event",
+    //     fee: "30",
+    //     rules: "Individual participation\n",
+    //     contacts: [
+    //         { name: "Contact1", phone: "1234567890" },
+    //         { name: "Contact2", phone: "0987654321" }
+    //     ],
+    //     registerLink: null,
+    //     prizePool: "5,000/-"
+    // },
     {
         id: 1022,
         name: "C PROGRAMMING CODING CHALLENGE",
