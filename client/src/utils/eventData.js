@@ -443,28 +443,28 @@ export const competitionData = [
     //     registerLink: null,
     //     prizePool: "4,000/-"
     // },
-    // {
-    //     id: 1020,
-    //     name: "CLUE CRAZE",
-    //     description: "It is a visual brain teaser that uses pictures, symbols, or letters to represent words or phrases, often involving wordplay or phonetics. Solvers interpret the visual clues to deduce the intended meaning.",
-    //     date: "2025-02-08",
-    //     time: "10:00",
-    //     location: "Update soon..",
-    //     images: [
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze1.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze2.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze3.webp?alt=media&token=example-token"
-    //     ],
-    //     category: "event",
-    //     fee: "30",
-    //     rules: "Individual participation\n",
-    //     contacts: [
-    //         { name: "Contact1", phone: "1234567890" },
-    //         { name: "Contact2", phone: "0987654321" }
-    //     ],
-    //     registerLink: null,
-    //     prizePool: "5,000/-"
-    // },
+    {
+        id: 1020,
+        name: "CLUE CRAZE",
+        description: "It is a visual brain teaser that uses pictures, symbols, or letters to represent words or phrases, often involving wordplay or phonetics. Solvers interpret the visual clues to deduce the intended meaning.",
+        date: "2025-02-08",
+        time: "10:00",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze1.webp?alt=media&token=example-token",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze2.webp?alt=media&token=example-token",
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze3.webp?alt=media&token=example-token"
+        ],
+        category: "event",
+        fee: "30",
+        rules: "Individual participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/CLUE-CRAZE-834",
+        prizePool: "5,000/-"
+    },
     // {
     //     id: 1021,
     //     name: "DRACARYS 2.0 QUIZ",
@@ -803,7 +803,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '2.5 K',
         fee: 100,
-        image:monoact ,
+        image:"https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/monoact.webp?alt=media&token=eb88f4fe-cfcc-4abd-90c2-70269ee019de" ,
         contacts: [{name: 'Angel Shoby', phone: '8089091146'}, {name: 'Neha T', phone: '9847799288'}],
         rules: `1. This is a solo event. Open to all college students.\n
                 2. The registration fee is 100.\n
@@ -825,7 +825,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '3k',
         fee:70, 
-        image: anchoring,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/anchoring.webp?alt=media&token=099ea7f5-ea8f-4517-8477-b5d58f7dc3a8",
         contacts: [{name: 'Akshay ', phone: '8304017049'}, {name: 'Afra', phone: '6238769860'}],
         rules: `1. Participation is open to all.\n
                 2. The Registration fee is 100.\n
@@ -854,7 +854,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '2.5k',
         fee:100, 
-        image: mimicry,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mimicry.webp?alt=media&token=6c02b192-34cc-4303-b15a-6cedbda4cd71",
         contacts: [{name: 'Haritha ', phone: '9605107278'}, {name: 'Deeshnav ', phone: '8590884990'}],
         rules: `1. Participation is open to all college students.\n
                 2. The Registration fee is 100.\n
@@ -881,7 +881,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee:'Free', 
-        image: magic,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/magic.webp?alt=media&token=917aa4ab-fef2-42f8-a47d-4aee7827eff8",
         contacts: [{name: 'Keerthana P V ', phone: '8590480248'}, {name: 'Hasmina', phone: '98959 85462'}],
         rules: '',
         category: "cultural",
@@ -896,7 +896,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee: null, 
-        image: kalari,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/kalari.webp?alt=media&token=dcd615a8-ad94-485f-ad15-84ab597750e1",
         contacts: [],
         rules: '',
         category: "cultural",
@@ -911,7 +911,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '3k',
         fee: 100, 
-        image: debate,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/debate.webp?alt=media&token=e224db3a-079d-4c5e-b818-2cde3b32dd35",
         contacts: [{name: 'Vismaya', phone: '91884 40511'}, {name: 'Arathi C K', phone: '9048259633'}],
         rules: `1. The event will be conducted as a team consisting of two members.\n
                 2. Topic will be given on the spot which will be based on socially relevant issues.\n
@@ -935,7 +935,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '2.5k',
         fee: 100, 
-        image: mehandi,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mehandi.webp?alt=media&token=0d58a3c6-4d8d-4781-8aeb-6c1ffe1bb1b7",
         contacts: [{name: 'Sandwana', phone: '+91 8113889870'}, {name: 'Afra', phone: '+91 6238 769860'}],
         rules: `1. On-the-spot registrations are permitted.\n
                 2. Registration fee is 100.\n
@@ -962,7 +962,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '3k',
         fee: 70, 
-        image: face_painting,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/face_painting.webp?alt=media&token=0d5006ae-099a-4443-a963-c9ef842f91e3",
         contacts: [{name: 'Devika', phone: '+91 8848742789'}, {name: 'Afra', phone: '+91 9544918811'}],
         rules: `1. The registration fee is 70.\n
                 2. It's a theme-based face painting competition.\n
@@ -983,7 +983,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '1.5k',
         fee: 50, 
-        image: spot_photography,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spot_photography.webp?alt=media&token=ce5eb853-80ef-46a2-aa50-960873dbfe95",
         contacts: [{name: 'Drishya ', phone: '+91 7907118594'}, {name: 'Shivani', phone: '+91 9995788316'}],
         rules: `1. Format: Images must be in high-resolution JPEG/PNG format.\n
                 2. Editing: State the allowed level of editing (e.g., minor adjustments or no heavy manipulation).\n
@@ -1007,7 +1007,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee: null, 
-        image: pottery,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pottery.webp?alt=media&token=e9fa4990-ce4b-45d4-9838-600d9c71f5b9",
         contacts: [],
         category: "cultural",
         registerLink: "https://tiqr.events/e/Pottery-Workshop-730"
@@ -1021,7 +1021,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee: null, 
-        image: art_exhibition,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/art_exhibition.webp?alt=media&token=5acbe1ad-dac2-4328-8331-da648c4ec4b3",
         contacts: [{name: "Sreedeep", phone: "8301942514"}, {name: "Nandana", phone: "954491881"}],
         category: "cultural",
         registerLink: null
@@ -1036,7 +1036,7 @@ export const culturalEventData = [
         location: "Main Auditorium",
         prizePool: "10k",
         fee: 150,
-        image: nadanpatt,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/nadanpatt.webp?alt=media&token=ec7f05c0-150e-4c3d-8b8c-a462bb2112de",
         contacts: [
             { name: "Anirudh P", phone: "9072701180" },
             { name: "Punya", phone: "8547928336" }
@@ -1059,7 +1059,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "6K",
         fee: 300,
-        image: desk_knock,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/desk_knock.webp?alt=media&token=e92c53d6-d8df-47e4-88c6-c897396640a0",
         contacts: [
             { name: "Deeshnav K", phone: "+91 8590884990" },
             { name: "Vismaya", phone: "+91 9188440511" }
@@ -1084,7 +1084,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "2.5k",
         fee: 100,
-        image: english_recitation,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/english_recitation.webp?alt=media&token=19cad994-d704-4ff0-8305-f752aaaa47ef",
         contacts: [
             { name: "Angel", phone: "8089091146" },
             { name: "Manu", phone: "9037632234" }
@@ -1109,7 +1109,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "3k",
         fee: 150,
-        image: guitar,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/guitar.webp?alt=media&token=f4caefe4-9461-48d8-b4f9-0e7dba66e15e",
         contacts: [
             { name: "Manu", phone: "9037632234" },
             { name: "Nayantara", phone: "9778756085" }
@@ -1133,7 +1133,7 @@ export const culturalEventData = [
         location: "Seminar hall",
         prizePool: "2.5k",
         fee: 100,
-        image: light_music,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/light_music.webp?alt=media&token=5f78375c-63aa-4676-809b-7729d5454c7b",
         contacts: [
             { name: "Abhiram", phone: "9188307364" },
             { name: "Drishya", phone: "7907118594" }
@@ -1157,7 +1157,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "3k",
         fee: 100,
-        image: solo_song,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/solo_song.webp?alt=media&token=ab9505d0-a2a5-4fad-b953-b191185e2e8c",
         contacts: [
             { name: "Nayanthara M K", phone: "+91 9778756085" },
             { name: "Adwaith", phone: "+91 9895703163" }
@@ -1180,7 +1180,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "2.5k",
         fee: 100,
-        image: malayalam_recitation,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/malayalam_recitation.webp?alt=media&token=49a67faf-748d-4a5e-9356-59cce4f6523b",
         contacts: [
             { name: "Punya", phone: "8547928336" },
             { name: "Abhiram", phone: "9188307364" }
@@ -1206,7 +1206,7 @@ export const culturalEventData = [
         location: "Main stage",
         prizePool: "50k",
         fee: 200,
-        image: vistora,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/vistora.webp?alt=media&token=d3c98abb-7bdd-46e2-bace-43917679af17",
         contacts: [
             { name: "Arathi", phone: "7591929645" },
             { name: "Samath", phone: "7306132850" }
@@ -1236,7 +1236,7 @@ export const culturalEventData = [
         location: "Main stage",
         prizePool: "25k",
         fee: 200,
-        image: breaknbeat,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/breaknbeat.webp?alt=media&token=19f22223-3e55-4e5a-84bc-2f24417f986b",
         contacts: [
             { name: "Shivani", phone: "9995788316" },
             { name: "Muhsina", phone: "9495347917" }
@@ -1267,7 +1267,7 @@ export const culturalEventData = [
         location: "Main auditorium",
         prizePool: "9k",
         fee: 1000,
-        image: mime,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mime.webp?alt=media&token=e0c93261-fe43-4530-bd95-0c7a2961f839",
         contacts: [
             { name: "Abhay", phone: "6282288256" },
             { name: "Haritha", phone: "9605107278" }
@@ -1302,7 +1302,7 @@ export const culturalEventData = [
         location: "Main auditorium",
         prizePool: "15k",
         fee: "100",
-        image: oppana,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/oppana.webp?alt=media&token=90b08a5e-5827-49b6-b9cf-feb0046443c9",
         contacts: [
             { name: "Arathi", phone: "9048259633" },
             { name: "Samath", phone: "7306132850" }
@@ -1329,7 +1329,7 @@ export const culturalEventData = [
         location: "Main auditorium",
         prizePool: "15k",
         fee: "150",
-        image: retro_dance,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/retro_dance.webp?alt=media&token=06c6add6-ef35-4445-806e-ab44802395b9",
         contacts: [
             { name: "Neha", phone: "9847799288" },
             { name: "Shivani", phone: "9995788316" }
@@ -1358,7 +1358,7 @@ export const culturalEventData = [
         location: "Open Air Auditorium",
         prizePool: "3k",
         fee: "150",
-        image: spot_dance,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spot_dance.webp?alt=media&token=ac7244e9-4088-4d18-bd6f-bb1677d0e7bd",
         contacts: [
             { name: "Shivani", phone: "9995788316" },
             { name: "Nandana", phone: "9544918811" }
@@ -1385,7 +1385,7 @@ export const culturalEventData = [
         location: "Main Auditorium",
         prizePool: "5k",
         fee: "200",
-        image: duet_dance,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/duet_dance.webp?alt=media&token=00b73470-13d9-4e18-a738-7f1821d24095",
         contacts: [
             { name: "Vismaya", phone: "9188440511" },
             { name: "Nayanthara", phone: "9778756085" }
@@ -1421,7 +1421,7 @@ export const preEventData = [
         location: "Will update through WhatsApp group",
         prizePool: null,
         fee: "150",
-        image: dance_workshop,
+        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dance_workshop.webp?alt=media&token=bd4ef6c1-bb1c-47c8-90db-ce1ed88c91c1",
         contacts: [
             { name: "Shivani", phone: "+91 99957 88316" }
         ],
