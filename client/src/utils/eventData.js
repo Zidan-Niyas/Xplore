@@ -451,9 +451,7 @@ export const competitionData = [
         time: "10:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cluecraze3.webp?alt=media&token=example-token"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-02.webp?alt=media&token=f698f188-7eeb-4bb6-8238-31c010c327a9"
         ],
         category: "event",
         fee: "30",
@@ -473,9 +471,7 @@ export const competitionData = [
         time: "13:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys3.webp?alt=media&token=example-token"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-03.webp?alt=media&token=5f1f5823-0025-47ae-a4fc-a8f623215cc3"
         ],
         category: "event",
         fee: "30",
@@ -495,9 +491,7 @@ export const competitionData = [
         time: "13:30",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cprogramming1.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cprogramming2.webp?alt=media&token=example-token",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/cprogramming3.webp?alt=media&token=example-token"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-04.webp?alt=media&token=674b6594-a676-4002-acd2-b9fc8ae87cd2"
         ],
         category: "event",
         fee: "199",
