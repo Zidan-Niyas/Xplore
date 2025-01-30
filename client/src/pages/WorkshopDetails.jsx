@@ -74,11 +74,11 @@ const WorkshopDetails = () => {
             ></div>
 
             {/* Workshop Content */}
-            <div className="flex flex-col md:flex-row items-center max-w-4xl px-8 md:px-0 pt-8 md:pt-10 w-full flex-grow">
+            <div className="flex flex-col md:flex-row  sm:justify-center items-center max-w-4xl px-8 md:px-0 pt-8 md:pt-10 w-full flex-grow">
                 {/* Left Content */}
                 <animated.div
                     style={contentAnimation}
-                    className="flex flex-col items-center mb-12 space-y-6 mr-8 w-full md:w-1/2"
+                    className="flex flex-col justify-center  items-center mb-12 space-y-6 md:mr-8 w-full md:w-1/2"
                 >
                     <h1 className="road-rage-regular font-roadRage text-3xl md:text-5xl lg:text-5xl text-center text-white mb-4">{item.name}</h1>
                     <p className="text-lg md:text-2xl text-left text-gray-300 mb-4 font-semibold">{item.description}</p>
