@@ -119,7 +119,7 @@ export const competitionData = [
         time: "10:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-22.jpg?alt=media&token=25a955f0-4640-4ce7-bc23-dcbf67c1597e"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/9.webp?alt=media&token=b2bc8898-d0af-48ce-87d5-4d26e5ab54eb"
         ],
         category: "event",
         fee: "30",
@@ -159,7 +159,7 @@ export const competitionData = [
         time: "09:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition6png.png?alt=media&token=0b8335cb-88e2-4c3d-9195-16e9dae5cbd8"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/1.webp?alt=media&token=dd30ac19-316d-4e88-8dc9-9ed9eb1aedd9"
         ],
         category: "event",
         fee: "30",
@@ -179,7 +179,7 @@ export const competitionData = [
         time: "09:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition4.png?alt=media&token=1b66e4f8-a2e1-4f1d-af3b-2954de1e51ea"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/5.webp?alt=media&token=14a99ae6-fe50-4d57-a15d-61acd545d488"
         ],
         category: "event",
         fee: "349",
@@ -219,7 +219,7 @@ export const competitionData = [
         time: "13:30",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition8.png?alt=media&token=b609ac4c-5cb5-47a9-92bf-1463077d6484"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/3.webp?alt=media&token=f6feafdb-3f61-43ba-b304-6e9e4591d953"
         ],
         category: "event",
         fee: "100",
@@ -259,7 +259,7 @@ export const competitionData = [
         time: "13:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition9.png?alt=media&token=6162a6da-1c87-426e-bfe5-370e4b848f18"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4.webp?alt=media&token=637659c3-8027-4624-bc6a-3462ba36c224"
         ],
         category: "event",
         fee: "149",
@@ -279,7 +279,7 @@ export const competitionData = [
         time: "10:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-12.jpg?alt=media&token=648efaad-ecc6-4a00-98a2-7b4f9f040b93"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/8.webp?alt=media&token=ce2fb81f-0b37-4e77-bb07-6fe2a54720cf"
         ],
         category: "event",
         fee: "200",
@@ -333,28 +333,26 @@ export const competitionData = [
     //     registerLink: "",
     //     prizePool: "2,000/-"
     // },
-    // {
-    //     id: 1015,
-    //     name: "WATER ROCKET COMPETITION",
-    //     description: "Launch into excitement with the Water Rocket Challenge! Feel the rush as you build and launch your own water-powered rocket, defying gravity and soaring high into the sky. It's a thrilling test of creativity, physics, and fun – are you ready to blast off?",
-    //     date: "2025-02-08",
-    //     time: "15:00",
-    //     location: "Update soon..",
-    //     images: [
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket1.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket2.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/waterrocket3.webp?alt=media&token=example-token"
-    //     ],
-    //     category: "event",
-    //     fee: "199",
-    //     rules: "Individual or team participation\n",
-    //     contacts: [
-    //         { name: "Contact1", phone: "1234567890" },
-    //         { name: "Contact2", phone: "0987654321" }
-    //     ],
-    //     registerLink: null,
-    //     prizePool: "5,000/-"
-    // },
+    {
+        id: 1015,
+        name: "WATER ROCKET COMPETITION",
+        description: "Launch into excitement with the Water Rocket Challenge! Feel the rush as you build and launch your own water-powered rocket, defying gravity and soaring high into the sky. It's a thrilling test of creativity, physics, and fun – are you ready to blast off?",
+        date: "2025-02-08",
+        time: "15:00",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-09.webp?alt=media&token=fcf4b973-a996-4066-82c7-585c31915f76"
+        ],
+        category: "event",
+        fee: "199",
+        rules: "Individual or team participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/WATER-ROCKET-COMPETITION-841",
+        prizePool: "5,000/-"
+    },
     // {
     //     id: 1016,
     //     name: "GROUP DISCUSSION",
@@ -377,31 +375,29 @@ export const competitionData = [
     //     registerLink: null,
     //     prizePool: "3,500/-"
     // },
-    // {
-    //     id: 1017,
-    //     name: "AUTO-QUIZ",
-    //     description: "Rev up your knowledge and get ready for the Auto Quiz Challenge! Test your automotive expertise, race through exciting questions, and see if you have what it takes to be crowned the ultimate car enthusiast. Start your engines—it's time to quiz your way to victory!",
-    //     date: "2025-02-08",
-    //     time: "13:30",
-    //     location: "Update soon..",
-    //     images: [
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz1.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz2.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autoquiz3.webp?alt=media&token=example-token"
-    //     ],
-    //     category: "event",
-    //     fee: "49",
-    //     rules: "Individual participation\n",
-    //     contacts: [
-    //         { name: "Contact1", phone: "1234567890" },
-    //         { name: "Contact2", phone: "0987654321" }
-    //     ],
-    //     registerLink: null,
-    //     prizePool: "3,000/-"
-    // },
+    {
+        id: 1017,
+        name: "AUTO-QUIZ",
+        description: "Rev up your knowledge and get ready for the Auto Quiz Challenge! Test your automotive expertise, race through exciting questions, and see if you have what it takes to be crowned the ultimate car enthusiast. Start your engines—it's time to quiz your way to victory!",
+        date: "2025-02-08",
+        time: "13:30",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-05.webp?alt=media&token=7cdbe209-5e6f-4e11-b987-ba13ae29547c"
+        ],
+        category: "event",
+        fee: "49",
+        rules: "Individual participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/AUTO-QUIZ-837",
+        prizePool: "3,000/-"
+    },
     // {
     //     id: 1018,
-    //     name: "GEO-TECHNICAL QUIZ COMPETITION",
+    //     name: "-TECHNICAL QUIZ COMPETITION",
     //     description: "Enter the arena of intellect and persuasion with Geo-Debate! Teams will clash over relevant geotechnical topics, defending their stance with logic, expertise, and passion. It's a battle of ideas where the strongest arguments and sharpest minds will triumph. Will your team take the crown in this riveting clash of geotechnical brilliance?",
     //     date: "2025-02-08",
     //     time: "13:00",
@@ -421,28 +417,26 @@ export const competitionData = [
     //     registerLink: null,
     //     prizePool: null
     // },
-    // {
-    //     id: 1019,
-    //     name: "URBANOVATE",
-    //     description: "Create a transformative arena where civil engineering meets innovation! Unleash your ingenuity to craft groundbreaking solutions that shape the cities of tomorrow. It's not just a hackathon, it's your stage to revolutionize the way we build the world!",
-    //     date: "2025-02-08",
-    //     time: "09:00",
-    //     location: "Update soon..",
-    //     images: [
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate1.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate2.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/urbanovate3.webp?alt=media&token=example-token"
-    //     ],
-    //     category: "event",
-    //     fee: "200",
-    //     rules: "Team participation\n",
-    //     contacts: [
-    //         { name: "Contact1", phone: "1234567890" },
-    //         { name: "Contact2", phone: "0987654321" }
-    //     ],
-    //     registerLink: null,
-    //     prizePool: "4,000/-"
-    // },
+    {
+        id: 1019,
+        name: "URBANOVATE",
+        description: "Create a transformative arena where civil engineering meets innovation! Unleash your ingenuity to craft groundbreaking solutions that shape the cities of tomorrow. It's not just a hackathon, it's your stage to revolutionize the way we build the world!",
+        date: "2025-02-08",
+        time: "09:00",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-07.webp?alt=media&token=fa886303-2962-48ad-9222-8285847e9736"
+        ],
+        category: "event",
+        fee: "200",
+        rules: "Team participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/URBANOVATE-836",
+        prizePool: "4,000/-"
+    },
     {
         id: 1020,
         name: "CLUE CRAZE",
@@ -471,7 +465,7 @@ export const competitionData = [
         time: "13:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-03.webp?alt=media&token=5f1f5823-0025-47ae-a4fc-a8f623215cc3"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/6%20(1).webp?alt=media&token=868e7b83-f954-49bb-8596-8216205f4f73"
         ],
         category: "event",
         fee: "30",
@@ -496,6 +490,26 @@ export const competitionData = [
         category: "event",
         fee: "199",
         rules: "Individual participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/C-PROGRAMMING-CODING-COMPETITON-825",
+        prizePool: "5,000/-"
+    },
+    {
+        id: 1022,
+        name: "GEO-TECHNICAL DEBATE COMPETITION",
+        description: "Enter the arena of intellect and persuasion with Geo-Debate! Teams will clash over relevant geotechnical topics, defending their stance with logic, expertise, and passion. It’s a battle of ideas where the strongest arguments and sharpest minds will triumph. Will your team take the crown in this riveting clash of geotechnical brilliance?",
+        date: "February 8, 2025",
+        time: "1:00 PM - 2:00 PM",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/7.webp?alt=media&token=e1ca2d72-3a09-4091-a0f5-99d724a05a14"
+        ],
+        category: "event",
+        fee: "30",
+        rules: "Each team should contains at least 4 members",
         contacts: [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
