@@ -311,28 +311,26 @@ export const competitionData = [
         registerLink: "https://tiqr.events/e/SOLDERING-COMPETITION-832",
         prizePool: "2,000/-"
     },
-    // {
-    //     id: 1014,
-    //     name: "PRECISION PATHWAY",
-    //     description: "SURVEYING (THEODOLITE) - Objective – to test participants skills in using a theodolite for surveying and measurement.",
-    //     date: "2025-02-07",
-    //     time: "10:00",
-    //     location: "Update soon..",
-    //     images: [
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway1.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway2.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/precisionpathway3.webp?alt=media&token=example-token"
-    //     ],
-    //     category: "event",
-    //     fee: "200",
-    //     rules: "Individual or team participation\n",
-    //     contacts: [
-    //         { name: "Contact1", phone: "1234567890" },
-    //         { name: "Contact2", phone: "0987654321" }
-    //     ],
-    //     registerLink: "",
-    //     prizePool: "2,000/-"
-    // },
+    {
+        id: 1014,
+        name: "PRECISION PATHWAY",
+        description: "SURVEYING (THEODOLITE) - Objective – to test participants skills in using a theodolite for surveying and measurement.",
+        date: "2025-02-07",
+        time: "10:00",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-08.webp?alt=media&token=5f868664-9daa-4206-853c-cd0b40f2de05"
+        ],
+        category: "event",
+        fee: "200",
+        rules: "Individual or team participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/PRECISION-PATHWAY-SURVEYING-(-THEODOLITE-)-824",
+        prizePool: "2,000/-"
+    },
     {
         id: 1015,
         name: "WATER ROCKET COMPETITION",
@@ -353,28 +351,26 @@ export const competitionData = [
         registerLink: "https://tiqr.events/e/WATER-ROCKET-COMPETITION-841",
         prizePool: "5,000/-"
     },
-    // {
-    //     id: 1016,
-    //     name: "GROUP DISCUSSION",
-    //     description: "Get ready to ignite your ideas in the Group Discussion! Share your perspectives, challenge opinions, and collaborate in a dynamic exchange of thoughts. It's the perfect platform to showcase your communication skills, think critically, and engage with diverse viewpoints. Let the conversation flow!",
-    //     date: "2025-02-08",
-    //     time: "10:00",
-    //     location: "Update soon..",
-    //     images: [
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion1.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion2.webp?alt=media&token=example-token",
-    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/groupdiscussion3.webp?alt=media&token=example-token"
-    //     ],
-    //     category: "event",
-    //     fee: "99",
-    //     rules: "Group participation\n",
-    //     contacts: [
-    //         { name: "Contact1", phone: "1234567890" },
-    //         { name: "Contact2", phone: "0987654321" }
-    //     ],
-    //     registerLink: null,
-    //     prizePool: "3,500/-"
-    // },
+    {
+        id: 1016,
+        name: "GROUP DISCUSSION",
+        description: "Get ready to ignite your ideas in the Group Discussion! Share your perspectives, challenge opinions, and collaborate in a dynamic exchange of thoughts. It's the perfect platform to showcase your communication skills, think critically, and engage with diverse viewpoints. Let the conversation flow!",
+        date: "2025-02-08",
+        time: "10:00",
+        location: "Update soon..",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-10.webp?alt=media&token=d5194ce0-2b14-4878-b3e4-c5b4cb53ef67"
+        ],
+        category: "event",
+        fee: "99",
+        rules: "Group participation\n",
+        contacts: [
+            { name: "Contact1", phone: "1234567890" },
+            { name: "Contact2", phone: "0987654321" }
+        ],
+        registerLink: "https://tiqr.events/e/GROUP-DISCUSSION-839",
+        prizePool: "3,500/-"
+    },
     {
         id: 1017,
         name: "AUTO-QUIZ",
