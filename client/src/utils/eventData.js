@@ -257,7 +257,7 @@ export const competitionData = [
         description: "Rev up your creativity and take the wheel in the IDEA PITCHING challenge! Here’s your chance to present groundbreaking innovations that could shape the future solving the daily hiccups of the general public. Whether it’s smarter technology, eco-friendly solutions, or futuristic designs, bring your bold ideas to life and pitch them to the world. Get ready to accelerate your imagination and make your mark in the global futuristic revolution!",
         date: "2025-02-07",
         time: "13:00",
-        location: "Update soon..",
+        location: "MB222",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4.webp?alt=media&token=637659c3-8027-4624-bc6a-3462ba36c224"
         ],
@@ -337,7 +337,7 @@ export const competitionData = [
         description: "Launch into excitement with the Water Rocket Challenge! Feel the rush as you build and launch your own water-powered rocket, defying gravity and soaring high into the sky. It's a thrilling test of creativity, physics, and fun – are you ready to blast off?",
         date: "2025-02-08",
         time: "15:00",
-        location: "Update soon..",
+        location: "College Ground",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-09.webp?alt=media&token=fcf4b973-a996-4066-82c7-585c31915f76"
         ],
@@ -354,10 +354,10 @@ export const competitionData = [
     {
         id: 1016,
         name: "GROUP DISCUSSION",
-        description: "Get ready to ignite your ideas in the Group Discussion! Share your perspectives, challenge opinions, and collaborate in a dynamic exchange of thoughts. It's the perfect platform to showcase your communication skills, think critically, and engage with diverse viewpoints. Let the conversation flow!",
+        description: "Get ready to ignite your ideas in the Group Discussion! Share your perspectives, challenge opinions, and collaborate in a dynamic exchange of thoughts. It's the perfect platform to showcase your communication skills, think critically, and engage with diverse viewpoints. Let the conversation flow! (Registration Fee: 99 per person)",
         date: "2025-02-08",
         time: "10:00",
-        location: "Update soon..",
+        location: "MB222",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-10.webp?alt=media&token=d5194ce0-2b14-4878-b3e4-c5b4cb53ef67"
         ],
@@ -476,10 +476,10 @@ export const competitionData = [
     {
         id: 1022,
         name: "C PROGRAMMING CODING CHALLENGE",
-        description: "Test your C programming skills in this coding challenge.",
+        description: "Gear up for the ultimate C Programming Coding Challenge! Test your coding skills, solve tricky problems, and compete with the best in this fast-paced, brain-teasing event. Sharpen your logic, race against the clock, and prove you have what it takes to be a coding champion!",
         date: "2025-02-08",
         time: "13:30",
-        location: "Update soon..",
+        location: "Mech CAD Lab (MB019)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-04.webp?alt=media&token=674b6594-a676-4002-acd2-b9fc8ae87cd2"
         ],
