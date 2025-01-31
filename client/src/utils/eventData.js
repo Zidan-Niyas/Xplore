@@ -494,7 +494,7 @@ export const competitionData = [
         prizePool: "5,000/-"
     },
     {
-        id: 1022,
+        id: 1023,
         name: "GEO-TECHNICAL DEBATE COMPETITION",
         description: "Enter the arena of intellect and persuasion with Geo-Debate! Teams will clash over relevant geotechnical topics, defending their stance with logic, expertise, and passion. It’s a battle of ideas where the strongest arguments and sharpest minds will triumph. Will your team take the crown in this riveting clash of geotechnical brilliance?",
         date: "February 8, 2025",
