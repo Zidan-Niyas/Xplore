@@ -26,7 +26,7 @@ const talkData = [
         location: "Update soon..",
         prizePool: null,
         fee: "Free",
-        image: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/quantity%20surveying.webp?alt=media&token=8bca91e6-caa8-457f-afa0-3306769c9405"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/quantity%20surveying.webp?alt=media&token=8bca91e6-caa8-457f-afa0-3306769c9405"],
         contacts: [
             { name: "Fidha", phone: "+91 9539486193" },
             { name: "Ahalya", phone: "+91 8075592101" }
@@ -44,7 +44,7 @@ const talkData = [
         location: "Update soon..",
         prizePool: null,
         fee: 99,
-        image: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spaceAge.webp?alt=media&token=5c3a286d-0bf4-460b-993c-697cd4721800"],
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spaceAge.webp?alt=media&token=5c3a286d-0bf4-460b-993c-697cd4721800"],
         contacts: [
             { name: "Vaishnav", phone: "6238983785" },
             { name: "Adith", phone: "7736650696" }
