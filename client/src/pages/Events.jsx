@@ -3,7 +3,7 @@ import { useSpring, animated } from "@react-spring/web"
 import { motion } from "framer-motion"
 import eventBanner from "../assets/images/event-banner.png"
 import Event from "../components/Event"
-import { eventData, culturalEventData, preEventData, competitionData } from "../utils/eventData.js"
+import { eventData, culturalEventData, preEventData, competitionData, generalEventsData } from "../utils/eventData.js"
 import CulturalCard from "../components/CulturalCard.jsx"
 import Loading from "../components/Loading.jsx"
 import { useParams } from "react-router-dom"
@@ -31,7 +31,7 @@ const Events = () => {
         setFilteredEvents(eventData.filter((event) => event.category === "technical"))
         break
       case "general-event":
-        setFilteredEvents(eventData.filter((event) => event.category == "general-event"))
+        setFilteredEvents(generalEventsData)
         break
       default:
         setFilteredEvents(eventData)
