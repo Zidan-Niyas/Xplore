@@ -18,6 +18,12 @@ export default function SingleEventGrid({ event }) {
       <div className="flex flex-col justify-between p-4 leading-normal w-full md:w-2/3">
         <h2 className="mb-2 text-xl font-bold tracking-tight">{event.name}</h2>
         <p className="mb-3 font-normal text-gray-400 dark:text-gray-400 text-pretty">{event.description}</p>
+        
+        {/* Location Section */}
+        {event.location && (
+          <p className="mb-3 font-semibold text-lg text-gray-300">Venue :  {event.location}</p>
+        )}
+
         {event.registerLink && (
           <RainbowButton className="w-full mt-2" onClick={() => window.open(event.registerLink, "_blank")}>
             Register
@@ -27,4 +33,3 @@ export default function SingleEventGrid({ event }) {
     </div>
   )
 }
-

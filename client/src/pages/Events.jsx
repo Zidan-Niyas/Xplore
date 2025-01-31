@@ -31,7 +31,7 @@ const Events = () => {
         setFilteredEvents(eventData.filter((event) => event.category === "event"))
         break
       default:
-        setFilteredEvents(competitionData)
+        setFilteredEvents(eventData)
     }
   }, [eventType])
 

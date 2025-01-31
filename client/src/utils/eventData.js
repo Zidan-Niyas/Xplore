@@ -81,7 +81,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-20.jpg?alt=media&token=59e0b8c5-f247-426d-95d1-e1f0e4ea4def"
         ],
-        category: "event",
+        category: "competition",
         fee: "50",
         rules: "Individual participation\n",
         contacts: [
@@ -101,7 +101,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4a549838-474d-412b-a9e3-ffd8bb51231d.jpeg?alt=media&token=e8692df2-ded3-4992-b4cb-602baad008d0"
         ],
-        category: "event",
+        category: "competition",
         fee: "159",
         rules: "10 teams\n",
         contacts: [
@@ -121,7 +121,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/9.webp?alt=media&token=b2bc8898-d0af-48ce-87d5-4d26e5ab54eb"
         ],
-        category: "event",
+        category: "competition",
         fee: "30",
         rules: "Individual participation\n",
         contacts: [
@@ -137,11 +137,11 @@ export const competitionData = [
         description: "BUILT & BURST is a hands-on competition where teams design, mix and cast cubes, followed by testing their strength after 7 days of curing.",
         date: "2025-02-06",
         time: "13:00",
-        location: "Update soon..",
+        location: "Material Testing Lab ",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition5png.png?alt=media&token=7ed41883-5daf-4922-ac4a-11f129fb2cdd"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/build.jpeg?alt=media&token=bdb57e9e-7f62-405d-95d2-f5b56eb1a8fc"
         ],
-        category: "event",
+        category: "competition",
         fee: "200",
         rules: "Team participation\n",
         contacts: [
@@ -161,7 +161,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/1.webp?alt=media&token=dd30ac19-316d-4e88-8dc9-9ed9eb1aedd9"
         ],
-        category: "event",
+        category: "competition",
         fee: "30",
         rules: "Individual participation\n",
         contacts: [
@@ -177,11 +177,11 @@ export const competitionData = [
         description: "Where Innovation Meets Creativity. Step into the world of Arduino and bring your ideas to life! The Sparkduino Showdown is a hands-on prototyping challenge where participants design innovative solutions to real-world problems in domains like Smart Home Automation, Health Care, and Assistive Technology.",
         date: "2025-02-06",
         time: "09:00",
-        location: "Update soon..",
+        location: "Digital Electronics Lab (CB11)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/5.webp?alt=media&token=14a99ae6-fe50-4d57-a15d-61acd545d488"
         ],
-        category: "event",
+        category: "competition",
         fee: "349",
         rules: "Individual or team participation\n",
         contacts: [
@@ -197,11 +197,11 @@ export const competitionData = [
         description: "Bridge making competition with the given requirement and finding the load capacity of the bridge.",
         date: "2025-02-06",
         time: "10:00",
-        location: "Update soon..",
+        location: "MB304",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition7.png?alt=media&token=d4361964-fad3-442e-9480-9430fdee1e3c"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bridge.jpg?alt=media&token=ddaa50c4-2104-4cef-9c52-94496d67a073"
         ],
-        category: "event",
+        category: "competition",
         fee: "200",
         rules: "Team participation\n",
         contacts: [
@@ -221,7 +221,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/3.webp?alt=media&token=f6feafdb-3f61-43ba-b304-6e9e4591d953"
         ],
-        category: "event",
+        category: "competition",
         fee: "100",
         rules: "Team participation, Girls only\n",
         contacts: [
@@ -239,9 +239,9 @@ export const competitionData = [
         time: "14:00",
         location: "Update soon..",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition3.png?alt=media&token=fb4bc29f-000b-4d68-9b92-0c013585aa3f"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pitch.jpeg?alt=media&token=5563d55a-037a-4e3f-b855-3b9f79fa4663"
         ],
-        category: "event",
+        category: "competition",
         fee: "50",
         rules: "Individual or team participation\n",
         contacts: [
@@ -261,7 +261,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4.webp?alt=media&token=637659c3-8027-4624-bc6a-3462ba36c224"
         ],
-        category: "event",
+        category: "competition",
         fee: "149",
         rules: "Individual or team participation\n",
         contacts: [
@@ -277,11 +277,11 @@ export const competitionData = [
         description: "Step into a high-stakes mission to defuse the ultimate logic bomb! Assemble the right connections to achieve your goal, but beware—precision is everything. One wrong move could trigger the explosion—will you conquer the challenge?",
         date: "2025-02-07",
         time: "10:00",
-        location: "Update soon..",
+        location: "Digital Electronics Lab (CB11)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/8.webp?alt=media&token=ce2fb81f-0b37-4e77-bb07-6fe2a54720cf"
         ],
-        category: "event",
+        category: "competition",
         fee: "200",
         rules: "Individual or team participation\n",
         contacts: [
@@ -301,7 +301,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-13.jpg?alt=media&token=39304e24-67cc-4848-b658-7b6186be9089"
         ],
-        category: "event",
+        category: "competition",
         fee: "50",
         rules: "Individual participation\n",
         contacts: [
@@ -317,12 +317,12 @@ export const competitionData = [
         description: "SURVEYING (THEODOLITE) - Objective – to test participants skills in using a theodolite for surveying and measurement.",
         date: "2025-02-07",
         time: "10:00",
-        location: "Update soon..",
+        location: "Survey Lab (AB06)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-08.webp?alt=media&token=5f868664-9daa-4206-853c-cd0b40f2de05"
         ],
-        category: "event",
-        fee: "200",
+        category: "competition",
+        fee: "200 per team",
         rules: "Individual or team participation\n",
         contacts: [
             { name: "Contact1", phone: "1234567890" },
@@ -341,7 +341,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-09.webp?alt=media&token=fcf4b973-a996-4066-82c7-585c31915f76"
         ],
-        category: "event",
+        category: "competition",
         fee: "199",
         rules: "Individual or team participation\n",
         contacts: [
@@ -361,7 +361,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-10.webp?alt=media&token=d5194ce0-2b14-4878-b3e4-c5b4cb53ef67"
         ],
-        category: "event",
+        category: "competition",
         fee: "99",
         rules: "Group participation\n",
         contacts: [
@@ -381,7 +381,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-05.webp?alt=media&token=7cdbe209-5e6f-4e11-b987-ba13ae29547c"
         ],
-        category: "event",
+        category: "competition",
         fee: "49",
         rules: "Individual participation\n",
         contacts: [
@@ -419,11 +419,11 @@ export const competitionData = [
         description: "Create a transformative arena where civil engineering meets innovation! Unleash your ingenuity to craft groundbreaking solutions that shape the cities of tomorrow. It's not just a hackathon, it's your stage to revolutionize the way we build the world!",
         date: "2025-02-08",
         time: "09:00",
-        location: "Update soon..",
+        location: "Civil Seminar Hall (AB05)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-07.webp?alt=media&token=fa886303-2962-48ad-9222-8285847e9736"
         ],
-        category: "event",
+        category: "competition",
         fee: "200",
         rules: "Team participation\n",
         contacts: [
@@ -436,14 +436,14 @@ export const competitionData = [
     {
         id: 1020,
         name: "CLUE CRAZE",
-        description: "It is a visual brain teaser that uses pictures, symbols, or letters to represent words or phrases, often involving wordplay or phonetics. Solvers interpret the visual clues to deduce the intended meaning.",
+        description: "It is a visual brain teaser that uses pictures, symbols, or letters to represent words or phrases, often involving wordplay or phonetics. Solvers interpret the visual clues to deduce the intended meaning. (Registration : 30 per team)",
         date: "2025-02-08",
         time: "10:00",
-        location: "Update soon..",
+        location: "Drawing Hall (MB308)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-02.webp?alt=media&token=f698f188-7eeb-4bb6-8238-31c010c327a9"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/clue.jpeg?alt=media&token=68990e71-e1c0-43b1-9ecc-63957502d081"
         ],
-        category: "event",
+        category: "competition",
         fee: "30",
         rules: "Individual participation\n",
         contacts: [
@@ -456,14 +456,14 @@ export const competitionData = [
     {
         id: 1021,
         name: "DRACARYS 2.0 QUIZ",
-        description: "Get ready to unleash your inner Game of Thrones expert! This challenge will put your knowledge to the test, revisiting the most epic, intense, and dramatic moments from the hit series.",
+        description: "Get ready to unleash your inner Game of Thrones expert! This challenge will put your knowledge to the test, revisiting the most epic, intense, and dramatic moments from the hit series.(Registration : 30 per team)",
         date: "2025-02-08",
         time: "13:00",
-        location: "Update soon..",
+        location: "Drawing Hall (MB308)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/6%20(1).webp?alt=media&token=868e7b83-f954-49bb-8596-8216205f4f73"
+            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys.jpeg?alt=media&token=968786c0-4ae9-4266-91cf-7eee7bcc1361"
         ],
-        category: "event",
+        category: "competition",
         fee: "30",
         rules: "Individual participation\n",
         contacts: [
@@ -483,7 +483,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-04.webp?alt=media&token=674b6594-a676-4002-acd2-b9fc8ae87cd2"
         ],
-        category: "event",
+        category: "competition",
         fee: "199",
         rules: "Individual participation\n",
         contacts: [
@@ -503,7 +503,7 @@ export const competitionData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/7.webp?alt=media&token=e1ca2d72-3a09-4091-a0f5-99d724a05a14"
         ],
-        category: "event",
+        category: "competition",
         fee: "30",
         rules: "Each team should contains at least 4 members",
         contacts: [
@@ -527,7 +527,7 @@ export const eventData = [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots2.webp?alt=media&token=3c9b19c2-9c4c-4028-8e89-514c3ff627f4",
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots3.webp?alt=media&token=23d84208-a660-405b-8b39-1a20b323ec69"
         ],
-        category: "event",
+        category: "technical",
         fee: "699",
         rules: "3-6 members\n",
         contacts: [
@@ -555,7 +555,7 @@ export const eventData = [
             { name: "Harikesh", phone: "6238622195" }
         ],
         rules: null,
-        category: "event",
+        category: "technical",
         registerLink: "https://tiqr.events/e/LINE-FOLLOWER-760/"
     },
 ];
@@ -567,7 +567,7 @@ export const workshopData = [
         description: "Join us for an exciting Flutter workshop where you will learn to build stunning mobile apps from scratch. Let's see how developers build apps for multiple platforms using a single codebase.",
         date: "February 7, 2025",
         time: "01:30 PM - 05:00 PM",
-        location: "CCF",
+        location: "EEE Software Lab (MB213)",
         fee: 300,
         image: flutter,
         imageDetails: Flutter_details,
@@ -580,7 +580,7 @@ export const workshopData = [
         description: "Join our Satellite Data Platform Workshop and discover how to harness the potential of satellite data for your research, business, or organization.",
         date: "February 6, 2025",
         time: "10:00 AM - 12:30 PM",
-        location: "CCF",
+        location: "Systems Lab (DB02 - B Block)",
         fee: 150,
         image: satellite,
         imageDetails: satellite_details,
@@ -593,7 +593,7 @@ export const workshopData = [
         description: "This workshop offers comprehensive training in Building Information Modelling (BIM), focusing on advanced techniques to create, analyze, and manage intelligent 3D building models.",
         date: "February 6, 2025",
         time: "9:00 AM - 5:00 PM",
-        location: "CCF",
+        location: "Civil CAD Lab (MB120)",
         fee: 500,
         image: Bim_modeling,
         imageDetails: Bim_modeling_details,
@@ -606,7 +606,7 @@ export const workshopData = [
         description: "Introduces the essentials of 3D printing and design, focusing on crafting detailed prototypes and advanced models using state-of-the-art 3D printing technology.",
         date: "February 7, 2025",
         time: "1:30 PM - 5:00 PM",
-        location: "CCF",
+        location: "Mech CAD Lab (MB019)",
         fee: 350,
         image: D_PRINTING,
         imageDetails: D_printing_details,
@@ -619,7 +619,7 @@ export const workshopData = [
         description: "Whether you're a curious beginner or an aspiring innovator, this workshop is your gateway to understanding the basics, mastering the intricacies, and discovering the boundless possibilities of these cutting-edge technologies.",
         date: "February 8, 2025",
         time: "9:00 AM - 1:00 PM",
-        location: "CCF",
+        location: "High-Tech Classroom (Main Block)",
         fee: 350,
         image: IOT,
         imageDetails: iot_details,
@@ -632,7 +632,7 @@ export const workshopData = [
         description: "Join our exciting workshop on Printed Circuit Board (PCB) Design and take your electronics engineering skills to the next level! Learn the secrets of designing efficient, high-quality PCBs—an essential skill in today’s tech-driven world where PCB designers are in high demand.",
         date: "February 7, 2025",
         time: "09:00 PM - 01:00 PM",
-        location: "CCF",
+        location: "ECE Simulation Lab (MB012)",
         fee: 450,
         image: PCB,
         imageDetails: PCB_Details,
@@ -658,7 +658,7 @@ export const workshopData = [
         description: "Embrace your creative product journey with AutoCAD. Learn accurate 2D and 3D drafting, design, and modeling with solids, surfaces, mesh objects, and documentation features.",
         date: "February 6, 2025",
         time: "10:00 AM - 4:00 PM",
-        location: "CCF",
+        location: "Mech CAD Lab (MB019)",
         fee: 499,
         image: autocad_website,
         imageDetails: autocad_details,
@@ -671,7 +671,7 @@ export const workshopData = [
         description: "Calling all tech enthusiasts and innovators! Get ready to showcase your skills and creativity in robotics and IoT. Build the future by learning, creating, and innovating with like-minded peers.",
         date: "February 8, 2025",
         time: "9:00 AM - 12:00 PM",
-        location: "CCF",
+        location: "EEE Software Lab (MB213)",
         fee: 199,
         image: robotics,
         imageDetails: robotics_details,
@@ -684,7 +684,7 @@ export const workshopData = [
         description: "Explore the world of drone technology! Learn how to fly and control drones while gaining practical skills in this rapidly evolving field. Perfect for beginners and enthusiasts alike.",
         date: "February 8, 2025",
         time: "10:00 AM - 2:30 PM",
-        location: "CCF",
+        location: "ECE Workshop (C Block)",
         fee: 499,
         image: drone_website,
         imageDetails: drone,
@@ -697,7 +697,7 @@ export const workshopData = [
         description: "Calling all AI enthusiasts and professionals! We're excited to announce our upcoming workshop on LLM fine-tuning and Edge AI. Take your AI skills to the next level in this rapidly evolving field.",
         date: "February 7, 2025",
         time: "9:00 AM - 4:00 PM",
-        location: "CCF",
+        location: "Systems Lab (DB02 - B Block)",
         fee: 399,
         image:  llm_website,
         imageDetails: llm_details,
@@ -710,7 +710,7 @@ export const workshopData = [
         description: "Master the fundamentals of rocket design and simulation with the Open Rocket Simulator. Learn to create, test, and optimize rocket models virtually, enhancing your engineering and analytical skills.",
         date: "February 7, 2025",
         time: "9:00 AM - 12:00 PM",
-        location: "CCF",
+        location: "Mech Seminar Hall (MB220)",
         fee: 199,
         image: open_rocket_website,
         imageDetails: open_rocket_details,
@@ -723,7 +723,7 @@ export const workshopData = [
         description: "Embark on a journey into the world of creativity and innovation with our hands-on UI/UX Design Workshop. Learn key design principles, prototyping techniques, and essential tools to turn your ideas into reality.",
         date: "February 7, 2025",
         time: "9:00 AM - 1:00 PM",
-        location: "CCF",
+        location: "EEE Software Lab (MB213)",
         fee: "Free",
         image: uiux_website,
         imageDetails: ui_ux_details,
@@ -736,7 +736,7 @@ export const workshopData = [
         description: "Turn your passion for gaming into the power of creation. Step into the exciting world of game development to dream, design, code, and build your ideas into reality.",
         date: "February 8, 2025",
         time: "10:00 AM - 4:00 PM",
-        location: "CCF",
+        location: "Mech Seminar Hall (MB220)",
         fee: "Free",
         image: game_development_website,
         imageDetails: game_development_details,
@@ -749,7 +749,7 @@ export const workshopData = [
         description: "Take your design and modeling skills to the next level with our Revit Workshop as part of Xplore. Learn to bring your ideas to life using Revit.",
         date: "February 8, 2025",
         time: "10:00 AM - 4:00 PM",
-        location: "CCF",
+        location: "Civil CAD Lab (MB120)",
         fee: 499,
         image: revit_website,
         imageDetails: revit,
@@ -762,7 +762,7 @@ export const workshopData = [
         description: "Join us for an immersive STAAD workshop where we’ll explore powerful techniques in structural modeling, analysis, and design.",
         date: "February 7, 2025",
         time: "10:00 AM - 4:00 PM",
-        location: "CCF",
+        location: "Civil CAD Lab (MB120)",
         fee: 499,
         image: staad_website,
         imageDetails: staad,
@@ -775,7 +775,7 @@ export const workshopData = [
         description: "Whether you’re a beginner or looking to refine your expertise, this hands-on workshop will guide you through the essentials of 3D modeling, assembly design, and product development in SolidWorks.",
         date: "February 7, 2025",
         time: "10:00 AM - 12:00 PM",
-        location: "CCF",
+        location: "Mech CAD Lab (MB019)",
         fee: 499,
         image: solid_website,
         imageDetails: solid,
@@ -788,7 +788,7 @@ export const workshopData = [
         description: "Calling all space enthusiasts and photography buffs! Get ready to showcase your astronomical photography skills and capture the beauty of the universe.",
         date: "February 8, 2025",
         time: "10:00 AM - 12:30 PM",
-        location: "CCF",
+        location: "First Year Block (CA03)",
         fee: 199,
         image: astro_website,
         imageDetails: astrophotography_details,

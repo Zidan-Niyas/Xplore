@@ -120,7 +120,7 @@ const WorkshopDetails = () => {
                         <h2 className="text-2xl font-bold mb-4">{item.name} Details</h2>
                         <p><strong>Date:</strong> {item.date}</p>
                         <p><strong>Time:</strong> {item.time}</p>
-                        <p><strong>Location:</strong> Update soon..</p>
+                        <p><strong>Location:</strong> {item.location}</p>
                         {item.fee && <p><strong>Fee:</strong> {typeof item.fee === 'number' ? `₹${item.fee}` : item.fee}</p>}
                         <button 
                             className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
