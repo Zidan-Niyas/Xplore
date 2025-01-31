@@ -254,7 +254,7 @@ export const competitionData = [
     {
         id: 1011,
         name: "IDEA PITCHING",
-        description: "Rev up your creativity and take the wheel in the IDEA PITCHING challenge! Here's your chance to present groundbreaking innovations that could shape the future of automobiles. Whether it's smarter technology, eco-friendly solutions, or futuristic designs, bring your bold ideas to life and pitch them to the world. Get ready to accelerate your imagination and make your mark in the automotive revolution!",
+        description: "Rev up your creativity and take the wheel in the IDEA PITCHING challenge! Here’s your chance to present groundbreaking innovations that could shape the future solving the daily hiccups of the general public. Whether it’s smarter technology, eco-friendly solutions, or futuristic designs, bring your bold ideas to life and pitch them to the world. Get ready to accelerate your imagination and make your mark in the global futuristic revolution!",
         date: "2025-02-07",
         time: "13:00",
         location: "Update soon..",
