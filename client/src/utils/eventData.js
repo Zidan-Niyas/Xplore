@@ -510,7 +510,7 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://tiqr.events/e/C-PROGRAMMING-CODING-COMPETITON-825",
+        registerLink: "https://tiqr.events/e/GEO-TECHNICAL-DEBATE-COMPETITION-838",
         prizePool: "5,000/-"
     }
 ]
