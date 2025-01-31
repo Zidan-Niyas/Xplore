@@ -30,6 +30,9 @@ const Events = () => {
       case "technical":
         setFilteredEvents(eventData.filter((event) => event.category === "technical"))
         break
+      case "general-event":
+        setFilteredEvents(eventData.filter((event) => event.category == "general-event"))
+        break
       default:
         setFilteredEvents(eventData)
     }
@@ -69,7 +72,7 @@ const Events = () => {
       setLoading(true)
       setTimeout(() => {
         setLoading(false)
-      }, 3000)
+      }, 2500)
     }
   }
 
@@ -103,6 +106,7 @@ const Events = () => {
         <EventButton type="technical" label="Technical Events" />
         <EventButton type="cultural" label="Cultural Events" />
         <EventButton type="competition" label="Competitions" />
+        <EventButton type="general-event" label="General events" />
       </div>
 
       <div className="w-full h-fit min-h-screen flex flex-wrap sm:flex-col md:flex-row sm:items-center md:items-start justify-center gap-8 p-8 md:gap-16 md:px-16 lg:px-32 bg-cy">
@@ -116,14 +120,18 @@ const Events = () => {
             viewport={{ once: true, amount: 0.2 }}
             variants={cardVariants}
           >
-            {event.category === "cultural" || event.category === "pre-event" ? (
+            {/* {event.category === "cultural" || event.category === "pre-event" ? (
               <CulturalCard eventDetails={event} />
             ) : (event.category === "competition" ? (
               <SingleEventGrid event={event} />
             ) : (
               <EventGrid event={event} />
-            ))}
-
+            ))} */}
+            {event.category === "cultural" && <CulturalCard eventDetails={event} />}
+            {event.category === "pre-event" && <EventGrid event={event} />}
+            {event.category === "competition" && <SingleEventGrid event={event} />}
+            {event.category === "technical" && <EventGrid event={event} />}
+            {event.category === "general-event" && <SingleEventGrid event={event} />}
           
           </motion.div>
         ))}
