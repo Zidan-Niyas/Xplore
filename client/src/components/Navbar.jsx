@@ -65,7 +65,7 @@ const Navbar = () => {
       <nav className={`${isNavOpen ?"" : "backdrop-blur-lg"} border-solid border-[.5px] rounded-bl-2xl rounded-br-2xl border-grey-500 text-white fixed sm:mt-[54px] md:mt-[57px] mt-[50px] left-0 w-full px-8 z-10 flex items-center md:gap-52 justify-between mt-2 z-50`}>
 
         <div className="logo">
-          <img src='./xplore_logo.png' alt="Xplore 24 Logo" className="w-16 h-12" onClick={() => navigate("/")}/>
+          <img src='/xplore_logo.png' alt="Xplore 24 Logo" className="w-16 h-12" onClick={() => navigate("/")}/>
         </div>
           <section className="MOBILE-MENU flex lg:hidden z-50">
             <div
