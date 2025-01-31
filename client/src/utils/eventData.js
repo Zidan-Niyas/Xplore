@@ -1438,34 +1438,34 @@ export const preEventData = [
 
 
   export const generalEventsData = [
-    {
-        id: 4001,
-        name: "Galactic Quest",
-        description: "Embark on an interstellar adventure! Step into a cosmic realm where teams of 3 must solve mind-bending puzzles, decode mysterious signals, and uncover hidden secrets to save Earth from impending doom. Experience the thrill of teamwork, strategy, and discovery in this unforgettable space-themed challenge. (SPOT REGISTRATION AVAILABLE AT THE VENUE)",
-        date: "2025-02-06",
-        time: "10:00 - 16:00",
-        location: "First Year Block (CA04)",
-        category: "general-event",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/galacticquest.jpg?alt=media&token=beb6d651-3845-49f3-a94d-c3cc371bb0d0"
-        ],        fee: "50",
-        registerLink: "https://tiqr.events/e/Galactic-Quest-864",
-        contacts: [{ name: "Arjun", phone: "8075474977" }]
-    },
-    {
-        id: 4002,
-        name: "Geo-Connect Pictionary",
-        description: "Get ready to sketch, guess, and laugh your way through the ultimate geotechnical showdown! Geo-Pictionary combines the thrill of creativity with the science of the earth. From simple soils to complex foundations, watch teams bring geotechnical concepts to life through artistic strokes and wild guesses.",
-        date: "2025-02-07",
-        time: "13:00 - 14:00",
-        location: "MB124",
-        category: "general-event",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geoconnectPictionary.png?alt=media&token=2eb51ad1-a67c-49c3-a9f8-2ce6048ab9ca"
-        ],        fee: "Free",
-        registerLink: "https://tiqr.events/e/Geo-Connect-Pictionary-862",
-        contacts: [{ name: "Huda", phone: "9995480079" }]
-    },
+    // {
+    //     id: 4001,
+    //     name: "Galactic Quest",
+    //     description: "Embark on an interstellar adventure! Step into a cosmic realm where teams of 3 must solve mind-bending puzzles, decode mysterious signals, and uncover hidden secrets to save Earth from impending doom. Experience the thrill of teamwork, strategy, and discovery in this unforgettable space-themed challenge. (SPOT REGISTRATION AVAILABLE AT THE VENUE)",
+    //     date: "2025-02-06",
+    //     time: "10:00 - 16:00",
+    //     location: "First Year Block (CA04)",
+    //     category: "general-event",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/galacticquest.jpg?alt=media&token=beb6d651-3845-49f3-a94d-c3cc371bb0d0"
+    //     ],        fee: "50",
+    //     registerLink: "https://tiqr.events/e/Galactic-Quest-864",
+    //     contacts: [{ name: "Arjun", phone: "8075474977" }]
+    // },
+    // {
+    //     id: 4002,
+    //     name: "Geo-Connect Pictionary",
+    //     description: "Get ready to sketch, guess, and laugh your way through the ultimate geotechnical showdown! Geo-Pictionary combines the thrill of creativity with the science of the earth. From simple soils to complex foundations, watch teams bring geotechnical concepts to life through artistic strokes and wild guesses.",
+    //     date: "2025-02-07",
+    //     time: "13:00 - 14:00",
+    //     location: "MB124",
+    //     category: "general-event",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/geoconnectPictionary.png?alt=media&token=2eb51ad1-a67c-49c3-a9f8-2ce6048ab9ca"
+    //     ],        fee: "Free",
+    //     registerLink: "https://tiqr.events/e/Geo-Connect-Pictionary-862",
+    //     contacts: [{ name: "Huda", phone: "9995480079" }]
+    // },
     // {
     //     id: 4003,
     //     name: "Project Expo",
@@ -1483,75 +1483,75 @@ export const preEventData = [
     //         { name: "Aishwarya Unnikrishnan", phone: "8714774805" }
     //     ]
     // },
-    {
-        id: 4004,
-        name: "Panel Discussion",
-        description: "Space Connect: 'Students Round Table for Space' brings together student leaders from Kerala’s active space communities and representatives of UL Space Club, a registered ISRO space tutor. This panel will explore opportunities and challenges in the space sector, fostering collaboration among student groups, institutions, and mentors to strengthen Kerala's space ecosystem.",
-        date: "2025-02-06",
-        time: "13:30 - 16:00",
-        location: "ECE Seminar Hall (CB16)",
-        category: "general-event",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/paneldiscussion.png?alt=media&token=d4a1add0-758b-4095-8545-0eb073bb3436"
-        ],
-        fee: "Free",
-        registerLink: "https://tiqr.events/e/Panel-Discussion-867",
-        contacts: [{ name: "Adhithya P M", phone: "8075109036" }]
-    },
-    {
-        id: 4005,
-        name: "XPLORE ARENA",
-        description: "Unleash your competitive spirit and dive into a challenge like no other! Xplore Arena is here to test your wits, strategy, and teamwork in the most exciting way. Get ready to engage in thrilling games, conquer challenges, and create unforgettable moments! Whether you’re in it to win or just for fun, this is your chance to shine.",
-        date: "2025-02-08",
-        time: "13:00 - 15:00",
-        location: "CSE Seminar Hall (DB02)",
-        category: "general-event",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/xplorearena.jpg?alt=media&token=7074365c-17c5-43b3-ad3e-5cf64fa240ef"
-        ],        
-        fee: "10",
-        registerLink: "https://tiqr.events/e/XPLORE-ARENA-866",
-        contacts: [
-            { name: "Amaya", phone: "8606739447" },
-            { name: "Abhaya", phone: "8281257674" }
-        ]
-    },
-    {
-        id: 4006,
-        name: "Future Ignite",
-        description: "Get ready to unleash your creativity and innovation! This idea-pitching competition for 9th to 12th-grade students will challenge you to think big and present bold ideas. With two thrilling rounds—group discussions and presentations—this event will spark your potential and celebrate your brilliance with exciting prizes.",
-        date: "2025-02-07",
-        time: "09:30 - 12:30",
-        location: "MB224",
-        category: "general-event",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/futureIgnite.png?alt=media&token=f70ad229-5de4-49d3-9cbf-282ccb456258"
-        ],        
-        fee: "50",
-        registerLink: "https://tiqr.events/e/Future-Ignite-865",
-        contacts: [
-            { name: "Dhanupriya K", phone: "8139058681" },
-            { name: "Mareena Jolly", phone: "7510384177" }
-        ]
-    },
-    {
-        id: 4007,
-        name: "MINESWEEPER CHALLENGE",
-        description: "Think you’ve got what it takes to master the battlefield of logic? Dive into the Minesweeper Challenge, where every move matters. Choose your level, race against the clock, and uncover the path to victory while dodging virtual mines. Are you ready to sweep the competition? (SPOT REGISTRATION AVAILABLE AT THE VENUE)",
-        date: "2025-02-07",
-        time: "TBD",
-        location: "Main Block",
-        category: "general-event",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/minesweeper.jpg?alt=media&token=f54dbb24-bc72-4071-a714-94ac13ac39ff"
-        ],        
-        fee: "TBD",
-        registerLink: "https://tiqr.events/e/MINESWEEPER-CHALLENGE-863",
-        contacts: [
-            { name: "Govind K A", phone: "7736802194" },
-            { name: "Abhiram C", phone: "9446648723" }
-        ]
-    }
+    // {
+    //     id: 4004,
+    //     name: "Panel Discussion",
+    //     description: "Space Connect: 'Students Round Table for Space' brings together student leaders from Kerala’s active space communities and representatives of UL Space Club, a registered ISRO space tutor. This panel will explore opportunities and challenges in the space sector, fostering collaboration among student groups, institutions, and mentors to strengthen Kerala's space ecosystem.",
+    //     date: "2025-02-06",
+    //     time: "13:30 - 16:00",
+    //     location: "ECE Seminar Hall (CB16)",
+    //     category: "general-event",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/paneldiscussion.png?alt=media&token=d4a1add0-758b-4095-8545-0eb073bb3436"
+    //     ],
+    //     fee: "Free",
+    //     registerLink: "https://tiqr.events/e/Panel-Discussion-867",
+    //     contacts: [{ name: "Adhithya P M", phone: "8075109036" }]
+    // },
+    // {
+    //     id: 4005,
+    //     name: "XPLORE ARENA",
+    //     description: "Unleash your competitive spirit and dive into a challenge like no other! Xplore Arena is here to test your wits, strategy, and teamwork in the most exciting way. Get ready to engage in thrilling games, conquer challenges, and create unforgettable moments! Whether you’re in it to win or just for fun, this is your chance to shine.",
+    //     date: "2025-02-08",
+    //     time: "13:00 - 15:00",
+    //     location: "CSE Seminar Hall (DB02)",
+    //     category: "general-event",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/xplorearena.jpg?alt=media&token=7074365c-17c5-43b3-ad3e-5cf64fa240ef"
+    //     ],        
+    //     fee: "10",
+    //     registerLink: "https://tiqr.events/e/XPLORE-ARENA-866",
+    //     contacts: [
+    //         { name: "Amaya", phone: "8606739447" },
+    //         { name: "Abhaya", phone: "8281257674" }
+    //     ]
+    // },
+    // {
+    //     id: 4006,
+    //     name: "Future Ignite",
+    //     description: "Get ready to unleash your creativity and innovation! This idea-pitching competition for 9th to 12th-grade students will challenge you to think big and present bold ideas. With two thrilling rounds—group discussions and presentations—this event will spark your potential and celebrate your brilliance with exciting prizes.",
+    //     date: "2025-02-07",
+    //     time: "09:30 - 12:30",
+    //     location: "MB224",
+    //     category: "general-event",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/futureIgnite.png?alt=media&token=f70ad229-5de4-49d3-9cbf-282ccb456258"
+    //     ],        
+    //     fee: "50",
+    //     registerLink: "https://tiqr.events/e/Future-Ignite-865",
+    //     contacts: [
+    //         { name: "Dhanupriya K", phone: "8139058681" },
+    //         { name: "Mareena Jolly", phone: "7510384177" }
+    //     ]
+    // },
+    // {
+    //     id: 4007,
+    //     name: "MINESWEEPER CHALLENGE",
+    //     description: "Think you’ve got what it takes to master the battlefield of logic? Dive into the Minesweeper Challenge, where every move matters. Choose your level, race against the clock, and uncover the path to victory while dodging virtual mines. Are you ready to sweep the competition? (SPOT REGISTRATION AVAILABLE AT THE VENUE)",
+    //     date: "2025-02-07",
+    //     time: "TBD",
+    //     location: "Main Block",
+    //     category: "general-event",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/minesweeper.jpg?alt=media&token=f54dbb24-bc72-4071-a714-94ac13ac39ff"
+    //     ],        
+    //     fee: "TBD",
+    //     registerLink: "https://tiqr.events/e/MINESWEEPER-CHALLENGE-863",
+    //     contacts: [
+    //         { name: "Govind K A", phone: "7736802194" },
+    //         { name: "Abhiram C", phone: "9446648723" }
+    //     ]
+    // }
 ];
 
 
