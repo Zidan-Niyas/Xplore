@@ -1449,7 +1449,7 @@ export const preEventData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/galacticquest.jpg?alt=media&token=beb6d651-3845-49f3-a94d-c3cc371bb0d0"
         ],        fee: "50",
-        registerLink: "https://xplore24.com/events/competition",
+        registerLink: "https://tiqr.events/e/Galactic-Quest-864",
         contacts: [{ name: "Arjun", phone: "8075474977" }]
     },
     {
@@ -1466,23 +1466,23 @@ export const preEventData = [
         registerLink: "https://tiqr.events/e/Geo-Connect-Pictionary-862",
         contacts: [{ name: "Huda", phone: "9995480079" }]
     },
-    {
-        id: 4003,
-        name: "Project Expo",
-        description: "We invite students, researchers, and innovators to submit their innovative projects for the National Level Tech Fest, Xplore '24 Project Expo. This expo will showcase projects from various categories, including AI, IoT, Robotics, Cybersecurity, Hardware Innovations, and more.",
-        date: "TBD",
-        time: "TBD",
-        location: "Main Block",
-        category: "general-event",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/projectExpo.png?alt=media&token=cc94ac4b-0944-42cb-8605-d8085e3f5d7a"
-        ],        fee: "TBD",
-        registerLink: "https://xplore24.com/events/competition",
-        contacts: [
-            { name: "Niranjana Madhusoodhanan", phone: "9447480736" },
-            { name: "Aishwarya Unnikrishnan", phone: "8714774805" }
-        ]
-    },
+    // {
+    //     id: 4003,
+    //     name: "Project Expo",
+    //     description: "We invite students, researchers, and innovators to submit their innovative projects for the National Level Tech Fest, Xplore '24 Project Expo. This expo will showcase projects from various categories, including AI, IoT, Robotics, Cybersecurity, Hardware Innovations, and more.",
+    //     date: "TBD",
+    //     time: "TBD",
+    //     location: "Main Block",
+    //     category: "general-event",
+    //     images: [
+    //         "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/projectExpo.png?alt=media&token=cc94ac4b-0944-42cb-8605-d8085e3f5d7a"
+    //     ],        fee: "TBD",
+    //     registerLink: "https://xplore24.com/events/competition",
+    //     contacts: [
+    //         { name: "Niranjana Madhusoodhanan", phone: "9447480736" },
+    //         { name: "Aishwarya Unnikrishnan", phone: "8714774805" }
+    //     ]
+    // },
     {
         id: 4004,
         name: "Panel Discussion",
@@ -1495,7 +1495,7 @@ export const preEventData = [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/paneldiscussion.png?alt=media&token=d4a1add0-758b-4095-8545-0eb073bb3436"
         ],
         fee: "Free",
-        registerLink: "https://xplore24.com/events/competition",
+        registerLink: "https://tiqr.events/e/Panel-Discussion-867",
         contacts: [{ name: "Adhithya P M", phone: "8075109036" }]
     },
     {
@@ -1510,7 +1510,7 @@ export const preEventData = [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/xplorearena.jpg?alt=media&token=7074365c-17c5-43b3-ad3e-5cf64fa240ef"
         ],        
         fee: "10",
-        registerLink: "https://xplore24.com/events/competition",
+        registerLink: "https://tiqr.events/e/XPLORE-ARENA-866",
         contacts: [
             { name: "Amaya", phone: "8606739447" },
             { name: "Abhaya", phone: "8281257674" }
@@ -1528,7 +1528,7 @@ export const preEventData = [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/futureIgnite.png?alt=media&token=f70ad229-5de4-49d3-9cbf-282ccb456258"
         ],        
         fee: "50",
-        registerLink: "https://xplore24.com/events/competition",
+        registerLink: "https://tiqr.events/e/Future-Ignite-865",
         contacts: [
             { name: "Dhanupriya K", phone: "8139058681" },
             { name: "Mareena Jolly", phone: "7510384177" }
@@ -1537,7 +1537,7 @@ export const preEventData = [
     {
         id: 4007,
         name: "MINESWEEPER CHALLENGE",
-        description: "Think you’ve got what it takes to master the battlefield of logic? Dive into the Minesweeper Challenge, where every move matters. Choose your level, race against the clock, and uncover the path to victory while dodging virtual mines. Are you ready to sweep the competition?",
+        description: "Think you’ve got what it takes to master the battlefield of logic? Dive into the Minesweeper Challenge, where every move matters. Choose your level, race against the clock, and uncover the path to victory while dodging virtual mines. Are you ready to sweep the competition? (SPOT REGISTRATION AVAILABLE AT THE VENUE)",
         date: "2025-02-07",
         time: "TBD",
         location: "Main Block",
@@ -1546,7 +1546,7 @@ export const preEventData = [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/minesweeper.jpg?alt=media&token=f54dbb24-bc72-4071-a714-94ac13ac39ff"
         ],        
         fee: "TBD",
-        registerLink: "https://xplore24.com/events/competition",
+        registerLink: "https://tiqr.events/e/MINESWEEPER-CHALLENGE-863",
         contacts: [
             { name: "Govind K A", phone: "7736802194" },
             { name: "Abhiram C", phone: "9446648723" }
