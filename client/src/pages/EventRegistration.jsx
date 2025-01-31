@@ -4,6 +4,8 @@ import { IoIosClose } from "react-icons/io";
 import Event from '../components/Event';
 import CulturalCard from '../components/CulturalCard';
 import { useNavigate, useParams } from 'react-router-dom';
+import EventGrid from '../components/EventGrid';
+import SingleEventGrid from '../components/SingleGrid';
 
 const EventRegistration = () => {
   const {category} = useParams();
@@ -45,8 +47,8 @@ const EventRegistration = () => {
             <span className="absolute inset-0 z-[-1] m-auto w-12 h-12 scale-0 rounded-full bg-[rgb(193,163,98)] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[3.8]"></span>
             Workshops
           </button>
-          <button className={`${filter === 'event' ? "text-[#212121] bg-[rgb(193,163,98)] shadow-[0_0px_20px_rgba(193,163,98,0.4)] scale-110 active:scale-100" : "text-[rgb(193,163,98)]  bg-transparent"} group relative overflow-hidden px-10 py-1 text-lg font-semibold rounded-full transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 hover:text-[#212121] shadow-[0_0px_20px_rgba(193,163,98,0.7)] active:scale-100`}
-            onClick={() => handleFilterClick('event')}
+          <button className={`${filter === 'technical' ? "text-[#212121] bg-[rgb(193,163,98)] shadow-[0_0px_20px_rgba(193,163,98,0.4)] scale-110 active:scale-100" : "text-[rgb(193,163,98)]  bg-transparent"} group relative overflow-hidden px-10 py-1 text-lg font-semibold rounded-full transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 hover:text-[#212121] shadow-[0_0px_20px_rgba(193,163,98,0.7)] active:scale-100`}
+            onClick={() => handleFilterClick('technical')}
           >
             <span className="absolute inset-0 z-[-1] m-auto w-12 h-12 scale-0 rounded-full bg-[rgb(193,163,98)] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[2.8]"></span>
             Events
@@ -60,8 +62,14 @@ const EventRegistration = () => {
           <button className={`${filter === 'cultural' ? "text-[#212121] bg-[rgb(193,163,98)] shadow-[0_0px_20px_rgba(193,163,98,0.4)] scale-110 active:scale-100" : "text-[rgb(193,163,98)]  bg-transparent"} group relative overflow-hidden px-10 py-1 text-lg font-semibold rounded-full transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 hover:text-[#212121] shadow-[0_0px_20px_rgba(193,163,98,0.7)] active:scale-100`}
             onClick={() => handleFilterClick('cultural')}
           >
-            <span className="absolute inset-0 z-[-1] m-auto w-12 h-12 scale-0 rounded-full bg-[rgb(193,163,98)] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[2.5]"></span>
+            <span className="absolute inset-0 z-[-1] m-auto w-12 h-12 scale-0 rounded-full bg-[rgb(193,163,98)] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[4.5]"></span>
             Cultural
+          </button>
+          <button className={`${filter === 'competition' ? "text-[#212121] bg-[rgb(193,163,98)] shadow-[0_0px_20px_rgba(193,163,98,0.4)] scale-110 active:scale-100" : "text-[rgb(193,163,98)]  bg-transparent"} group relative overflow-hidden px-10 py-1 text-lg font-semibold rounded-full transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:scale-110 hover:text-[#212121] shadow-[0_0px_20px_rgba(193,163,98,0.7)] active:scale-100`}
+            onClick={() => handleFilterClick('competition')}
+          >
+            <span className="absolute inset-0 z-[-1] m-auto w-12 h-12 scale-0 rounded-full bg-[rgb(193,163,98)] transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[4.5]"></span>
+            Competitions
           </button>
             
           
@@ -96,7 +104,7 @@ const EventRegistration = () => {
           //   <h3 className="text-xl font-semibold text-gray-800">{event.name}</h3>
           //   <p className="text-gray-600">Category: {event.category}</p>
           // </div>
-          (event.category !== 'cultural' && <Event key={event.id} eventDetails={event} type={event.category} />)
+          (event.category === 'workshop' && <Event key={event.id} eventDetails={event} type={event.category} />)
 
           
         ))}
@@ -105,6 +113,24 @@ const EventRegistration = () => {
       <div className="flex flex-row items-center justify-center p-10 gap-10 flex-wrap overflow-auto relative top-32">
         {filteredContent.map(event => (
             (event.category === 'cultural' && (<CulturalCard key={event.id} eventDetails={event} />))
+          ))}
+      </div>
+
+      <div className="flex flex-row items-center justify-center p-10 gap-10 flex-wrap overflow-auto relative">
+        {filteredContent.map(event => (
+            (event.category === 'technical' && (<EventGrid event={event} />))
+          ))}
+      </div>
+
+      <div className="flex flex-row items-center justify-center p-10 gap-10 flex-wrap overflow-auto relative">
+        {filteredContent.map(event => (
+            (event.category === 'talk' && (<SingleEventGrid event={event} />))
+          ))}
+      </div>
+
+      <div className="flex flex-row items-center justify-center p-10 gap-10 flex-wrap overflow-auto relative">
+        {filteredContent.map(event => (
+            (event.category === 'competition' && (<SingleEventGrid event={event} />))
           ))}
       </div>
     </div>

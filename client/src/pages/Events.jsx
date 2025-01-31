@@ -28,7 +28,7 @@ const Events = () => {
         setFilteredEvents(competitionData)
         break
       case "technical":
-        setFilteredEvents(eventData.filter((event) => event.category === "event"))
+        setFilteredEvents(eventData.filter((event) => event.category === "technical"))
         break
       default:
         setFilteredEvents(eventData)
@@ -99,7 +99,7 @@ const Events = () => {
       ></animated.section>
 
       <div className="flex flex-wrap justify-center space-x-2 sm:space-x-4 my-8 gap-4">
-        {/*<EventButton type="pre-event" label="Pre-Events" />*/}
+        {/* <EventButton type="pre-event" label="Pre-Events" /> */}
         <EventButton type="technical" label="Technical Events" />
         <EventButton type="cultural" label="Cultural Events" />
         <EventButton type="competition" label="Competitions" />
@@ -109,7 +109,7 @@ const Events = () => {
         {filteredEvents.map((event, index) => (
           <motion.div
             key={event.id}
-            className={`w-full ${event.category !== "event" ? "lg:w-1/4" : ""} flex-shrink-0 flex justify-center items-center `}
+            className={`w-full ${event.category !== "technical" ? (event.category === 'cultural' ? "w-1/4" : "w-ful") : "w-full"}  flex flex-col justify-center items-center `}
             custom={index}
             initial="hidden"
             whileInView="visible"
@@ -118,11 +118,13 @@ const Events = () => {
           >
             {event.category === "cultural" || event.category === "pre-event" ? (
               <CulturalCard eventDetails={event} />
-            ) : eventType === "competition" ? (
+            ) : (event.category === "competition" ? (
               <SingleEventGrid event={event} />
             ) : (
               <EventGrid event={event} />
-            )}
+            ))}
+
+          
           </motion.div>
         ))}
       </div>
