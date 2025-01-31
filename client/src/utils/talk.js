@@ -15,7 +15,7 @@ const talkData = [
         ],
         rules: null,
         category: "talk",
-        registerLink: "hhttps://tiqr.events/e/EV-Technologies-850"
+        registerLink: "https://tiqr.events/e/EV-Technologies-850"
     },
     {
         id: 3006,
