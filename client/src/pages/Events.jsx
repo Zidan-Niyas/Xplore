@@ -109,7 +109,7 @@ const Events = () => {
         {filteredEvents.map((event, index) => (
           <motion.div
             key={event.id}
-            className={`w-full ${event.category !== "technical" ? (event.category === 'cultural' ? "w-1/4" : "w-ful") : "w-full"}  flex flex-col justify-center items-center `}
+            className={`${event.category !== "technical" ? (event.category === 'cultural' ? "w-1/4" : "w-full") : "w-full"}  flex flex-col justify-center items-center `}
             custom={index}
             initial="hidden"
             whileInView="visible"
