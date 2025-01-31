@@ -77,7 +77,7 @@ export const competitionData = [
         description: "A thrilling vocabulary-building challenge that tests participants' linguistic prowess and creativity. Includes 3 rounds where the preliminary would be based on spell checking, scrambled words and word sudoku. Individual Item.",
         date: "2025-02-06",
         time: "09:00",
-        location: "Update soon..",
+        location: "MB301",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-20.jpg?alt=media&token=59e0b8c5-f247-426d-95d1-e1f0e4ea4def"
         ],
@@ -97,7 +97,7 @@ export const competitionData = [
         description: "An exciting auction-based game where strategy meets adventure, as participants outbid each other to achieve their end goal of flying plane with the bid won components.",
         date: "2025-02-06",
         time: "15:00",
-        location: "Update soon..",
+        location: "Open Air Auditorium",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4a549838-474d-412b-a9e3-ffd8bb51231d.jpeg?alt=media&token=e8692df2-ded3-4992-b4cb-602baad008d0"
         ],
@@ -117,7 +117,7 @@ export const competitionData = [
         description: "Geotechnical quiz is an individual competition testing knowledge in soil mechanics, foundation design and earthen materials.",
         date: "2025-02-06",
         time: "10:00",
-        location: "Update soon..",
+        location: "Civil Seminar Hall (AB05)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/9.webp?alt=media&token=b2bc8898-d0af-48ce-87d5-4d26e5ab54eb"
         ],
@@ -157,7 +157,7 @@ export const competitionData = [
         description: "Unleash the magic of your lens and unveil the untamed beauty of nature's grand designs! From awe-inspiring geological wonders to the delicate intricacies of soil's unseen structures, capture the perfect fusion of art and geotechnical brilliance. TerraLens invites you to tell the earth's untold stories through your vision—where creativity collides with the raw essence of nature's engineering marvels!",
         date: "2025-02-06",
         time: "09:00",
-        location: "Update soon..",
+        location: "Online",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/1.webp?alt=media&token=dd30ac19-316d-4e88-8dc9-9ed9eb1aedd9"
         ],
@@ -214,10 +214,10 @@ export const competitionData = [
     {
         id: 1009,
         name: "BIT-BANG (RELAY CODING FOR GIRLS ONLY)",
-        description: "Get ready to unleash your inner coding mastermind! This relay competition will put your programming skills to the test, navigating the most complex, innovative, and thrilling coding challenges. Join forces with your team to tackle the bit-bang gauntlet, where strategy, speed, and skill will be pushed to the limit. Are you ready to ignite your code and claim victory?",
+        description: "Get ready to unleash your inner coding mastermind! This relay competition will put your programming skills to the test, navigating the most complex, innovative, and thrilling coding challenges. Join forces with your team to tackle the bit-bang gauntlet, where strategy, speed, and skill will be pushed to the limit. Are you ready to ignite your code and claim victory? (Registration : 100 per team)",
         date: "2025-02-06",
         time: "13:30",
-        location: "Update soon..",
+        location: "Systems Lab (DB02)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/3.webp?alt=media&token=f6feafdb-3f61-43ba-b304-6e9e4591d953"
         ],
@@ -237,7 +237,7 @@ export const competitionData = [
         description: "An entrepreneurial showdown where participants present unusual product ideas to captivate the audience and judges with unusual Products.",
         date: "2025-02-07",
         time: "14:00",
-        location: "Update soon..",
+        location: "MB223",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pitch.jpeg?alt=media&token=5563d55a-037a-4e3f-b855-3b9f79fa4663"
         ],
@@ -297,7 +297,7 @@ export const competitionData = [
         description: "Test your soldering skills in this hands-on competition.",
         date: "2025-02-07",
         time: "10:00",
-        location: "Update soon..",
+        location: "Electronics Workshop (CB05)",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-13.jpg?alt=media&token=39304e24-67cc-4848-b658-7b6186be9089"
         ],
@@ -377,7 +377,7 @@ export const competitionData = [
         description: "Rev up your knowledge and get ready for the Auto Quiz Challenge! Test your automotive expertise, race through exciting questions, and see if you have what it takes to be crowned the ultimate car enthusiast. Start your engines—it's time to quiz your way to victory!",
         date: "2025-02-08",
         time: "13:30",
-        location: "Update soon..",
+        location: "MB222",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-05.webp?alt=media&token=7cdbe209-5e6f-4e11-b987-ba13ae29547c"
         ],
@@ -499,7 +499,7 @@ export const competitionData = [
         description: "Enter the arena of intellect and persuasion with Geo-Debate! Teams will clash over relevant geotechnical topics, defending their stance with logic, expertise, and passion. It’s a battle of ideas where the strongest arguments and sharpest minds will triumph. Will your team take the crown in this riveting clash of geotechnical brilliance?",
         date: "February 8, 2025",
         time: "1:00 PM - 2:00 PM",
-        location: "Update soon..",
+        location: "MB124",
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/7.webp?alt=media&token=e1ca2d72-3a09-4091-a0f5-99d724a05a14"
         ],
