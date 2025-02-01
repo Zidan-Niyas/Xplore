@@ -85,19 +85,21 @@ const WorkshopDetails = () => {
                     <p className="text-lg md:text-2xl text-left text-gray-300 mb-4 font-semibold">{item.description}</p>
                     
                     <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
-                    <button className="px-4 w-48 py-3 border-2 border-cyan-600 text-white rounded-full hover:bg-cyan-600 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-cyan-600/50" onClick={() => {
-                        toast.info("Registration has not started yet. Please come back later.", {
-                            position: "top-center",
-                            autoClose: 3000,
-                            hideProgressBar: true,
-                            closeOnClick: true,
-                            pauseOnHover: true,
-                            draggable: true,
-                            progress: undefined,
-                        });
-                    }}>
-                        Register for GCEKians
-                    </button>
+                    {item.fee !== "Free" && (
+                        <button className="px-4 w-48 py-3 border-2 border-cyan-600 text-white rounded-full hover:bg-cyan-600 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-cyan-600/50" onClick={() => {
+                            toast.info("Registration has not started yet. Please come back later.", {
+                                position: "top-center",
+                                autoClose: 3000,
+                                hideProgressBar: true,
+                                closeOnClick: true,
+                                pauseOnHover: true,
+                                draggable: true,
+                                progress: undefined,
+                            });
+                        }}>
+                            Register for GCEKians
+                        </button>
+                        )}
 
                         <button className="px-4 py-3 w-48 border-2 border-purple-600 text-white rounded-full hover:bg-purple-600 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-purple-600/50" onClick={handleRegister}>
                             Register Now
