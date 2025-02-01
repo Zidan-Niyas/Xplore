@@ -10,6 +10,7 @@ const WorkshopDetails = () => {
     const { eventId, type } = useParams();
     const [showDetails, setShowDetails] = useState(false);
 
+
     // Determine the data source based on the type (event or workshop)
     const data = type === "event" ? eventData : workshopData;
 
@@ -74,7 +75,7 @@ const WorkshopDetails = () => {
             ></div>
 
             {/* Workshop Content */}
-            <div className="flex flex-col md:flex-row  sm:justify-center items-center max-w-4xl px-8 md:px-0 pt-8 md:pt-10 w-full flex-grow">
+            <div className="flex flex-col md:flex-row md:gap-20  sm:justify-center items-center max-w-4xl px-8 md:px-0 pt-8 md:pt-10 w-full flex-grow">
                 {/* Left Content */}
                 <animated.div
                     style={contentAnimation}
@@ -84,7 +85,21 @@ const WorkshopDetails = () => {
                     <p className="text-lg md:text-2xl text-left text-gray-300 mb-4 font-semibold">{item.description}</p>
                     
                     <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
-                        <button className="px-8 py-3 border-2 border-purple-600 text-white rounded-full hover:bg-purple-600 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-purple-600/50" onClick={handleRegister}>
+                    <button className="px-4 w-48 py-3 border-2 border-cyan-600 text-white rounded-full hover:bg-cyan-600 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-cyan-600/50" onClick={() => {
+                        toast.info("Registration has not started yet. Please come back later.", {
+                            position: "top-center",
+                            autoClose: 3000,
+                            hideProgressBar: true,
+                            closeOnClick: true,
+                            pauseOnHover: true,
+                            draggable: true,
+                            progress: undefined,
+                        });
+                    }}>
+                        Register for GCEKians
+                    </button>
+
+                        <button className="px-4 py-3 w-48 border-2 border-purple-600 text-white rounded-full hover:bg-purple-600 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-purple-600/50" onClick={handleRegister}>
                             Register Now
                         </button>
                         <button className="px-8 py-3 border-2 border-blue-500 text-white rounded-full hover:bg-blue-500 hover:text-white transition-all transform hover:scale-105 focus:outline-none bg-transparent shadow-lg shadow-blue-500/50" onClick={toggleDetails}>
