@@ -1549,7 +1549,7 @@ export const preEventData = [
         images: [
             "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/projectExpo.png?alt=media&token=cc94ac4b-0944-42cb-8605-d8085e3f5d7a"
         ],        fee: "TBD",
-        registerLink: "https://xplore24.com/events/competition",
+        registerLink: "https://forms.gle/epJCZUewXEu4aQteA",
         contacts: [
             { name: "Niranjana Madhusoodhanan", phone: "9447480736" },
             { name: "Aishwarya Unnikrishnan", phone: "8714774805" }
