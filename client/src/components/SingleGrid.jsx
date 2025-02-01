@@ -1,6 +1,7 @@
 import React from "react"
 import { RainbowButton } from "./ui/rainbow-button.jsx"
-
+import { ShinyButton } from "./ui/shiny-button.jsx"
+import {toast, ToastContainer} from 'react-toastify';
 export default function SingleEventGrid({ event }) {
   if (!event) return null
 
@@ -25,11 +26,32 @@ export default function SingleEventGrid({ event }) {
         )}
 
         {event.registerLink && (
-          <RainbowButton className="w-full mt-2" onClick={() => window.open(event.registerLink, "_blank")}>
-            Register
-          </RainbowButton>
+          <div className="flex flex-col gap-4">
+              <RainbowButton className="w-full mt-2" onClick={() => window.open(event.registerLink, "_blank")}>
+              Register
+            </RainbowButton>
+              {/* For talks  */}
+              {event.fee !== "Free" && (
+                <ShinyButton className="w-full bg-slate-200" 
+                  onClick={() => {
+                    toast.info("Registration is not open yet. Please check back later.", {
+                      position: "top-center",
+                      autoClose: 3000,
+                      hideProgressBar: false,
+                      closeOnClick: true,
+                      pauseOnHover: true,
+                      draggable: true,
+                      progress: undefined,
+                    })
+                  }}
+                >
+                Register for GCEKians
+              </ShinyButton>
+              )}
+          </div>
         )}
       </div>
+      <ToastContainer />
     </div>
   )
 }
