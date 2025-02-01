@@ -5,7 +5,7 @@ import { FramerModal, ModalContent } from "./ui/Modal.jsx";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 const CulturalCard = ({eventDetails}) => {
     
-    const {name, description, date, time, location, prizePool, fee, image, contacts, rules, registerLink} = eventDetails;
+    const {name, description, date, time, location, prizePool, fee, images, contacts, rules, registerLink} = eventDetails;
 
     
     const [modalOpen, setModalOpen] = useState(false);
@@ -19,7 +19,7 @@ const CulturalCard = ({eventDetails}) => {
   return (
     <div className=" bg-slate-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-72 h-[42rem] flex flex-col">
         
-        <LazyLoadImage className="rounded-t-lg w-full h-64 w-full" loading='lazy' src={image} alt="" effect="blur" />
+        <LazyLoadImage className="rounded-t-lg w-full h-64 w-full" loading='lazy' src={images[0]} alt="" effect="blur" />
         
         <div className="p-5 flex flex-col justify-between flex-1">
             <div>

@@ -6,13 +6,18 @@ import About from "./pages/About";
 // import ContactUs from "./pages/ContactUs";
 import "./styles/globals.css";
 import AppRoutes from "./routes/AppRoutes";
+import { EventProvider } from "../context/EventContext.jsx";
 
 
 const App = () => {
+  
+  
   return (
-    <div className="bg-black text-white ">
-     <AppRoutes />
-    </div>
+    <EventProvider>
+      <div className="bg-black text-white ">
+        <AppRoutes />
+        </div>
+    </EventProvider>
   );
 };
 
