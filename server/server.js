@@ -5,6 +5,7 @@ import cors from 'cors';
 
 import authenticationRoutes from './routes/authentication.js';
 import registrationRoutes from './routes/preEventRegistration.js';
+import eventRouter from './routes/events.route.js';
 
 
 // Load environment variables
@@ -15,13 +16,14 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json()); 
-app.use(cors({ origin: 'https://xplore24.com' }));
+app.use(cors({ origin: '*' }));
 app.use('/', authenticationRoutes);
 app.use('/', registrationRoutes);
+app.use('/api/events', eventRouter);
 // MongoDB connection
-// mongoose.connect(process.env.MONGO_URI)
-// .then(() => console.log('MongoDB connected'))
-// .catch((error) => console.error('MongoDB connection error:', error));
+mongoose.connect(process.env.MONGO_URI)
+.then(() => console.log('MongoDB connected'))
+.catch((error) => console.error('MongoDB connection error:', error));
 
 // Routes
 app.get('/', (req, res) => {
