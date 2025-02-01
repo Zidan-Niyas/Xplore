@@ -1,73 +1,73 @@
-import event1 from '../assets/images/event1.png'
-import D_PRINTING from '../assets/images/workshops/D_PRINTING.webp'
-import flutter from '../assets/images/workshops/flutter.webp'
-import satellite from '../assets/images/workshops/satellite.webp'
-import Bim_modeling from '../assets/images/workshops/Bim_modeling.webp'
-import IOT from '../assets/images/workshops/iot.webp'
-import PCB from '../assets/images/workshops/pcb_designing.webp'
-import PCB_Details from '../assets/images/workshops/pcb_designing_details.webp'
-import D_printing_details from '../assets/images/workshops/D_printing_details.webp'
-import Bim_modeling_details from '../assets/images/workshops/Bim_modeling_details.webp'
-import Flutter_details from '../assets/images/workshops/Flutter_details.webp'
-import iot_details from '../assets/images/workshops/iot_details.webp'
-import astro_website from '../assets/images/workshops/astro_website.webp'
-import astrophotography_details from '../assets/images/workshops/astrophotography_details.webp'
-import satellite_details from '../assets/images/workshops/satellite_details.webp'
-import autocad_website from '../assets/images/workshops/autocad_website.webp'
-import autocad_details from '../assets/images/workshops/autocad_details.webp'
-import robotics from '../assets/images/workshops/robotics.webp'
-import robotics_details from '../assets/images/workshops/robotics_details.webp'
-import robotic_arm from '../assets/images/workshops/robotic_arm.webp'
-import robotic_arm_website from '../assets/images/workshops/robotic_arm_website.webp'
-import drone from '../assets/images/workshops/drone.webp'
-import drone_website from '../assets/images/workshops/drone_website.webp'
-import llm_website from '../assets/images/workshops/llm_website.webp'
-import llm_details from '../assets/images/workshops/llm_details.webp'
-import open_rocket_website from '../assets/images/workshops/open_rocket_website.webp'
-import open_rocket_details from '../assets/images/workshops/open_rocket_details.webp'
-import uiux_website from '../assets/images/workshops/uiux_website.webp'
-import ui_ux_details from '../assets/images/workshops/ui_ux_details.webp'
-import game_development_website from '../assets/images/workshops/game_development_website.webp'
-import game_development_details from '../assets/images/workshops/game_development_details.webp'
-import revit_website from '../assets/images/workshops/revit_website.webp'
-import revit from '../assets/images/workshops/revit_details.webp'
-import staad_website from '../assets/images/workshops/staad_website.webp'
-import staad from '../assets/images/workshops/staad_details.webp'
-import solid_website from '../assets/images/workshops/solid_website.webp'
-import solid from '../assets/images/workshops/solid _details.webp'
+// import event1 from '../assets/images/event1.png'
+// import D_PRINTING from '../assets/images/workshops/D_PRINTING.webp'
+// import flutter from '../assets/images/workshops/flutter.webp'
+// import satellite from '../assets/images/workshops/satellite.webp'
+// import Bim_modeling from '../assets/images/workshops/Bim_modeling.webp'
+// import IOT from '../assets/images/workshops/iot.webp'
+// import PCB from '../assets/images/workshops/pcb_designing.webp'
+// import PCB_Details from '../assets/images/workshops/pcb_designing_details.webp'
+// import D_printing_details from '../assets/images/workshops/D_printing_details.webp'
+// import Bim_modeling_details from '../assets/images/workshops/Bim_modeling_details.webp'
+// import Flutter_details from '../assets/images/workshops/Flutter_details.webp'
+// import iot_details from '../assets/images/workshops/iot_details.webp'
+// import astro_website from '../assets/images/workshops/astro_website.webp'
+// import astrophotography_details from '../assets/images/workshops/astrophotography_details.webp'
+// import satellite_details from '../assets/images/workshops/satellite_details.webp'
+// import autocad_website from '../assets/images/workshops/autocad_website.webp'
+// import autocad_details from '../assets/images/workshops/autocad_details.webp'
+// import robotics from '../assets/images/workshops/robotics.webp'
+// import robotics_details from '../assets/images/workshops/robotics_details.webp'
+// import robotic_arm from '../assets/images/workshops/robotic_arm.webp'
+// import robotic_arm_website from '../assets/images/workshops/robotic_arm_website.webp'
+// import drone from '../assets/images/workshops/drone.webp'
+// import drone_website from '../assets/images/workshops/drone_website.webp'
+// import llm_website from '../assets/images/workshops/llm_website.webp'
+// import llm_details from '../assets/images/workshops/llm_details.webp'
+// import open_rocket_website from '../assets/images/workshops/open_rocket_website.webp'
+// import open_rocket_details from '../assets/images/workshops/open_rocket_details.webp'
+// import uiux_website from '../assets/images/workshops/uiux_website.webp'
+// import ui_ux_details from '../assets/images/workshops/ui_ux_details.webp'
+// import game_development_website from '../assets/images/workshops/game_development_website.webp'
+// import game_development_details from '../assets/images/workshops/game_development_details.webp'
+// import revit_website from '../assets/images/workshops/revit_website.webp'
+// import revit from '../assets/images/workshops/revit_details.webp'
+// import staad_website from '../assets/images/workshops/staad_website.webp'
+// import staad from '../assets/images/workshops/staad_details.webp'
+// import solid_website from '../assets/images/workshops/solid_website.webp'
+// import solid from '../assets/images/workshops/solid _details.webp'
 
-// cultural events
-import debate from '../assets/images/cultural/debate.webp'
-import mimicry from '../assets/images/cultural/mimicry.webp'
-import monoact from '../assets/images/cultural/monoact.webp'
-import magic from '../assets/images/cultural/magic.webp'
-import kalari from '../assets/images/cultural/kalari.webp'
-import anchoring from '../assets/images/cultural/anchoring.webp'
-import mehandi from '../assets/images/cultural/mehandi.webp'
-import face_painting from '../assets/images/cultural/face_painting.webp'
-import spot_photography from '../assets/images/cultural/spot_photography.webp'
-import pottery from '../assets/images/cultural/pottery.webp'
-import art_exhibition from '../assets/images/cultural/art_exhibition.webp'
+// // cultural events
+// import debate from '../assets/images/cultural/debate.webp'
+// import mimicry from '../assets/images/cultural/mimicry.webp'
+// import monoact from '../assets/images/cultural/monoact.webp'
+// import magic from '../assets/images/cultural/magic.webp'
+// import kalari from '../assets/images/cultural/kalari.webp'
+// import anchoring from '../assets/images/cultural/anchoring.webp'
+// import mehandi from '../assets/images/cultural/mehandi.webp'
+// import face_painting from '../assets/images/cultural/face_painting.webp'
+// import spot_photography from '../assets/images/cultural/spot_photography.webp'
+// import pottery from '../assets/images/cultural/pottery.webp'
+// import art_exhibition from '../assets/images/cultural/art_exhibition.webp'
 
-// music events
+// // music events
 
-import solo_song from '../assets/images/cultural/musical/solo_song.webp'
-import nadanpatt from '../assets/images/cultural/musical/nadanpatt.webp'
-import desk_knock from '../assets/images/cultural/musical/desk_knock.webp'
-import english_recitation from '../assets/images/cultural/musical/english_recitation.webp'
-import guitar from '../assets/images/cultural/musical/guitar.webp'
-import light_music from '../assets/images/cultural/musical/light_music.webp'
-import malayalam_recitation from '../assets/images/cultural/musical/malayalam_recitation.webp'
+// import solo_song from '../assets/images/cultural/musical/solo_song.webp'
+// import nadanpatt from '../assets/images/cultural/musical/nadanpatt.webp'
+// import desk_knock from '../assets/images/cultural/musical/desk_knock.webp'
+// import english_recitation from '../assets/images/cultural/musical/english_recitation.webp'
+// import guitar from '../assets/images/cultural/musical/guitar.webp'
+// import light_music from '../assets/images/cultural/musical/light_music.webp'
+// import malayalam_recitation from '../assets/images/cultural/musical/malayalam_recitation.webp'
 
-// dance 
-import dance_workshop  from '../assets/images/cultural/dance/dance_workshop.webp'
-import duet_dance from '../assets/images/cultural/dance/duet_dance.webp'
-import mime from '../assets/images/cultural/dance/mime.webp'
-import oppana from '../assets/images/cultural/dance/oppana.webp'
-import retro_dance from '../assets/images/cultural/dance/retro_dance.webp'
-import spot_dance from '../assets/images/cultural/dance/spot_dance.webp'
-import vistora from '../assets/images/cultural/dance/vistora.webp'
-import breaknbeat from '../assets/images/cultural/dance/breaknbeat.webp'
+// // dance 
+// import dance_workshop  from '../assets/images/cultural/dance/dance_workshop.webp'
+// import duet_dance from '../assets/images/cultural/dance/duet_dance.webp'
+// import mime from '../assets/images/cultural/dance/mime.webp'
+// import oppana from '../assets/images/cultural/dance/oppana.webp'
+// import retro_dance from '../assets/images/cultural/dance/retro_dance.webp'
+// import spot_dance from '../assets/images/cultural/dance/spot_dance.webp'
+// import vistora from '../assets/images/cultural/dance/vistora.webp'
+// import breaknbeat from '../assets/images/cultural/dance/breaknbeat.webp'
 
 
 export const competitionData = [
@@ -569,8 +569,8 @@ export const workshopData = [
         time: "01:30 PM - 05:00 PM",
         location: "EEE Software Lab (MB213)",
         fee: 300,
-        image: flutter,
-        imageDetails: Flutter_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/flutter.webp?alt=media&token=b943fb8b-a29a-4641-bed7-a564014bd555"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Flutter_details.webp?alt=media&token=eb58dab2-9e41-4f2f-8cef-23065fafec71",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Flutter-Workshop-700",
         contacts: [
@@ -586,8 +586,8 @@ export const workshopData = [
         time: "10:00 AM - 12:30 PM",
         location: "Systems Lab (DB02 - B Block)",
         fee: 150,
-        image: satellite,
-        imageDetails: satellite_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/satellite.webp?alt=media&token=60ceb97e-a8ed-42d6-b4ac-20d4b01c3517"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/satellite_details.webp?alt=media&token=f6b7c190-5dd4-4e29-834e-9b9a265616a4",
         category: "workshop",
         registerLink: "https://tiqr.events/e/SATELLITE-DATA-PLATFORM-WORKSHOP-704",
         contacts: [
@@ -603,8 +603,8 @@ export const workshopData = [
         time: "9:00 AM - 5:00 PM",
         location: "Civil CAD Lab (MB120)",
         fee: 500,
-        image: Bim_modeling,
-        imageDetails: Bim_modeling_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Bim_modeling.webp?alt=media&token=9ea7038b-6a35-454f-a046-e88b0891d6c1"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Bim_modeling_details.webp?alt=media&token=8cc18097-89a5-4b53-8371-1efdf6b83d40",
         category: "workshop",
         registerLink: "https://tiqr.events/e/BIM-Modelling-706",
         contacts: [
@@ -620,8 +620,8 @@ export const workshopData = [
         time: "1:30 PM - 5:00 PM",
         location: "Mech CAD Lab (MB019)",
         fee: 350,
-        image: D_PRINTING,
-        imageDetails: D_printing_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/D_PRINTING.webp?alt=media&token=32e43f66-a231-41a3-a636-fa373dbef3d0"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/D_printing_details.webp?alt=media&token=948e83d1-e491-44bf-8af3-9ca48e17b124",
         category: "workshop",
         registerLink: "https://tiqr.events/e/3D-Printing-and-Designing-Workshop-717",
         contacts: [
@@ -637,8 +637,8 @@ export const workshopData = [
         time: "9:00 AM - 1:00 PM",
         location: "High-Tech Classroom (Main Block)",
         fee: 350,
-        image: IOT,
-        imageDetails: iot_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/iot.webp?alt=media&token=99dc2b8f-6fb7-4312-80cf-a26484ba48ea"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/iot_details.webp?alt=media&token=f7b5d9dd-1a78-401a-b6d0-585133bd0b21",
         category: "workshop",
         registerLink: "https://tiqr.events/e/IOT-and-Embedded-Systems-Workshop-710",
         contacts: [
@@ -654,8 +654,8 @@ export const workshopData = [
         time: "09:00 PM - 01:00 PM",
         location: "ECE Simulation Lab (MB012)",
         fee: 450,
-        image: PCB,
-        imageDetails: PCB_Details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pcb_designing.webp?alt=media&token=5e2cdd69-3dc6-47d8-9bbb-929a40504209"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pcb_designing_details.webp?alt=media&token=caac87a4-c47b-443b-a514-1c806b48f080",
         category: "workshop",
         registerLink: "https://tiqr.events/e/PCB-Designing-Workshop-718",
         contacts: [
@@ -672,8 +672,8 @@ export const workshopData = [
         time: "9:00 AM - 4:00 PM",
         location: "CCF",
         fee: 499,
-        image: robotic_arm_website,
-        imageDetails: robotic_arm,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/robotic_arm_website.webp?alt=media&token=cc192c52-6373-41a7-8498-c02d3483b1d5"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/robotic_arm.webp?alt=media&token=e3730eb7-82fd-4c33-bcd4-1f435779c355",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Robotic-Arm-Workshop-701/",
         contacts: [
@@ -689,8 +689,8 @@ export const workshopData = [
         time: "10:00 AM - 4:00 PM",
         location: "Mech CAD Lab (MB019)",
         fee: 499,
-        image: autocad_website,
-        imageDetails: autocad_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autocad_website.webp?alt=media&token=383b3855-5f1e-4f47-8a8b-8b8bbf0a3952"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/autocad_details.webp?alt=media&token=e499e973-50a2-4ac3-9694-b0468d4cb245",
         category: "workshop",
         registerLink: "https://tiqr.events/e/AutoCAD-Workshop-703",
         contacts: [
@@ -706,8 +706,8 @@ export const workshopData = [
         time: "9:00 AM - 12:00 PM",
         location: "EEE Software Lab (MB213)",
         fee: 199,
-        image: robotics,
-        imageDetails: robotics_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/robotics.webp?alt=media&token=e1f7ff56-ba56-44ac-ad2b-d356043eb457"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/robotics_details.webp?alt=media&token=011eca23-2d76-48e9-b37b-bbca03975cef",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Robotics-and-IOT-Workshop-705",
         contacts: [
@@ -723,8 +723,8 @@ export const workshopData = [
         time: "10:00 AM - 2:30 PM",
         location: "ECE Workshop (C Block)",
         fee: 499,
-        image: drone_website,
-        imageDetails: drone,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/drone_website.webp?alt=media&token=c0833c03-f874-4d78-a8cf-4c5e6c8d6bcb"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/drone.webp?alt=media&token=b83a3384-2a05-4656-a235-6f7328291f4d",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Drone-Workshop-707",
         contacts: [
@@ -739,8 +739,8 @@ export const workshopData = [
         time: "9:00 AM - 4:00 PM",
         location: "Systems Lab (DB02 - B Block)",
         fee: 399,
-        image:  llm_website,
-        imageDetails: llm_details,
+        images:  ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/llm_website.webp?alt=media&token=61810764-7567-45dd-9d0e-7081c668452d"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/llm_details.webp?alt=media&token=5770a099-ad66-4505-b01a-ab9fe7d10b86",
         category: "workshop",
         registerLink: "https://tiqr.events/e/LLM-Fine-Tuning-%26-Edge-AI-Workshop-709",
         contacts: [
@@ -756,8 +756,8 @@ export const workshopData = [
         time: "9:00 AM - 12:00 PM",
         location: "Mech Seminar Hall (MB220)",
         fee: 199,
-        image: open_rocket_website,
-        imageDetails: open_rocket_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/open_rocket_website.webp?alt=media&token=2726b70a-1f90-4760-ae80-730a695f8256"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/open_rocket_details.webp?alt=media&token=5a4f228d-0ab7-4fc8-9b6a-06c40ec6345f",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Open-Rocket-Simulator-Workshop-711",
         contacts: [
@@ -773,8 +773,8 @@ export const workshopData = [
         time: "9:00 AM - 1:00 PM",
         location: "EEE Software Lab (MB213)",
         fee: "Free",
-        image: uiux_website,
-        imageDetails: ui_ux_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/uiux_website.webp?alt=media&token=873f4223-8b7c-4774-a0f1-f261b20d5ec8"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/ui_ux_details.webp?alt=media&token=bdaf5d0f-624e-4b0b-a78a-ca79834cbab2",
         category: "workshop",
         registerLink: "https://tiqr.events/e/UI-%2F-UX-Workshop-715",
         contacts: [
@@ -790,8 +790,8 @@ export const workshopData = [
         time: "10:00 AM - 4:00 PM",
         location: "Mech Seminar Hall (MB220)",
         fee: "Free",
-        image: game_development_website,
-        imageDetails: game_development_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/game_development_website.webp?alt=media&token=29fe90fa-3272-4745-8f53-79112049fc24"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/game_development_details.webp?alt=media&token=96441f42-5a48-419c-af93-3b1c47ec1c16",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Game-Development-Workshop-714",
         contacts: [
@@ -807,8 +807,8 @@ export const workshopData = [
         time: "10:00 AM - 4:00 PM",
         location: "Civil CAD Lab (MB120)",
         fee: 499,
-        image: revit_website,
-        imageDetails: revit,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/revit_website.webp?alt=media&token=270883bd-b3ea-441c-82d2-1e93e3ad731f"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/revit_details.webp?alt=media&token=c81b74d6-6fe6-4568-b074-4870d1f05755",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Revit-Workshop-713",
         contacts: [
@@ -824,8 +824,8 @@ export const workshopData = [
         time: "10:00 AM - 4:00 PM",
         location: "Civil CAD Lab (MB120)",
         fee: 499,
-        image: staad_website,
-        imageDetails: staad,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/staad_website.webp?alt=media&token=8b13b7c1-93f7-4f5d-a8ad-312fda2d3016"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/staad_details.webp?alt=media&token=c3a87be0-2df3-4a4d-a8af-efb6227a3ac0",
         category: "workshop",
         registerLink: "https://tiqr.events/e/STAAD-Workshop-712",
         contacts: [
@@ -841,8 +841,8 @@ export const workshopData = [
         time: "10:00 AM - 12:00 PM",
         location: "Mech CAD Lab (MB019)",
         fee: 499,
-        image: solid_website,
-        imageDetails: solid,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/solid_website.webp?alt=media&token=13221262-915e-41f7-aaae-6c59d1a9c8df"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/solid%20_details.webp?alt=media&token=277d8460-f12e-46ab-8b6b-d28b9c088332",
         category: "workshop",
         registerLink: "https://tiqr.events/e/SolidWorks-Workshop-708",
         contacts: [
@@ -858,8 +858,8 @@ export const workshopData = [
         time: "10:00 AM - 12:30 PM",
         location: "First Year Block (CA03)",
         fee: 199,
-        image: astro_website,
-        imageDetails: astrophotography_details,
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/astro_website.webp?alt=media&token=b41ae0c4-ef47-438e-8c75-04cd63de4c85"],
+        imageDetails: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/astrophotography_details.webp?alt=media&token=6f0d52a4-dab9-4eb2-8eff-84553f5667d4",
         category: "workshop",
         registerLink: "https://tiqr.events/e/Astrophotography-702",
         contacts: [
@@ -879,7 +879,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '2.5 K',
         fee: 100,
-        image:"https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/monoact.webp?alt=media&token=eb88f4fe-cfcc-4abd-90c2-70269ee019de" ,
+        images:["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/monoact.webp?alt=media&token=eb88f4fe-cfcc-4abd-90c2-70269ee019de"] ,
         contacts: [{name: 'Angel Shoby', phone: '8089091146'}, {name: 'Neha T', phone: '9847799288'}],
         rules: `1. This is a solo event. Open to all college students.\n
                 2. The registration fee is 100.\n
@@ -901,7 +901,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '3k',
         fee:70, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/anchoring.webp?alt=media&token=099ea7f5-ea8f-4517-8477-b5d58f7dc3a8",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/anchoring.webp?alt=media&token=099ea7f5-ea8f-4517-8477-b5d58f7dc3a8"],
         contacts: [{name: 'Akshay ', phone: '8304017049'}, {name: 'Afra', phone: '6238769860'}],
         rules: `1. Participation is open to all.\n
                 2. The Registration fee is 100.\n
@@ -930,7 +930,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '2.5k',
         fee:100, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mimicry.webp?alt=media&token=6c02b192-34cc-4303-b15a-6cedbda4cd71",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mimicry.webp?alt=media&token=6c02b192-34cc-4303-b15a-6cedbda4cd71"],
         contacts: [{name: 'Haritha ', phone: '9605107278'}, {name: 'Deeshnav ', phone: '8590884990'}],
         rules: `1. Participation is open to all college students.\n
                 2. The Registration fee is 100.\n
@@ -957,7 +957,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee:'Free', 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/magic.webp?alt=media&token=917aa4ab-fef2-42f8-a47d-4aee7827eff8",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/magic.webp?alt=media&token=917aa4ab-fef2-42f8-a47d-4aee7827eff8"],
         contacts: [{name: 'Keerthana P V ', phone: '8590480248'}, {name: 'Hasmina', phone: '98959 85462'}],
         rules: '',
         category: "cultural",
@@ -972,7 +972,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee: null, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/kalari.webp?alt=media&token=dcd615a8-ad94-485f-ad15-84ab597750e1",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/kalari.webp?alt=media&token=dcd615a8-ad94-485f-ad15-84ab597750e1"],
         contacts: [],
         rules: '',
         category: "cultural",
@@ -987,7 +987,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '3k',
         fee: 100, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/debate.webp?alt=media&token=e224db3a-079d-4c5e-b818-2cde3b32dd35",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/debate.webp?alt=media&token=e224db3a-079d-4c5e-b818-2cde3b32dd35"],
         contacts: [{name: 'Vismaya', phone: '91884 40511'}, {name: 'Arathi C K', phone: '9048259633'}],
         rules: `1. The event will be conducted as a team consisting of two members.\n
                 2. Topic will be given on the spot which will be based on socially relevant issues.\n
@@ -1011,7 +1011,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '2.5k',
         fee: 100, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mehandi.webp?alt=media&token=0d58a3c6-4d8d-4781-8aeb-6c1ffe1bb1b7",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mehandi.webp?alt=media&token=0d58a3c6-4d8d-4781-8aeb-6c1ffe1bb1b7"],
         contacts: [{name: 'Sandwana', phone: '+91 8113889870'}, {name: 'Afra', phone: '+91 6238 769860'}],
         rules: `1. On-the-spot registrations are permitted.\n
                 2. Registration fee is 100.\n
@@ -1038,7 +1038,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '3k',
         fee: 70, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/face_painting.webp?alt=media&token=0d5006ae-099a-4443-a963-c9ef842f91e3",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/face_painting.webp?alt=media&token=0d5006ae-099a-4443-a963-c9ef842f91e3"],
         contacts: [{name: 'Devika', phone: '+91 8848742789'}, {name: 'Afra', phone: '+91 9544918811'}],
         rules: `1. The registration fee is 70.\n
                 2. It's a theme-based face painting competition.\n
@@ -1059,7 +1059,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: '1.5k',
         fee: 50, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spot_photography.webp?alt=media&token=ce5eb853-80ef-46a2-aa50-960873dbfe95",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spot_photography.webp?alt=media&token=ce5eb853-80ef-46a2-aa50-960873dbfe95"],
         contacts: [{name: 'Drishya ', phone: '+91 7907118594'}, {name: 'Shivani', phone: '+91 9995788316'}],
         rules: `1. Format: Images must be in high-resolution JPEG/PNG format.\n
                 2. Editing: State the allowed level of editing (e.g., minor adjustments or no heavy manipulation).\n
@@ -1083,7 +1083,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee: null, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pottery.webp?alt=media&token=e9fa4990-ce4b-45d4-9838-600d9c71f5b9",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pottery.webp?alt=media&token=e9fa4990-ce4b-45d4-9838-600d9c71f5b9"],
         contacts: [],
         category: "cultural",
         registerLink: "https://tiqr.events/e/Pottery-Workshop-730"
@@ -1097,7 +1097,7 @@ export const culturalEventData = [
         location: "Update soon..",
         prizePool: null,
         fee: null, 
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/art_exhibition.webp?alt=media&token=5acbe1ad-dac2-4328-8331-da648c4ec4b3",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/art_exhibition.webp?alt=media&token=5acbe1ad-dac2-4328-8331-da648c4ec4b3"],
         contacts: [{name: "Sreedeep", phone: "8301942514"}, {name: "Nandana", phone: "954491881"}],
         category: "cultural",
         registerLink: null
@@ -1112,7 +1112,7 @@ export const culturalEventData = [
         location: "Main Auditorium",
         prizePool: "10k",
         fee: 150,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/nadanpatt.webp?alt=media&token=ec7f05c0-150e-4c3d-8b8c-a462bb2112de",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/nadanpatt.webp?alt=media&token=ec7f05c0-150e-4c3d-8b8c-a462bb2112de"],
         contacts: [
             { name: "Anirudh P", phone: "9072701180" },
             { name: "Punya", phone: "8547928336" }
@@ -1135,7 +1135,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "6K",
         fee: 300,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/desk_knock.webp?alt=media&token=e92c53d6-d8df-47e4-88c6-c897396640a0",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/desk_knock.webp?alt=media&token=e92c53d6-d8df-47e4-88c6-c897396640a0"],
         contacts: [
             { name: "Deeshnav K", phone: "+91 8590884990" },
             { name: "Vismaya", phone: "+91 9188440511" }
@@ -1160,7 +1160,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "2.5k",
         fee: 100,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/english_recitation.webp?alt=media&token=19cad994-d704-4ff0-8305-f752aaaa47ef",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/english_recitation.webp?alt=media&token=19cad994-d704-4ff0-8305-f752aaaa47ef"],
         contacts: [
             { name: "Angel", phone: "8089091146" },
             { name: "Manu", phone: "9037632234" }
@@ -1185,7 +1185,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "3k",
         fee: 150,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/guitar.webp?alt=media&token=f4caefe4-9461-48d8-b4f9-0e7dba66e15e",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/guitar.webp?alt=media&token=f4caefe4-9461-48d8-b4f9-0e7dba66e15e"],
         contacts: [
             { name: "Manu", phone: "9037632234" },
             { name: "Nayantara", phone: "9778756085" }
@@ -1209,7 +1209,7 @@ export const culturalEventData = [
         location: "Seminar hall",
         prizePool: "2.5k",
         fee: 100,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/light_music.webp?alt=media&token=5f78375c-63aa-4676-809b-7729d5454c7b",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/light_music.webp?alt=media&token=5f78375c-63aa-4676-809b-7729d5454c7b"],
         contacts: [
             { name: "Abhiram", phone: "9188307364" },
             { name: "Drishya", phone: "7907118594" }
@@ -1233,7 +1233,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "3k",
         fee: 100,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/solo_song.webp?alt=media&token=ab9505d0-a2a5-4fad-b953-b191185e2e8c",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/solo_song.webp?alt=media&token=ab9505d0-a2a5-4fad-b953-b191185e2e8c"],
         contacts: [
             { name: "Nayanthara M K", phone: "+91 9778756085" },
             { name: "Adwaith", phone: "+91 9895703163" }
@@ -1256,7 +1256,7 @@ export const culturalEventData = [
         location: "Any seminar hall",
         prizePool: "2.5k",
         fee: 100,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/malayalam_recitation.webp?alt=media&token=49a67faf-748d-4a5e-9356-59cce4f6523b",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/malayalam_recitation.webp?alt=media&token=49a67faf-748d-4a5e-9356-59cce4f6523b"],
         contacts: [
             { name: "Punya", phone: "8547928336" },
             { name: "Abhiram", phone: "9188307364" }
@@ -1282,7 +1282,7 @@ export const culturalEventData = [
         location: "Main stage",
         prizePool: "50k",
         fee: 200,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/vistora.webp?alt=media&token=d3c98abb-7bdd-46e2-bace-43917679af17",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/vistora.webp?alt=media&token=d3c98abb-7bdd-46e2-bace-43917679af17"],
         contacts: [
             { name: "Arathi", phone: "7591929645" },
             { name: "Samath", phone: "7306132850" }
@@ -1312,7 +1312,7 @@ export const culturalEventData = [
         location: "Main stage",
         prizePool: "25k",
         fee: 200,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/breaknbeat.webp?alt=media&token=19f22223-3e55-4e5a-84bc-2f24417f986b",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/breaknbeat.webp?alt=media&token=19f22223-3e55-4e5a-84bc-2f24417f986b"],
         contacts: [
             { name: "Shivani", phone: "9995788316" },
             { name: "Muhsina", phone: "9495347917" }
@@ -1343,7 +1343,7 @@ export const culturalEventData = [
         location: "Main auditorium",
         prizePool: "9k",
         fee: 1000,
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mime.webp?alt=media&token=e0c93261-fe43-4530-bd95-0c7a2961f839",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/mime.webp?alt=media&token=e0c93261-fe43-4530-bd95-0c7a2961f839"],
         contacts: [
             { name: "Abhay", phone: "6282288256" },
             { name: "Haritha", phone: "9605107278" }
@@ -1378,7 +1378,7 @@ export const culturalEventData = [
         location: "Main auditorium",
         prizePool: "15k",
         fee: "100",
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/oppana.webp?alt=media&token=90b08a5e-5827-49b6-b9cf-feb0046443c9",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/oppana.webp?alt=media&token=90b08a5e-5827-49b6-b9cf-feb0046443c9"],
         contacts: [
             { name: "Arathi", phone: "9048259633" },
             { name: "Samath", phone: "7306132850" }
@@ -1405,7 +1405,7 @@ export const culturalEventData = [
         location: "Main auditorium",
         prizePool: "15k",
         fee: "150",
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/retro_dance.webp?alt=media&token=06c6add6-ef35-4445-806e-ab44802395b9",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/retro_dance.webp?alt=media&token=06c6add6-ef35-4445-806e-ab44802395b9"],
         contacts: [
             { name: "Neha", phone: "9847799288" },
             { name: "Shivani", phone: "9995788316" }
@@ -1434,7 +1434,7 @@ export const culturalEventData = [
         location: "Open Air Auditorium",
         prizePool: "3k",
         fee: "150",
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spot_dance.webp?alt=media&token=ac7244e9-4088-4d18-bd6f-bb1677d0e7bd",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spot_dance.webp?alt=media&token=ac7244e9-4088-4d18-bd6f-bb1677d0e7bd"],
         contacts: [
             { name: "Shivani", phone: "9995788316" },
             { name: "Nandana", phone: "9544918811" }
@@ -1461,7 +1461,7 @@ export const culturalEventData = [
         location: "Main Auditorium",
         prizePool: "5k",
         fee: "200",
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/duet_dance.webp?alt=media&token=00b73470-13d9-4e18-a738-7f1821d24095",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/duet_dance.webp?alt=media&token=00b73470-13d9-4e18-a738-7f1821d24095"],
         contacts: [
             { name: "Vismaya", phone: "9188440511" },
             { name: "Nayanthara", phone: "9778756085" }
@@ -1497,7 +1497,7 @@ export const preEventData = [
         location: "Will update through WhatsApp group",
         prizePool: null,
         fee: "150",
-        image: "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dance_workshop.webp?alt=media&token=bd4ef6c1-bb1c-47c8-90db-ce1ed88c91c1",
+        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dance_workshop.webp?alt=media&token=bd4ef6c1-bb1c-47c8-90db-ce1ed88c91c1"],
         contacts: [
             { name: "Shivani", phone: "+91 99957 88316" }
         ],

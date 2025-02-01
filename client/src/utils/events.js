@@ -5,3 +5,5 @@ import { competitionData } from "./eventData.js";
 import talkData from "./talk.js";
 export const AllEvents = [...eventData, ...workshopData, ...culturalEventData, ...competitionData, ...talkData];
 
+
+

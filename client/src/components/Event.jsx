@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 const Event = ({ eventDetails, type }) => {
-  const { name, description, date, time, location, image } = eventDetails;
+  const { name, description, date, time, location, images } = eventDetails;
   const navigate = useNavigate();
 
   // Entry animation for the card
@@ -66,7 +66,7 @@ const Event = ({ eventDetails, type }) => {
       <LazyLoadImage
         alt="Lazy Loaded Background"
         effect="blur"
-        src={image}
+        src={images[0]}
         className="w-full h-full object-cover rounded-3xl"
       />
       

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import workshopBanner from "../assets/images/workshop-banner.png";
 import Event from "../components/Event";
 import { workshopData } from "../utils/eventData.js";
+import { useEventContext } from "../../context/EventContext.jsx";
 
 const Workshops = () => {
   const cardVariants = {
@@ -17,6 +18,9 @@ const Workshops = () => {
       },
     }),
   };
+
+  const {events, loading} = useEventContext();
+  const filteredEvents = events.filter((event) => event.category === "workshop");
 
   return (
     <>
@@ -37,7 +41,7 @@ const Workshops = () => {
         }}
         className="w-full min-h-[75vh] md:min-h-[80vh] flex sm:flex-col md:flex-row flex-wrap justify-center sm:items-center sm:align-middle items-start gap-8 md:gap-16 md:px-16 lg:px-32 p-8"
       >
-        {workshopData.map((event, index) => (
+        {filteredEvents.map((event, index) => (
           <motion.div
             key={index}
             className="w-full md:w-1/3 lg:w-1/4 flex-shrink-0 transform transition duration-300 hover:scale-105 hover:shadow-xl flex justify-center items-center"

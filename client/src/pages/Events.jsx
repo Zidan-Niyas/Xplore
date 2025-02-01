@@ -9,12 +9,14 @@ import Loading from "../components/Loading.jsx"
 import { useParams } from "react-router-dom"
 import EventGrid from "../components/EventGrid.jsx"
 import SingleEventGrid from "../components/SingleGrid.jsx"
+import { useEventContext } from "../../context/EventContext.jsx"
 
 const Events = () => {
-  const [filteredEvents, setFilteredEvents] = useState(eventData)
-  const [loading, setLoading] = useState(false)
+  
   const { category } = useParams()
   const [eventType, setEventType] = useState(category)
+  const {events, loading} = useEventContext();
+  const [filteredEvents, setFilteredEvents] = useState(events);
 
   useEffect(() => {
     switch (eventType) {

@@ -6,20 +6,22 @@ import CulturalCard from '../components/CulturalCard';
 import { useNavigate, useParams } from 'react-router-dom';
 import EventGrid from '../components/EventGrid';
 import SingleEventGrid from '../components/SingleGrid';
+import { useEventContext } from '../../context/EventContext.jsx';
+import Loading from '../components/Loading.jsx';
 
 const EventRegistration = () => {
   const {category} = useParams();
   const [filter, setFilter] = useState(category || 'all');
-  const [loading, setLoading] = useState(false);
+  const {events, loading} = useEventContext();
 
   const filteredContent = useMemo(() => {
     window.history.pushState(null, '', `/event-registration/${filter}`);
     if (filter === 'all') {
-      return AllEvents;
+      return events;
     } else {
-      return AllEvents.filter(event => event.category === filter);
+      return events.filter(event => event.category === filter);
     }
-  }, [filter]);
+  }, [filter, loading]);
   
   
 
@@ -133,6 +135,10 @@ const EventRegistration = () => {
             (event.category === 'competition' && (<SingleEventGrid event={event} />))
           ))}
       </div>
+
+      {loading && (
+          <Loading />
+        )}
     </div>
   );
 };

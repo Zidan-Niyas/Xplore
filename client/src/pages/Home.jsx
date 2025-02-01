@@ -8,9 +8,12 @@ import ContactPage from "./Contact";
 import { ReactLenis } from "@studio-freight/react-lenis";
 import { VelocityScroll } from "../components/ui/scroll-based-velocity";
 import Loading from "../components/Loading";
-
+import { useEventContext } from "../../context/EventContext";
 const Home = () => {
   const navigate = useNavigate();
+  const { events, loading } = useEventContext();
+  console.log(events);
+  
 
   const lenisOptions = {
     lerp: 0.2,
@@ -19,11 +22,6 @@ const Home = () => {
     smooth: true,
   };
 
-
-  const [loading, setLoading] = React.useState(true);
-  setTimeout(() => {
-    setLoading(false);
-  }, 2000);
   
   return (
     <div  id="home">
