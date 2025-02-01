@@ -122,6 +122,12 @@ const WorkshopDetails = () => {
                         <p><strong>Time:</strong> {item.time}</p>
                         <p><strong>Location:</strong> {item.location}</p>
                         {item.fee && <p><strong>Fee:</strong> {typeof item.fee === 'number' ? `₹${item.fee}` : item.fee}</p>}
+                        <p>
+                        <strong>Contact:</strong>{" "}
+                        <br />
+                        {item.contacts.map((contact) => `${contact.name} : ${contact.phone}`).join(", ")}
+                        </p>
+
                         <button 
                             className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
                             onClick={toggleDetails}

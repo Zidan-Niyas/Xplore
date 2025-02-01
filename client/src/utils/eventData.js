@@ -572,7 +572,11 @@ export const workshopData = [
         image: flutter,
         imageDetails: Flutter_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Flutter-Workshop-700"
+        registerLink: "https://tiqr.events/e/Flutter-Workshop-700",
+        contacts: [
+            { name: "Abhina", phone: "8129071257" },
+            { name: "Anuradh", phone: "9744325402" }
+        ]
     },
     {
         id: 2002,
@@ -585,7 +589,11 @@ export const workshopData = [
         image: satellite,
         imageDetails: satellite_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/SATELLITE-DATA-PLATFORM-WORKSHOP-704"
+        registerLink: "https://tiqr.events/e/SATELLITE-DATA-PLATFORM-WORKSHOP-704",
+        contacts: [
+            { name: "Shwetha K C", phone: "8891912201" },
+            { name: "Jeyas C", phone: "8289909017" }
+        ]
     },
     {
         id: 2003,
@@ -598,7 +606,11 @@ export const workshopData = [
         image: Bim_modeling,
         imageDetails: Bim_modeling_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/BIM-Modelling-706"
+        registerLink: "https://tiqr.events/e/BIM-Modelling-706",
+        contacts: [
+            { name: "Abhina", phone: "8129071257" },
+            { name: "Anuradh", phone: "9744325402" }
+        ],
     },
     {
         id: 2004,
@@ -611,7 +623,11 @@ export const workshopData = [
         image: D_PRINTING,
         imageDetails: D_printing_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/3D-Printing-and-Designing-Workshop-717"
+        registerLink: "https://tiqr.events/e/3D-Printing-and-Designing-Workshop-717",
+        contacts: [
+            { name: "Abhina", phone: "8129071257" },
+            { name: "Anuradh", phone: "9744325402" }
+          ]
     },
     {
         id: 2005,
@@ -624,7 +640,11 @@ export const workshopData = [
         image: IOT,
         imageDetails: iot_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/IOT-and-Embedded-Systems-Workshop-710"
+        registerLink: "https://tiqr.events/e/IOT-and-Embedded-Systems-Workshop-710",
+        contacts: [
+            { name: "Abhina", phone: "8129071257" },
+            { name: "Anuradh", phone: "9744325402" }
+          ]
     },
     {
         id: 2006,
@@ -637,7 +657,12 @@ export const workshopData = [
         image: PCB,
         imageDetails: PCB_Details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/PCB-Designing-Workshop-718"
+        registerLink: "https://tiqr.events/e/PCB-Designing-Workshop-718",
+        contacts: [
+            { name: "Abhina", phone: "8129071257" },
+            { name: "Anuradh", phone: "9744325402" }
+          ]
+      
     },
     {
         id: 2007,
@@ -650,7 +675,11 @@ export const workshopData = [
         image: robotic_arm_website,
         imageDetails: robotic_arm,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Robotic-Arm-Workshop-701/"
+        registerLink: "https://tiqr.events/e/Robotic-Arm-Workshop-701/",
+        contacts: [
+            { name: "Swathika", phone: "8113911219" },
+            { name: "Ariya", phone: "9061616879" }
+        ],
     },
     {
         id: 2008,
@@ -663,7 +692,11 @@ export const workshopData = [
         image: autocad_website,
         imageDetails: autocad_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/AutoCAD-Workshop-703"
+        registerLink: "https://tiqr.events/e/AutoCAD-Workshop-703",
+        contacts: [
+            { name: "Sreelakshmi", phone: "8289856417" },
+            { name: "Fidha", phone: "+919539486193" }
+          ]
     },
     {
         id: 2009,
@@ -676,7 +709,11 @@ export const workshopData = [
         image: robotics,
         imageDetails: robotics_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Robotics-and-IOT-Workshop-705"
+        registerLink: "https://tiqr.events/e/Robotics-and-IOT-Workshop-705",
+        contacts: [
+            { name: "Aryasree", phone: "8281638809" },
+            { name: "Bijil", phone: "8075688613" }
+        ],
     },
     {
         id: 2010,
@@ -689,7 +726,10 @@ export const workshopData = [
         image: drone_website,
         imageDetails: drone,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Drone-Workshop-707"
+        registerLink: "https://tiqr.events/e/Drone-Workshop-707",
+        contacts: [
+            { name: "Hrithik C K", phone: "7560920240" }
+        ],
     },
     {
         id: 2011,
@@ -702,7 +742,11 @@ export const workshopData = [
         image:  llm_website,
         imageDetails: llm_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/LLM-Fine-Tuning-%26-Edge-AI-Workshop-709"
+        registerLink: "https://tiqr.events/e/LLM-Fine-Tuning-%26-Edge-AI-Workshop-709",
+        contacts: [
+            { name: "KP Aatmik", phone: "9447202485" },
+            { name: "Urmila T V", phone: "7510932218" }
+        ],
     },
     {
         id: 2012,
@@ -715,7 +759,11 @@ export const workshopData = [
         image: open_rocket_website,
         imageDetails: open_rocket_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Open-Rocket-Simulator-Workshop-711"
+        registerLink: "https://tiqr.events/e/Open-Rocket-Simulator-Workshop-711",
+        contacts: [
+            { name: "Adithya P M", phone: "8075109036" },
+            { name: "Yadunand", phone: "9895842152" }
+          ]
     },
     {
         id: 2013,
@@ -728,7 +776,11 @@ export const workshopData = [
         image: uiux_website,
         imageDetails: ui_ux_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/UI-%2F-UX-Workshop-715"
+        registerLink: "https://tiqr.events/e/UI-%2F-UX-Workshop-715",
+        contacts: [
+            { name: "Thejus Prakash", phone: "+91 97460 76651" },
+            { name: "Aishwarya Unnikrishnan", phone: "+91 8714774805" }
+          ]
     },
     {
         id: 2014,
@@ -741,7 +793,11 @@ export const workshopData = [
         image: game_development_website,
         imageDetails: game_development_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Game-Development-Workshop-714"
+        registerLink: "https://tiqr.events/e/Game-Development-Workshop-714",
+        contacts: [
+            { name: "Thejus Prakash", phone: "+91 97460 76651" },
+            { name: "Aishwarya Unnikrishnan", phone: "+91 8714774805" }
+          ]
     },
     {
         id: 2015,
@@ -754,7 +810,11 @@ export const workshopData = [
         image: revit_website,
         imageDetails: revit,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Revit-Workshop-713"
+        registerLink: "https://tiqr.events/e/Revit-Workshop-713",
+        contacts: [
+            { name: "Sreelakshmi", phone: "8289856417" },
+            { name: "Ahalya", phone: "8075592101" }
+        ],
     },
     {
         id: 2016,
@@ -767,7 +827,11 @@ export const workshopData = [
         image: staad_website,
         imageDetails: staad,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/STAAD-Workshop-712"
+        registerLink: "https://tiqr.events/e/STAAD-Workshop-712",
+        contacts: [
+            { name: "Fidha", phone: "9539486193" },
+            { name: "Ahalya", phone: "8075592101" }
+        ],
     },
     {
         id: 2017,
@@ -780,7 +844,11 @@ export const workshopData = [
         image: solid_website,
         imageDetails: solid,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/SolidWorks-Workshop-708"
+        registerLink: "https://tiqr.events/e/SolidWorks-Workshop-708",
+        contacts: [
+            { name: "Sayuj SS", phone: "+919400452005" },
+            { name: "Alan Rajesh", phone: "+919496259741" }
+          ]
     },
     {
         id: 2018,
@@ -793,7 +861,11 @@ export const workshopData = [
         image: astro_website,
         imageDetails: astrophotography_details,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Astrophotography-702"
+        registerLink: "https://tiqr.events/e/Astrophotography-702",
+        contacts: [
+            { name: "Ishan", phone: "9633169253" },
+            { name: "Arjun", phone: "8075474977" }
+          ]
     }
 ];
 
