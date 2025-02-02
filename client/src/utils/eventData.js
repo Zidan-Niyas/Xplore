@@ -754,7 +754,7 @@ export const workshopData = [
         date: "February 6, 2025",
         time: "10:00 AM - 4:00 PM",
         location: "Mech CAD Lab (MB019)",
-        fee: 499,
+        fee: 299,
         images: [autocad_website],
         imageDetails: autocad_details,
         category: "workshop",
@@ -872,7 +872,7 @@ export const workshopData = [
         date: "February 8, 2025",
         time: "10:00 AM - 4:00 PM",
         location: "Civil CAD Lab (MB120)",
-        fee: 499,
+        fee: 349,
         images: [revit_website],
         imageDetails: revit,
         category: "workshop",
@@ -889,7 +889,7 @@ export const workshopData = [
         date: "February 7, 2025",
         time: "10:00 AM - 4:00 PM",
         location: "Civil CAD Lab (MB120)",
-        fee: 499,
+        fee: 299,
         images: [staad_website],
         imageDetails: staad,
         category: "workshop",
@@ -948,8 +948,8 @@ export const workshopData = [
         category: "workshop",
         registerLink: "https://tiqr.events/e/Astrophotography-702",
         contacts: [
-            { name: "Ishan", phone: "9633169253" },
-            { name: "Arjun", phone: "8075474977" }
+            { name: "Adish", phone: "9778125838" },
+            { name: "Nuzha", phone: "+971544768620" }
           ]
     },
 ];
