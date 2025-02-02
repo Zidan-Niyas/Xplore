@@ -93,6 +93,27 @@ import precision from '../assets/images/competitions/precision.jpg'
 import rocket from '../assets/images/competitions/rocket.jpg'
 
 
+// general events
+import xplore_arena from '../assets/images/general/xplore_arena.webp'
+import project_expo from '../assets/images/general/project_expo.webp'
+import panel_discussion from '../assets/images/general/panel_discussion.webp'
+import minesweeper from '../assets/images/general/minesweeper.webp'
+import geo_connect from '../assets/images/general/geo_connect.webp'
+import galactic_quest from '../assets/images/general/galactic_quest.webp'
+import future_ignite from '../assets/images/general/future_ignite.webp'
+
+
+// techincal events
+import battlebot1 from '../assets/images/technical/battlebot1.webp'
+import drone_show3 from '../assets/images/technical/drone_show3.webp'
+import drone_show2 from '../assets/images/technical/drone_show2.webp'
+import drone_show1 from '../assets/images/technical/drone_show1.webp'
+import robotrack3 from '../assets/images/technical/robotrack3.webp'
+import robotrack2 from '../assets/images/technical/robotrack2.webp'
+import robotrack1 from '../assets/images/technical/robotrack1.webp'
+import battlebot3 from '../assets/images/technical/battlebot3.webp'
+import battlebot2 from '../assets/images/technical/battlebot2.webp'
+
 export const competitionData = [
     {
         id: 1002,
@@ -546,9 +567,10 @@ export const eventData = [
         date: "2025-02-08",
         time: "09:00",
         location: "Tech Grounds",
-        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots1.webp?alt=media&token=626453f1-49cd-493c-b838-80e45f79c462",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots2.webp?alt=media&token=3c9b19c2-9c4c-4028-8e89-514c3ff627f4",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bots3.webp?alt=media&token=23d84208-a660-405b-8b39-1a20b323ec69"
+        images: [
+            battlebot1,
+            battlebot2,
+            battlebot3
         ],
         category: "technical",
         fee: "699",
@@ -569,9 +591,9 @@ export const eventData = [
         prizePool: "Trophy + Recognition",
         fee: 499,
         images:[
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-07.webp?alt=media&token=3ddba1f2-b14a-41d0-b2e7-b53fd462b30a",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-08.webp?alt=media&token=04a1422c-eabf-455b-b67d-706634218d11",
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/challenge-09.webp?alt=media&token=74491fb6-2543-4bb7-acd0-29f4fad97674"
+            robotrack1,
+            robotrack2,
+            robotrack3
         ],
         contacts: [
             { name: "Ajay", phone: "8592936392" },
@@ -831,7 +853,7 @@ export const workshopData = [
         location: "Civil CAD Lab (MB120)",
         fee: 499,
         images: [revit_website],
-        imageDetails: revite_details,
+        imageDetails: revit,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Revit-Workshop-713",
         contacts: [
@@ -1542,7 +1564,7 @@ export const preEventData = [
         location: "First Year Block (CA04)",
         category: "general-event",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/galacticq.jpeg?alt=media&token=b85bf5ab-792f-4a31-9a94-198fb847a6b2"
+            galactic_quest
         ],        fee: "50",
         registerLink: "https://tiqr.events/e/Galactic-Quest-864",
         contacts: [{ name: "Arjun", phone: "8075474977" }]
@@ -1556,7 +1578,7 @@ export const preEventData = [
         location: "MB124",
         category: "general-event",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/WhatsApp%20Image%202025-02-01%20at%2011.46.45%20AM.jpeg?alt=media&token=8d54351a-d4c4-47a2-9cf2-3aede33d3c12"
+            geo_connect
         ],        fee: "Free",
         registerLink: "https://tiqr.events/e/Geo-Connect-Pictionary-862",
         contacts: [{ name: "Huda", phone: "9995480079" }]
@@ -1570,7 +1592,7 @@ export const preEventData = [
         location: "Main Block",
         category: "general-event",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/projectExpo.png?alt=media&token=cc94ac4b-0944-42cb-8605-d8085e3f5d7a"
+            project_expo
         ],        fee: "TBD",
         registerLink: "https://forms.gle/epJCZUewXEu4aQteA",
         contacts: [
@@ -1587,7 +1609,7 @@ export const preEventData = [
         location: "ECE Seminar Hall (CB16)",
         category: "general-event",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/WhatsApp%20Image%202025-02-01%20at%2011.38.56%20AM%20(1).jpeg?alt=media&token=1e3cb1ba-92cb-4f31-9fe7-35fbe1d06d92"
+            panel_discussion
         ],
         fee: "Free",
         registerLink: "https://tiqr.events/e/Panel-Discussion-867",
@@ -1602,7 +1624,7 @@ export const preEventData = [
         location: "CSE Seminar Hall (DB02)",
         category: "general-event",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/WhatsApp%20Image%202025-02-01%20at%2011.38.56%20AM.jpeg?alt=media&token=2c9134a9-2982-400d-8a0f-ca0c0b25be72"
+            xplore_arena
         ],        
         fee: "10",
         registerLink: "https://tiqr.events/e/XPLORE-ARENA-866",
@@ -1620,7 +1642,7 @@ export const preEventData = [
         location: "MB224",
         category: "general-event",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/WhatsApp%20Image%202025-02-01%20at%2011.40.38%20AM.jpeg?alt=media&token=348f5081-94c7-447d-825e-cbbf3fe2e1d8"
+            future_ignite
         ],        
         fee: "50",
         registerLink: "https://tiqr.events/e/Future-Ignite-865",
@@ -1638,7 +1660,7 @@ export const preEventData = [
         location: "Main Block",
         category: "general-event",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/9cb368bd-41ef-493b-b0d6-9b56dad171fc.jpeg?alt=media&token=6bd66b2e-0600-484f-9a71-e66fa96913f4"
+           minesweeper
         ],        
         fee: "TBD",
         registerLink: "https://tiqr.events/e/MINESWEEPER-CHALLENGE-863",
