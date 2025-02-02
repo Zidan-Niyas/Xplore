@@ -1,3 +1,7 @@
+import evtalkupdated from "../assets/images/talks/evtalkupdated.webp";
+import quantity_surveying from "../assets/images/talks/quantity_surveying.webp";
+import spaceAge from "../assets/images/talks/spaceAge.webp";
+
 const talkData = [
     {
         id: 3005,
@@ -8,7 +12,7 @@ const talkData = [
         location: "EEE Seminar Hall (BB05)",
         prizePool: null,
         fee: 99,
-        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/evtalkupdated.webp?alt=media&token=5693f85d-e4e9-4be0-98b9-b63392a340d0"],
+        images: [evtalkupdated],
         contacts: [
             { name: "Aiswarya K", phone: "6238460701" },
             { name: "Dhanupriya", phone: "813905868" }
@@ -26,7 +30,7 @@ const talkData = [
         location: "Civil Seminar Hall (AB05)",
         prizePool: null,
         fee: "Free",
-        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/quantity%20surveying.webp?alt=media&token=8bca91e6-caa8-457f-afa0-3306769c9405"],
+        images: [quantity_surveying],
         contacts: [
             { name: "Fidha", phone: "+91 9539486193" },
             { name: "Ahalya", phone: "+91 8075592101" }
@@ -44,7 +48,7 @@ const talkData = [
         location: "Mech Seminar Hall (MB220)",
         prizePool: null,
         fee: 99,
-        images: ["https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/spaceAge.webp?alt=media&token=5c3a286d-0bf4-460b-993c-697cd4721800"],
+        images: [spaceAge],
         contacts: [
             { name: "Vaishnav", phone: "6238983785" },
             { name: "Adith", phone: "7736650696" }
