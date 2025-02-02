@@ -13,11 +13,11 @@ const App = () => {
   
   
   return (
-    <EventProvider>
+
       <div className="bg-black text-white ">
         <AppRoutes />
         </div>
-    </EventProvider>
+   
   );
 };
 

@@ -19,8 +19,7 @@ const Workshops = () => {
     }),
   };
 
-  const {events, loading} = useEventContext();
-  const filteredEvents = events.filter((event) => event.category === "workshop");
+  const filteredEvents = workshopData.filter((event) => event.category === "workshop");
 
   return (
     <>
