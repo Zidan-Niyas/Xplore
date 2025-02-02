@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AboutPage from "./About";
 import ParallaxLayer from "../components/ParallaxLayer";
@@ -11,8 +11,11 @@ import Loading from "../components/Loading";
 import { useEventContext } from "../../context/EventContext";
 const Home = () => {
   const navigate = useNavigate();
-  const { events, loading } = useEventContext();
-  console.log(events);
+  // const { events, loading } = useEventContext();
+  const [loading, setLoading] = useState(true);
+  setTimeout(() => {
+    setLoading(false);
+  }, 3000);
   
 
   const lenisOptions = {

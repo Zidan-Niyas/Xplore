@@ -12,16 +12,17 @@ import Loading from '../components/Loading.jsx';
 const EventRegistration = () => {
   const {category} = useParams();
   const [filter, setFilter] = useState(category || 'all');
-  const {events, loading} = useEventContext();
+  const [loading, setLoading] = useState(false);
+
 
   const filteredContent = useMemo(() => {
     window.history.pushState(null, '', `/event-registration/${filter}`);
     if (filter === 'all') {
-      return events;
+      return AllEvents;
     } else {
-      return events.filter(event => event.category === filter);
+      return AllEvents.filter(event => event.category === filter);
     }
-  }, [filter, loading]);
+  }, [filter]);
   
   
 
