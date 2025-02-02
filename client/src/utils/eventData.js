@@ -84,6 +84,13 @@ import logic from '../assets/images/competitions/logic.jpg'
 import soldering from '../assets/images/competitions/soldering.jpg'
 import dracrys from '../assets/images/competitions/dracarys.jpeg'
 import clue from '../assets/images/competitions/clue.jpeg'
+import urbanovate from '../assets/images/competitions/urban.jpg'
+import geotechnical from '../assets/images/competitions/geotechnical.jpg'
+import autoquiz from '../assets/images/competitions/autoquiz.jpg'
+import cprogramming from '../assets/images/competitions/cprogramming.jpg'
+import gd from '../assets/images/competitions/gd.jpg'
+import precision from '../assets/images/competitions/precision.jpg'
+import rocket from '../assets/images/competitions/rocket.jpg'
 
 
 export const competitionData = [
@@ -335,7 +342,7 @@ export const competitionData = [
         time: "10:00",
         location: "Survey Lab (AB06)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-08.webp?alt=media&token=5f868664-9daa-4206-853c-cd0b40f2de05"
+            precision
         ],
         category: "competition",
         fee: "200 per team",
@@ -355,7 +362,7 @@ export const competitionData = [
         time: "15:00",
         location: "College Ground",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-09.webp?alt=media&token=fcf4b973-a996-4066-82c7-585c31915f76"
+            rocket
         ],
         category: "competition",
         fee: "199",
@@ -375,7 +382,7 @@ export const competitionData = [
         time: "10:00",
         location: "MB222",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-10.webp?alt=media&token=d5194ce0-2b14-4878-b3e4-c5b4cb53ef67"
+            gd
         ],
         category: "competition",
         fee: "99",
@@ -395,7 +402,7 @@ export const competitionData = [
         time: "13:30",
         location: "MB222",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-05.webp?alt=media&token=7cdbe209-5e6f-4e11-b987-ba13ae29547c"
+            autoquiz
         ],
         category: "competition",
         fee: "49",
@@ -437,7 +444,7 @@ export const competitionData = [
         time: "09:00",
         location: "Civil Seminar Hall (AB05)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-07.webp?alt=media&token=fa886303-2962-48ad-9222-8285847e9736"
+            urbanovate
         ],
         category: "competition",
         fee: "200",
@@ -497,7 +504,7 @@ export const competitionData = [
         time: "13:30",
         location: "Mech CAD Lab (MB019)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-04.webp?alt=media&token=674b6594-a676-4002-acd2-b9fc8ae87cd2"
+            cprogramming
         ],
         category: "competition",
         fee: "199",
@@ -517,7 +524,7 @@ export const competitionData = [
         time: "1:00 PM - 2:00 PM",
         location: "MB124",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/7.webp?alt=media&token=e1ca2d72-3a09-4091-a0f5-99d724a05a14"
+            geotechnical
         ],
         category: "competition",
         fee: "30",
