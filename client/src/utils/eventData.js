@@ -35,6 +35,7 @@ import staad_website from '../assets/images/workshops/staad_website.webp'
 import staad from '../assets/images/workshops/staad_details.webp'
 import solid_website from '../assets/images/workshops/solid_website.webp'
 import solid from '../assets/images/workshops/solid _details.webp'
+import ideaToPrototype from '../assets/images/workshops/prototype.webp'
 
 // cultural events
 import debate from '../assets/images/cultural/debate.webp'
@@ -91,6 +92,7 @@ import cprogramming from '../assets/images/competitions/cprogramming.jpg'
 import gd from '../assets/images/competitions/gd.jpg'
 import precision from '../assets/images/competitions/precision.jpg'
 import rocket from '../assets/images/competitions/rocket.jpg'
+import trading from '../assets/images/competitions/trading.webp'
 
 
 // general events
@@ -556,6 +558,25 @@ export const competitionData = [
         ],
         registerLink: "https://tiqr.events/e/GEO-TECHNICAL-DEBATE-COMPETITION-838",
         prizePool: "5,000/-"
+    },
+    {
+        id: 1023,
+        name: "Trading",
+        description: "Step into the thrilling world of trading with our ultimate competition, where crypto and stock traders go head-to-head to prove their mastery.Whether you’re a seasoned pro or an aspiring trader, this event offers an electrifying experience. Are you ready to dominate the markets and emerge as the ultimate trading champion?",
+        date: "February 6, 2025",
+        time: "10:00 AM - 4:00 PM",
+        location: "MB124",
+        images: [
+            trading
+        ],
+        category: "competition",
+        fee: "50",
+        rules: "Each team should contains at least 4 members",
+        contacts: [
+            { name: "Abhinav Anil", phone: "7736362177" }
+        ],
+        registerLink: "https://tiqr.events/e/GEO-TECHNICAL-DEBATE-COMPETITION-838",
+        prizePool: "5,000/-"
     }
 ]
 
@@ -677,7 +698,7 @@ export const workshopData = [
     {
         id: 2005,
         name: "IOT and Embedded Systems Workshop",
-        description: "Whether you're a curious beginner or an aspiring innovator, this workshop is your gateway to understanding the basics, mastering the intricacies, and discovering the boundless possibilities of these cutting-edge technologies.",
+        description: "Whether you're a curious beginner or an aspiring innovator, this workshop is your gateway to understanding the basics, mastering the intricacies, and discovering the boundless possibilities of these cutting-edge technologies. GUIDELINES : ",
         date: "February 8, 2025",
         time: "9:00 AM - 1:00 PM",
         location: "High-Tech Classroom (Main Block)",
@@ -911,7 +932,26 @@ export const workshopData = [
             { name: "Ishan", phone: "9633169253" },
             { name: "Arjun", phone: "8075474977" }
           ]
-    }
+    },
+    {
+        id: 2019,
+        name: "From Idea to Prototype",
+        description: "Every great venture begins with an idea, but the real challenge lies in shaping it into a viable opportunity.From Idea to Prototype is an interactive bootcamp designed to equip aspiring entrepreneurs with the mindset and skills needed to turn innovative ideas into actionable prototypes.Whether you’re an aspiring entrepreneur or a curious innovator, this bootcamp will help you take the first step toward building something impactfu",
+        date: "February 6, 2025",
+        time: "10:00 AM - 12:00 PM",
+        location: "CSE Seminar Hall (MB316)",
+        fee: 199,
+        images: [
+            ideaToPrototype
+        ],
+        imageDetails: ideaToPrototype,
+        category: "workshop",
+        registerLink: "https://tiqr.events/e/Astrophotography-702",
+        contacts: [
+            { name: "Ishan", phone: "9633169253" },
+            { name: "Arjun", phone: "8075474977" }
+          ]
+    },
 ];
 
 export const culturalEventData = [
@@ -1551,7 +1591,7 @@ export const preEventData = [
     {
         id: 4001,
         name: "Galactic Quest",
-        description: "Embark on an interstellar adventure! Step into a cosmic realm where teams of 3 must solve mind-bending puzzles, decode mysterious signals, and uncover hidden secrets to save Earth from impending doom. Experience the thrill of teamwork, strategy, and discovery in this unforgettable space-themed challenge. (SPOT REGISTRATION AVAILABLE AT THE VENUE)",
+        description: "Embark on an interstellar adventure! Step into a cosmic realm where teams of 3 must solve mind-bending puzzles, decode mysterious signals, and uncover hidden secrets to save Earth from impending doom. Experience the thrill of teamwork, strategy, and discovery in this unforgettable space-themed challenge. (SPOT REGISTRATION AVAILABLE AT THE VENUE) GUIDELINE : Team must consist of 1-3 members",
         date: "2025-02-06",
         time: "10:00 - 16:00",
         location: "First Year Block (CA04)",
