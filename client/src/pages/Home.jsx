@@ -9,6 +9,8 @@ import { ReactLenis } from "@studio-freight/react-lenis";
 import { VelocityScroll } from "../components/ui/scroll-based-velocity";
 import Loading from "../components/Loading";
 import { useEventContext } from "../../context/EventContext";
+import SpecialEvents from "../components/SpecialEvents";
+import { VelocityScrollText } from "../components/ui/scroll-based-text.jsx";
 const Home = () => {
   const navigate = useNavigate();
   // const { events, loading } = useEventContext();
@@ -44,18 +46,21 @@ const Home = () => {
           >
             <AboutPage />
           </div>
-
           <VelocityScroll
             text="XPLORE'24"
             default_velocity={5}
             className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem] md:tracking-[-0.03em] md:drop-shadow-lg bg-black"
           />
+          <div className="h-fit w-full">
+            <SpecialEvents />
+          </div>
           <div id="events" className="h-fit">
             <Events />
           </div>
           <div id="workshops">
             <Workshops />
           </div>
+          
           <div id="contact">
             <ContactPage />
           </div>
