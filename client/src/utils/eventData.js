@@ -575,7 +575,7 @@ export const competitionData = [
         contacts: [
             { name: "Abhinav Anil", phone: "7736362177" }
         ],
-        registerLink: "https://tiqr.events/e/GEO-TECHNICAL-DEBATE-COMPETITION-838",
+        registerLink: "https://tiqr.events/e/Trading-Competition-869",
         prizePool: "5,000/-"
     }
 ]
@@ -946,7 +946,7 @@ export const workshopData = [
         ],
         imageDetails: ideaToPrototype,
         category: "workshop",
-        registerLink: "https://tiqr.events/e/Astrophotography-702",
+        registerLink: "https://tiqr.events/e/%F0%9D%90%85%F0%9D%90%91%F0%9D%90%8E%F0%9D%90%8C-%F0%9D%90%88%F0%9D%90%83%F0%9D%90%84%F0%9D%90%80-%F0%9D%90%93%F0%9D%90%8E-%F0%9D%90%8F%F0%9D%90%91%F0%9D%90%8E%F0%9D%90%93%F0%9D%90%8E%F0%9D%90%93%F0%9D%90%98%F0%9D%90%8F%F0%9D%90%84-870",
         contacts: [
             { name: "Adish", phone: "9778125838" },
             { name: "Nuzha", phone: "+971544768620" }
