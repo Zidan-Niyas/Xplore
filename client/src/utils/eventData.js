@@ -69,6 +69,22 @@
 // import vistora from '../assets/images/cultural/dance/vistora.webp'
 // import breaknbeat from '../assets/images/cultural/dance/breaknbeat.webp'
 
+// COMPETITIONS
+import wordathon from '../assets/images/competitions/wordathon.jpg'
+import bid from '../assets/images/competitions/bid.jpeg'
+import geoquest from '../assets/images/competitions/geoquest.jpg'
+import buildburst from '../assets/images/competitions/buildBurst.png'
+import terralens from '../assets/images/competitions/terra.png'
+import sparkduino from '../assets/images/competitions/sparkduino.png'
+import bridgeblitz from '../assets/images/competitions/bridge.jpg'
+import bitbang from '../assets/images/competitions/bitBang.png'
+import pitch from '../assets/images/competitions/pitch.jpeg'
+import ideapitch from '../assets/images/competitions/ideaPitch.png'
+import logic from '../assets/images/competitions/logic.jpg'
+import soldering from '../assets/images/competitions/soldering.jpg'
+import dracrys from '../assets/images/competitions/dracarys.jpeg'
+import clue from '../assets/images/competitions/clue.jpeg'
+
 
 export const competitionData = [
     {
@@ -79,7 +95,7 @@ export const competitionData = [
         time: "09:00",
         location: "MB301",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-20.jpg?alt=media&token=59e0b8c5-f247-426d-95d1-e1f0e4ea4def"
+            wordathon
         ],
         category: "competition",
         fee: "50",
@@ -99,7 +115,7 @@ export const competitionData = [
         time: "15:00",
         location: "Open Air Auditorium",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4a549838-474d-412b-a9e3-ffd8bb51231d.jpeg?alt=media&token=e8692df2-ded3-4992-b4cb-602baad008d0"
+            bid
         ],
         category: "competition",
         fee: "159",
@@ -119,7 +135,7 @@ export const competitionData = [
         time: "10:00",
         location: "Civil Seminar Hall (AB05)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/9.webp?alt=media&token=b2bc8898-d0af-48ce-87d5-4d26e5ab54eb"
+            geoquest
         ],
         category: "competition",
         fee: "30",
@@ -139,7 +155,7 @@ export const competitionData = [
         time: "13:00",
         location: "Material Testing Lab ",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/build.jpeg?alt=media&token=bdb57e9e-7f62-405d-95d2-f5b56eb1a8fc"
+            buildburst
         ],
         category: "competition",
         fee: "200",
@@ -159,7 +175,7 @@ export const competitionData = [
         time: "09:00",
         location: "Online",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/1.webp?alt=media&token=dd30ac19-316d-4e88-8dc9-9ed9eb1aedd9"
+            terralens
         ],
         category: "competition",
         fee: "30",
@@ -179,7 +195,7 @@ export const competitionData = [
         time: "09:00",
         location: "Digital Electronics Lab (CB11)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/5.webp?alt=media&token=14a99ae6-fe50-4d57-a15d-61acd545d488"
+            sparkduino
         ],
         category: "competition",
         fee: "349",
@@ -199,7 +215,7 @@ export const competitionData = [
         time: "10:00",
         location: "MB304",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/bridge.jpg?alt=media&token=ddaa50c4-2104-4cef-9c52-94496d67a073"
+            bridgeblitz
         ],
         category: "competition",
         fee: "200",
@@ -219,7 +235,7 @@ export const competitionData = [
         time: "13:30",
         location: "Systems Lab (DB02)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/3.webp?alt=media&token=f6feafdb-3f61-43ba-b304-6e9e4591d953"
+            bitbang
         ],
         category: "competition",
         fee: "100",
@@ -239,7 +255,7 @@ export const competitionData = [
         time: "14:00",
         location: "MB223",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/pitch.jpeg?alt=media&token=5563d55a-037a-4e3f-b855-3b9f79fa4663"
+            pitch
         ],
         category: "competition",
         fee: "50",
@@ -259,7 +275,7 @@ export const competitionData = [
         time: "13:00",
         location: "MB222",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/4.webp?alt=media&token=637659c3-8027-4624-bc6a-3462ba36c224"
+            ideapitch
         ],
         category: "competition",
         fee: "149",
@@ -279,7 +295,7 @@ export const competitionData = [
         time: "10:00",
         location: "Digital Electronics Lab (CB11)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/8.webp?alt=media&token=ce2fb81f-0b37-4e77-bb07-6fe2a54720cf"
+            logic
         ],
         category: "competition",
         fee: "200",
@@ -299,7 +315,7 @@ export const competitionData = [
         time: "10:00",
         location: "Electronics Workshop (CB05)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/Competition-13.jpg?alt=media&token=39304e24-67cc-4848-b658-7b6186be9089"
+            soldering
         ],
         category: "competition",
         fee: "50",
@@ -441,7 +457,7 @@ export const competitionData = [
         time: "10:00",
         location: "Drawing Hall (MB308)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/clue.jpeg?alt=media&token=68990e71-e1c0-43b1-9ecc-63957502d081"
+            clue
         ],
         category: "competition",
         fee: "30",
@@ -461,7 +477,7 @@ export const competitionData = [
         time: "13:00",
         location: "Drawing Hall (MB308)",
         images: [
-            "https://firebasestorage.googleapis.com/v0/b/image-uploader-842b5.appspot.com/o/dracarys.jpeg?alt=media&token=968786c0-4ae9-4266-91cf-7eee7bcc1361"
+            dracrys
         ],
         category: "competition",
         fee: "30",
