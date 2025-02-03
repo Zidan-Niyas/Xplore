@@ -169,6 +169,7 @@ const Navbar = () => {
             </a> */}
 
             <img onClick={() => navigate('/event-registration/all')} src='/REGISTER_NOW_header.png' className="w-32 cursor-pointer"/>
+
           </ul>
           
         </nav>

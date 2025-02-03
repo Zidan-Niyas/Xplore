@@ -2,7 +2,7 @@ import React from "react";
 
 const AnimatedButton = ({ text = "Click Me" }) => {
   return (
-    <button className="relative h-12 w-44 bg-gradient-to-r rounded-full border-none cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2 active:scale-100">
+    <button className="z-50 relative h-12 w-44 bg-gradient-to-r rounded-full border-none cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-2 active:scale-100">
       <div className="z-50 absolute inset-0 flex items-center justify-center bg-black rounded-full">
         <p className="text-white bg-clip-text bg-gradient-to-r  text-lg font-bold tracking-wide">
           {text}

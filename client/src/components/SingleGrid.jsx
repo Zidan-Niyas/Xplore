@@ -47,13 +47,15 @@ export default function SingleEventGrid({ event }) {
             </RainbowButton>
               {/* For talks  */}
               {event.fee !== "Free" && (
-                <ShinyButton className="w-full bg-slate-200" 
-                  onClick={() => {
-                    toast.info("Registration is not open yet. Please check back later.", toastSettings)
-                  }}
-                >
-                Register for GCEKians
-              </ShinyButton>
+                (event.registerLinkGCEK != undefined && (
+                  <ShinyButton className="w-full bg-slate-200" 
+                      onClick={() => {
+                        window.open(event.registerLinkGCEK, "_blank");
+                      }}
+                    >
+                    Register for GCEKians
+                  </ShinyButton>
+                ))
               )}
           </div>
         )}

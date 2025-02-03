@@ -19,7 +19,8 @@ const talkData = [
         ],
         rules: null,
         category: "talk",
-        registerLink: "https://tiqr.events/e/EV-Technologies-850"
+        registerLink: "https://tiqr.events/e/EV-Technologies-850",
+        registerLinkGCEK: "https://tiqr.events/e/EV-TECHNOLOGIES-SESSION-(FOR-GCEK-STUDENTS-ONLY)-887"
     },
     {
         id: 3006,
@@ -55,7 +56,8 @@ const talkData = [
         ],
         rules: null,
         category: "talk",
-        registerLink: "https://tiqr.events/e/Space-Age-2.0-852"
+        registerLink: "https://tiqr.events/e/Space-Age-2.0-852",
+        registerLinkGCEK: "https://tiqr.events/e/SPACE-AGE-2.0-TALK-SESSION-(FOR-GCEK-STUDENTS-ONLY)-889"
     }
     
     
