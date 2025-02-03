@@ -641,6 +641,8 @@ export const workshopData = [
         imageDetails: Flutter_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Flutter-Workshop-700",
+        registerLinkGCEK: "https://tiqr.events/e/Flutter-Workshop-(FOR-GCEK-STUDENTS-ONLY)-873"
+        ,
         contacts: [
             { name: "Abhina", phone: "8129071257" },
             { name: "Anuradh", phone: "9744325402" }
@@ -658,6 +660,7 @@ export const workshopData = [
         imageDetails: satellite_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/SATELLITE-DATA-PLATFORM-WORKSHOP-704",
+        registerLinkGCEK: "https://tiqr.events/e/SATELLITE-DATA-PLATFORM-WORKSHOP(FOR-GCEK-STUDENTS-ONLY)-875",
         contacts: [
             { name: "Shwetha K C", phone: "8891912201" },
             { name: "Jeyas C", phone: "8289909017" }
@@ -675,6 +678,7 @@ export const workshopData = [
         imageDetails: Bim_modeling_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/BIM-Modelling-706",
+        registerLinkGCEK: "https://tiqr.events/e/BIM-Modelling(FOR-GCEK-STUDENTS-ONLY)-880",
         contacts: [
             { name: "Abhina", phone: "8129071257" },
             { name: "Anuradh", phone: "9744325402" }
@@ -692,6 +696,7 @@ export const workshopData = [
         imageDetails: D_printing_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/3D-Printing-and-Designing-Workshop-717",
+        registerLinkGCEK: "https://tiqr.events/e/3D-Printing-and-Designing-Workshop(FOR-GCEK-STUDENTS-ONLY)-882",
         contacts: [
             { name: "Abhina", phone: "8129071257" },
             { name: "Anuradh", phone: "9744325402" }
@@ -709,6 +714,7 @@ export const workshopData = [
         imageDetails: iot_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/IOT-and-Embedded-Systems-Workshop-710",
+        registerLinkGCEK: "https://tiqr.events/e/IOT-and-Embedded-Systems-Workshop(FOR-GCEK-STUDENTS-ONLY)-885",
         contacts: [
             { name: "Abhina", phone: "8129071257" },
             { name: "Anuradh", phone: "9744325402" }
@@ -726,6 +732,7 @@ export const workshopData = [
         imageDetails: PCB_Details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/PCB-Designing-Workshop-718",
+        registerLinkGCEK: "https://tiqr.events/e/PCB-Designing-Workshop(FOR-GCEK-STUDENTS-ONLY)-888",
         contacts: [
             { name: "Abhina", phone: "8129071257" },
             { name: "Anuradh", phone: "9744325402" }
@@ -744,6 +751,7 @@ export const workshopData = [
         imageDetails: robotic_arm,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Robotic-Arm-Workshop-701/",
+        registerLinkGCEK: "https://tiqr.events/e/Robotic-Arm-Workshop-(FOR-GCEK-STUDENTS-ONLY)-872",
         contacts: [
             { name: "Swathika", phone: "8113911219" },
             { name: "Ariya", phone: "9061616879" }
@@ -761,6 +769,7 @@ export const workshopData = [
         imageDetails: autocad_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/AutoCAD-Workshop-703",
+        registerLinkGCEK: "https://tiqr.events/e/AutoCAD-Workshop-(FOR-GCEK-STUDENTS-ONLY)-876",
         contacts: [
             { name: "Sreelakshmi", phone: "8289856417" },
             { name: "Fidha", phone: "+919539486193" }
@@ -778,6 +787,7 @@ export const workshopData = [
         imageDetails: robotics_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Robotics-and-IOT-Workshop-705",
+        registerLinkGCEK: "https://tiqr.events/e/Robotics-and-IoT-Workshop-(FOR-GCEK-STUDENTS-ONLY)-878",
         contacts: [
             { name: "Aryasree", phone: "8281638809" },
             { name: "Bijil", phone: "8075688613" }
@@ -795,6 +805,7 @@ export const workshopData = [
         imageDetails: drone,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Drone-Workshop-707",
+        registerLinkGCEK: "https://tiqr.events/e/Drone-Workshop-(FOR-GCEK-STUDENTS-ONLY)-881",
         contacts: [
             { name: "Hrithik C K", phone: "7560920240" }
         ],
@@ -811,6 +822,7 @@ export const workshopData = [
         imageDetails: llm_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/LLM-Fine-Tuning-%26-Edge-AI-Workshop-709",
+        registerLinkGCEK: "https://tiqr.events/e/LLMs-and-Edge-AI-Workshop-(FOR-GCEK-STUDENTS-ONLY)-884",
         contacts: [
             { name: "KP Aatmik", phone: "9447202485" },
             { name: "Urmila T V", phone: "7510932218" }
@@ -828,6 +840,7 @@ export const workshopData = [
         imageDetails: open_rocket_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Open-Rocket-Simulator-Workshop-711",
+        registerLinkGCEK: "https://tiqr.events/e/Open-Rocket-Simulator-Workshop-(FOR-GCEK-STUDENTS-ONLY)-886",
         contacts: [
             { name: "Adithya P M", phone: "8075109036" },
             { name: "Yadunand", phone: "9895842152" }
@@ -879,6 +892,7 @@ export const workshopData = [
         imageDetails: revit,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Revit-Workshop-713",
+        registerLinkGCEK: "https://tiqr.events/e/Revit-Workshop-(FOR-GCEK-STUDENTS-ONLY)-883",
         contacts: [
             { name: "Sreelakshmi", phone: "8289856417" },
             { name: "Ahalya", phone: "8075592101" }
@@ -896,6 +910,7 @@ export const workshopData = [
         imageDetails: staad,
         category: "workshop",
         registerLink: "https://tiqr.events/e/STAAD-Workshop-712",
+        registerLinkGCEK : "https://tiqr.events/e/STAAD-Workshop-(FOR-GCEK-STUDENTS-ONLY)-879",
         contacts: [
             { name: "Fidha", phone: "9539486193" },
             { name: "Ahalya", phone: "8075592101" }
@@ -913,6 +928,7 @@ export const workshopData = [
         imageDetails: solid,
         category: "workshop",
         registerLink: "https://tiqr.events/e/SolidWorks-Workshop-708",
+        registerLinkGCEK: "https://tiqr.events/e/SolidWorks-Workshop-(FOR-GCEK-STUDENTS-ONLY)-877",
         contacts: [
             { name: "Sayuj SS", phone: "+919400452005" },
             { name: "Alan Rajesh", phone: "+919496259741" }
@@ -930,6 +946,7 @@ export const workshopData = [
         imageDetails: astrophotography_details,
         category: "workshop",
         registerLink: "https://tiqr.events/e/Astrophotography-702",
+        registerLinkGCEK: "https://tiqr.events/e/Astrophotography-(FOR-GCEK-STUDENTS-ONLY)-871",
         contacts: [
             { name: "Ishan", phone: "9633169253" },
             { name: "Arjun", phone: "8075474977" }

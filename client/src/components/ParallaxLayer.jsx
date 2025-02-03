@@ -7,6 +7,7 @@ import { proshowEvents } from "../utils/proShow.js";
 import Card from "./Card.jsx";
 import { useNavigate } from "react-router-dom";
 import TypingAnimation from "../components/ui/typing-animation";
+import AnimatedButton from "./ui/XploreGPT-btn.jsx";
 
 
 const ParallaxLayer = () => {
@@ -152,13 +153,17 @@ const ParallaxLayer = () => {
         {/* Images and Modal Section */}
         <div className="flex-grow flex flex-col md:justify-between sm:justify-center items-center sm:flex-row px-10 gap-8 md:gap-10 lg:gap-10 flex-wrap ">
           
-          <img
+          {/* <img
             src="./call-btn.png"
             className="w-52 h-10 sm:w-48 cursor-pointer animate-bounce transition-all ease-in-out duration-1500"
             alt="Register Now"
             
             onClick={() => document.getElementById("my_modal_5").showModal()}
-          />
+          /> */}
+
+          <div onClick={() => navigate("/event-registration/all")} >
+            <AnimatedButton text="Register Now"/>
+          </div>
           <img
             src={date}
             className="w-52 h-10 sm:w-48 cursor-pointer z-40"
