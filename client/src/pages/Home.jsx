@@ -11,6 +11,7 @@ import Loading from "../components/Loading";
 import { useEventContext } from "../../context/EventContext";
 import SpecialEvents from "../components/SpecialEvents";
 import { VelocityScrollText } from "../components/ui/scroll-based-text.jsx";
+import AnimatedButton from "../components/ui/XploreGPT-btn.jsx";
 const Home = () => {
   const navigate = useNavigate();
   // const { events, loading } = useEventContext();
@@ -30,6 +31,9 @@ const Home = () => {
   
   return (
     <div  id="home">
+      {/* <div className="fixed bottom-0 right-0 z-50 p-4">
+        <AnimatedButton text="Try XploreGPT"/>
+      </div> */}
       {/* Don't render the navbar here */}
       <div className="h-screen sm:mb-0 md:mb-36">
         <ParallaxLayer />
