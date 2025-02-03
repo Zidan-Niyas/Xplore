@@ -4,7 +4,15 @@ import { ShinyButton } from "./ui/shiny-button.jsx"
 import {toast, ToastContainer} from 'react-toastify';
 export default function SingleEventGrid({ event }) {
   if (!event) return null
-
+  const toastSettings = {
+    position: "top-center",
+    autoClose: 3000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+  }
   return (
     <div className="flex flex-col md:flex-row gap-6 rounded-lg shadow md:max-w-3xl p-4">
       <div className="flex-shrink-0 w-full md:w-1/3 h-96 md:h-auto">
@@ -22,27 +30,26 @@ export default function SingleEventGrid({ event }) {
         
         {/* Location Section */}
         {event.location && (
-          <p className="mb-3 font-semibold text-lg text-gray-300">Venue :  {event.location}</p>
+          <>
+            <p className="mb-3 font-semibold text-lg text-gray-300">Venue :  {event.location}</p>
+            {event.note != undefined && <p className="mb-3 font-semibold text-xl text-gray-300">Note: <span className="font-extrabold">Spot Registration</span></p>}
+          </>
         )}
 
         {event.registerLink && (
           <div className="flex flex-col gap-4">
-              <RainbowButton className="w-full mt-2" onClick={() => window.open(event.registerLink, "_blank")}>
+              <RainbowButton className="w-full mt-2" onClick={() => {
+                
+                if(event.registrationType != undefined &&  event.registrationType == "spot")toast.info("Only spot registration is available!!", toastSettings)
+                else window.open(event.registerLink, "_blank")
+              }}>
               Register
             </RainbowButton>
               {/* For talks  */}
               {event.fee !== "Free" && (
                 <ShinyButton className="w-full bg-slate-200" 
                   onClick={() => {
-                    toast.info("Registration is not open yet. Please check back later.", {
-                      position: "top-center",
-                      autoClose: 3000,
-                      hideProgressBar: false,
-                      closeOnClick: true,
-                      pauseOnHover: true,
-                      draggable: true,
-                      progress: undefined,
-                    })
+                    toast.info("Registration is not open yet. Please check back later.", toastSettings)
                   }}
                 >
                 Register for GCEKians

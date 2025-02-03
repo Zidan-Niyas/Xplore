@@ -575,6 +575,8 @@ export const competitionData = [
         contacts: [
             { name: "Abhinav Anil", phone: "7736362177" }
         ],
+        registrationType: 'spot',
+        note: "Spot Registration",
         registerLink: "https://tiqr.events/e/Trading-Competition-869",
         prizePool: "5,000/-"
     }
