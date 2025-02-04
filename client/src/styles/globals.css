@@ -155,3 +155,31 @@
     transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
   }
 }
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes newsTicker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.animate-news-ticker {
+  animation: newsTicker 30s linear infinite;
+}

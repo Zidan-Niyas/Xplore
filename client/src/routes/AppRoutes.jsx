@@ -11,6 +11,7 @@ import AmbassadorForm from "../pages/AmbassadorForm";
 import EventRegistration from "../pages/EventRegistration";
 import MaintenancePage from "../pages/Maintenance";
 import PageNotFound from "../pages/PageNotFound";
+import News from "../pages/News";
 
 const AppRoutes = () => (
   <Router>
@@ -27,8 +28,9 @@ const AppRoutes = () => (
         <Route path="/ambassador-form" element={<AmbassadorForm />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
-      
+      {/* <Route path="/news" element={<News />}/> */}
     </Routes>
+
   </Router>
 );
 
