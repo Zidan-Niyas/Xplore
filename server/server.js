@@ -6,7 +6,7 @@ import cors from 'cors';
 import authenticationRoutes from './routes/authentication.js';
 import registrationRoutes from './routes/preEventRegistration.js';
 import eventRouter from './routes/events.route.js';
-
+import newsRouter from './routes/blog.route.js';
 
 // Load environment variables
 dotenv.config();
@@ -20,6 +20,7 @@ app.use(cors({ origin: '*' }));
 app.use('/', authenticationRoutes);
 app.use('/', registrationRoutes);
 app.use('/api/events', eventRouter);
+app.use('/api/blog', newsRouter);
 // MongoDB connection
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log('MongoDB connected'))
