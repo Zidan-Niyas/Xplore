@@ -12,6 +12,7 @@ import { useEventContext } from "../../context/EventContext";
 import SpecialEvents from "../components/SpecialEvents";
 import { VelocityScrollText } from "../components/ui/scroll-based-text.jsx";
 import AnimatedButton from "../components/ui/XploreGPT-btn.jsx";
+import { RainbowButton } from "../components/ui/rainbow-button.jsx";
 const Home = () => {
   const navigate = useNavigate();
   // const { events, loading } = useEventContext();
@@ -31,9 +32,9 @@ const Home = () => {
   
   return (
     <div  id="home">
-      {/* <div className="fixed bottom-0 right-0 z-50 p-4">
-        <AnimatedButton text="Try XploreGPT"/>
-      </div> */}
+      <div className="fixed bottom-5 right-0 md:bottom-0  md:right-0 z-40 p-4">
+        <RainbowButton onClick={() => window.location.href="https://accomplished-amazement-production.up.railway.app/"}>Try XploreGPT</RainbowButton>
+      </div>
       {/* Don't render the navbar here */}
       <div className="h-screen sm:mb-0 md:mb-36">
         <ParallaxLayer />
