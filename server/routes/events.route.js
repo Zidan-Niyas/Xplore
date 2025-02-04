@@ -1,7 +1,7 @@
 import express from 'express';
 import Event from '../models/event.model.js';
 
-const router = express.Router();
+const router =home express.Router();
 
 router.get('/get/:category', async (req, res) => {
     console.log('getting events...');
