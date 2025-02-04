@@ -16,12 +16,13 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json()); 
-app.use(cors({ origin: '*' }));
+// app.use(cors({ origin: '*' }));
 app.use('/', authenticationRoutes);
 app.use('/', registrationRoutes);
 app.use('/api/events', eventRouter);
 app.use('/api/blog', newsRouter);
 // MongoDB connection
+
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log('MongoDB connected'))
 .catch((error) => console.error('MongoDB connection error:', error));
