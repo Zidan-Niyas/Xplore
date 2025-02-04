@@ -1,17 +1,15 @@
 import express from "express";
-import News from "../models/blogSchema";
+import News from "../models/blogSchema.js";
 const router = express.Router();
 
 router.get('/get', async (req, res) => {
     try {
         const response = await News.find();
-        const data =  await response.json();
-        return res.send(JSON.stringify(data));
+        return res.json(response)
     }catch(err) {
 
-        res.send(err);
+        return res.json(err);
         
     }
 });
-
 export default router;
