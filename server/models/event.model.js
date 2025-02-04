@@ -21,7 +21,7 @@ const eventSchema = new mongoose.Schema({
     ],
     rules: { type: String },
     prizePool: { type: String},
-});
+}, {timestamps: true});
 
 const Event = mongoose.model("Event", eventSchema);
 
