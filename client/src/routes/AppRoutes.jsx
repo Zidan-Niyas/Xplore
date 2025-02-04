@@ -25,7 +25,7 @@ const AppRoutes = () => (
         <Route path="/workshops" element={<Workshops />} />
         <Route path="/contact-us" element={<ContactPage/>} /> 
         <Route path="/get-directions" element={<GetDirections/>} /> 
-        <Route path="/ambassador-form" element={<AmbassadorForm />} />
+        {/* <Route path="/ambassador-form" element={<AmbassadorForm />} /> */}
         <Route path="*" element={<PageNotFound />} />
       </Route>
       {/* <Route path="/news" element={<News />}/> */}
