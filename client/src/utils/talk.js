@@ -15,12 +15,14 @@ const talkData = [
         images: [evtalkupdated],
         contacts: [
             { name: "Aiswarya K", phone: "6238460701" },
-            { name: "Dhanupriya", phone: "813905868" }
+            { name: "Dhanupriya", phone: "813905868",
+                name: "Radhika", phone: "9207951866"
+             }
         ],
         rules: null,
         category: "talk",
         registerLink: "https://tiqr.events/e/EV-Technologies-850",
-        registerLinkGCEK: "https://tiqr.events/e/EV-TECHNOLOGIES-SESSION-(FOR-GCEK-STUDENTS-ONLY)-887"
+        registerLinkGCEK: "https://tiqr.events/e/EV-TECHNOLOGIES-SESSION-(FOR-GCEK-STUDENTS-ONLY)-Last-Call-931"
     },
     {
         id: 3006,
