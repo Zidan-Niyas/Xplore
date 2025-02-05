@@ -214,7 +214,8 @@ export const competitionData = [
             { name: "Contact1", phone: "1234567890" },
             { name: "Contact2", phone: "0987654321" }
         ],
-        registerLink: "https://tiqr.events/e/TERRALENS-833",
+        
+        registerLink: "https://tiqr.events/e/TERRALENS-833/",
         prizePool: null
     },
     {
