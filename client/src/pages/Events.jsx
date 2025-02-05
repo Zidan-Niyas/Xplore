@@ -86,7 +86,10 @@ const Events = () => {
           ? "bg-gradient-to-r from-red-600 to-red-800 shadow-lg"
           : "bg-gradient-to-r from-gray-700 to-gray-900 opacity-75 hover:opacity-100"
       }`}
-      onClick={() => handleButtonClick(type)}
+      onClick={() => {
+        handleButtonClick(type)
+        window.history.pushState(null, "", `/events/${type}`)
+      }}
     >
       {label}
     </button>
